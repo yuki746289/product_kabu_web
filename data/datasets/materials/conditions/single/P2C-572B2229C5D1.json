@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-572B2229C5D1",
+  "condition_key": "S:daily_rci14_position=LOW",
+  "condition_label": "日足RCI14 位置：低い",
+  "condition_type": "single",
+  "count": 6808,
+  "datasetId": "materials",
+  "id": "P2C-572B2229C5D1",
+  "population_rows": 39007,
+  "retention_pct": 17.453277616838005,
+  "return_10d_pct": 0.4976832787271999,
+  "return_20d_pct": 1.0100844254709174,
+  "return_5d_pct": 0.2439308283524056,
+  "slug": "s-572b2229c5d1dd8a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6808,
+  "win_10d_pct": 51.865452408930665,
+  "win_20d_pct": 52.77002204261573,
+  "win_5d_pct": 51.48354876615746
+}

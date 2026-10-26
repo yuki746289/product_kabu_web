@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-308F9670CD5C",
+  "condition_key": "P:daily_rci14_direction=RISING&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 向き：上昇 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 2253,
+  "datasetId": "technology",
+  "id": "P2C-308F9670CD5C",
+  "population_rows": 48782,
+  "retention_pct": 4.618506826288385,
+  "return_10d_pct": -0.1527369391805599,
+  "return_20d_pct": 0.3375100047924425,
+  "return_5d_pct": -0.128451131809848,
+  "slug": "p-308f9670cd5c2689",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2253,
+  "win_10d_pct": 49.2676431424767,
+  "win_20d_pct": 50.48845470692718,
+  "win_5d_pct": 47.93608521970706
+}

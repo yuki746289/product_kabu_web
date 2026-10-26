@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BC754EE63CBE",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci9_state=LOW|FALLING",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI9 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 2841,
+  "datasetId": "technology",
+  "id": "P2C-BC754EE63CBE",
+  "population_rows": 48782,
+  "retention_pct": 5.823869460046739,
+  "return_10d_pct": 0.7944418273283527,
+  "return_20d_pct": 0.8115595006537599,
+  "return_5d_pct": 0.5061178698558189,
+  "slug": "p-bc754ee63cbe42f4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.73424850404787,
+  "win_20d_pct": 52.852112676056336,
+  "win_5d_pct": 54.523055262231615
+}

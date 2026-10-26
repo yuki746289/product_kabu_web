@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-37D130AC28EC",
+  "condition_key": "T:daily_rci9_direction=FLAT&daily_rci26_direction=FALLING&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "日足RCI9 向き：横ばい × 日足RCI26 向き：下降 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "triple",
+  "count": 2123,
+  "datasetId": "technology",
+  "id": "P2C-37D130AC28EC",
+  "population_rows": 48782,
+  "retention_pct": 4.352015087532286,
+  "return_10d_pct": 0.5067827063767087,
+  "return_20d_pct": 0.9509307037587525,
+  "return_5d_pct": 0.3583390166982793,
+  "slug": "t-37d130ac28ec1e40",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2123,
+  "win_10d_pct": 52.14319359397079,
+  "win_20d_pct": 53.48727615457116,
+  "win_5d_pct": 54.168629298162976
+}

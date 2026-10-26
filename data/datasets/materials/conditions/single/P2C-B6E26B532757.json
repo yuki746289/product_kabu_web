@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B6E26B532757",
+  "condition_key": "S:daily_rci26_state=LOW|RISING",
+  "condition_label": "日足RCI26 位置×向き：低い・上昇",
+  "condition_type": "single",
+  "count": 465,
+  "datasetId": "materials",
+  "id": "P2C-B6E26B532757",
+  "population_rows": 39007,
+  "retention_pct": 1.1920937267669904,
+  "return_10d_pct": -0.1091087701800732,
+  "return_20d_pct": 1.184436362947968,
+  "return_5d_pct": -0.1267559521871821,
+  "slug": "s-b6e26b532757b93c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 465,
+  "win_10d_pct": 48.17204301075269,
+  "win_20d_pct": 52.68817204301075,
+  "win_5d_pct": 51.3978494623656
+}

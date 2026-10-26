@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-461B86E1BF07",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|FLAT&daily_rci9_direction=RISING",
+  "condition_label": "週足RCI9：非常に高い・横ばい × 日足RCI9 向き：上昇",
+  "condition_type": "pair",
+  "count": 14464,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-461B86E1BF07",
+  "population_rows": 166470,
+  "retention_pct": 8.688652610079895,
+  "return_10d_pct": 0.3071742478930312,
+  "return_20d_pct": 0.7241745728480677,
+  "return_5d_pct": 0.1767292483440509,
+  "slug": "p-461b86e1bf07c3b4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.995575221238944,
+  "win_20d_pct": 52.69746852953382,
+  "win_5d_pct": 50.477046460176986
+}

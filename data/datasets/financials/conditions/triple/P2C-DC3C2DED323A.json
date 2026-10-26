@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DC3C2DED323A",
+  "condition_key": "T:daily_rci9_position=LOW&daily_rci9_state=LOW|RISING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI9 位置×向き：低い・上昇 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 676,
+  "datasetId": "financials",
+  "id": "P2C-DC3C2DED323A",
+  "population_rows": 16307,
+  "retention_pct": 4.145459005335132,
+  "return_10d_pct": 1.0077054647010677,
+  "return_20d_pct": 0.20559757836044235,
+  "return_5d_pct": 0.2191855444923191,
+  "slug": "t-dc3c2ded323ad702",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 676,
+  "win_10d_pct": 53.84615384615385,
+  "win_20d_pct": 50.0,
+  "win_5d_pct": 49.112426035502956
+}

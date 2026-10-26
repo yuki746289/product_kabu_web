@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B765265F4218",
+  "condition_key": "P:daily_rci9_state=HIGH|RISING&daily_rci26_position=HIGH",
+  "condition_label": "日足RCI9 位置×向き：高い・上昇 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 1377,
+  "datasetId": "consumer_goods",
+  "id": "P2C-B765265F4218",
+  "population_rows": 33330,
+  "retention_pct": 4.131413141314131,
+  "return_10d_pct": 0.3576489191094908,
+  "return_20d_pct": 0.7469041707255671,
+  "return_5d_pct": 0.1646274717402171,
+  "slug": "p-b765265f42181d3d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1377,
+  "win_10d_pct": 52.28758169934641,
+  "win_20d_pct": 51.962209302325576,
+  "win_5d_pct": 50.10893246187364
+}

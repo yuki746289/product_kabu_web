@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A7C0898C14B3",
+  "condition_key": "S:fan=CONVERGED",
+  "condition_label": "EMAファン / スプレッド：収束",
+  "condition_type": "single",
+  "count": 5529,
+  "datasetId": "financials",
+  "id": "P2C-A7C0898C14B3",
+  "population_rows": 16307,
+  "retention_pct": 33.90568467529282,
+  "return_10d_pct": 0.331275576993262,
+  "return_20d_pct": 0.7200452981545338,
+  "return_5d_pct": 0.1298906546020537,
+  "slug": "s-a7c0898c14b3170f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.5568818954603,
+  "win_20d_pct": 51.7272562850425,
+  "win_5d_pct": 49.26749864351601
+}

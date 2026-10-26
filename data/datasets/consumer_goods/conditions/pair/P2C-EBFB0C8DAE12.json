@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EBFB0C8DAE12",
+  "condition_key": "P:fan=CONVERGED&price=UNKNOWN",
+  "condition_label": "EMAファン / スプレッド：収束 × 価格フェーズ：未分類",
+  "condition_type": "pair",
+  "count": 3284,
+  "datasetId": "consumer_goods",
+  "id": "P2C-EBFB0C8DAE12",
+  "population_rows": 33330,
+  "retention_pct": 9.852985298529852,
+  "return_10d_pct": 0.5677559064715808,
+  "return_20d_pct": 0.822798506824841,
+  "return_5d_pct": 0.4062354118157846,
+  "slug": "p-ebfb0c8dae121603",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.13641900121803,
+  "win_20d_pct": 51.47820786345626,
+  "win_5d_pct": 51.705237515225335
+}

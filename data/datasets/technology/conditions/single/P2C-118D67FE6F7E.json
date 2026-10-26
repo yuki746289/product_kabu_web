@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-118D67FE6F7E",
+  "condition_key": "S:daily_rci14_state=EXTREME_HIGH|FALLING",
+  "condition_label": "日足RCI14 位置×向き：極端に高い・下降",
+  "condition_type": "single",
+  "count": 1572,
+  "datasetId": "technology",
+  "id": "P2C-118D67FE6F7E",
+  "population_rows": 48782,
+  "retention_pct": 3.2225001024968227,
+  "return_10d_pct": 1.0148502230568304,
+  "return_20d_pct": 1.392857742432309,
+  "return_5d_pct": 0.5678933182340431,
+  "slug": "s-118d67fe6f7ee853",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1572,
+  "win_10d_pct": 54.19847328244275,
+  "win_20d_pct": 55.21628498727736,
+  "win_5d_pct": 54.26208651399491
+}

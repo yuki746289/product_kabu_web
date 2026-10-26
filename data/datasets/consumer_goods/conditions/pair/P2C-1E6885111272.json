@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1E6885111272",
+  "condition_key": "P:daily_rci9_position=NEUTRAL&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI9 位置：中立 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 2078,
+  "datasetId": "consumer_goods",
+  "id": "P2C-1E6885111272",
+  "population_rows": 33330,
+  "retention_pct": 6.234623462346234,
+  "return_10d_pct": 0.5444114123137289,
+  "return_20d_pct": 0.8313776346516215,
+  "return_5d_pct": 0.4153240689278916,
+  "slug": "p-1e68851112726649",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2078,
+  "win_10d_pct": 53.07988450433109,
+  "win_20d_pct": 53.4167468719923,
+  "win_5d_pct": 53.99422521655438
+}

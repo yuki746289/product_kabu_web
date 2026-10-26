@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C786A4EF6B69",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci14_direction=FALLING",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 5759,
+  "datasetId": "materials",
+  "id": "P2C-C786A4EF6B69",
+  "population_rows": 39007,
+  "retention_pct": 14.7640167149486,
+  "return_10d_pct": 0.9430793129495398,
+  "return_20d_pct": 1.166370107135832,
+  "return_5d_pct": 0.3428012172096137,
+  "slug": "p-c786a4ef6b694efb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.16582740059038,
+  "win_20d_pct": 53.35995832609828,
+  "win_5d_pct": 52.491752040284766
+}

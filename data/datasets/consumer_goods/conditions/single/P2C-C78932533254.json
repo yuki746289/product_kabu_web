@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C78932533254",
+  "condition_key": "S:weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI26：中位・横ばい",
+  "condition_type": "single",
+  "count": 4809,
+  "datasetId": "consumer_goods",
+  "id": "P2C-C78932533254",
+  "population_rows": 33330,
+  "retention_pct": 14.428442844284428,
+  "return_10d_pct": 0.610196941448869,
+  "return_20d_pct": 1.1092209259395414,
+  "return_5d_pct": 0.2625999958628348,
+  "slug": "s-c78932533254dc87",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.39987523393637,
+  "win_20d_pct": 53.97419891801915,
+  "win_5d_pct": 52.52651278852152
+}

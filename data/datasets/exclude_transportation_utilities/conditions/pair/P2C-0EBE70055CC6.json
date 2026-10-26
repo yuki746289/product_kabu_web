@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0EBE70055CC6",
+  "condition_key": "P:ema=DECELERATING&daily_rci26_state=EXTREME_HIGH|FLAT",
+  "condition_label": "EMAモーション：減速 × 日足RCI26 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 11065,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-0EBE70055CC6",
+  "population_rows": 166470,
+  "retention_pct": 6.646843275064576,
+  "return_10d_pct": 0.6844156293294014,
+  "return_20d_pct": 1.5848176163469996,
+  "return_5d_pct": 0.0117208583328936,
+  "slug": "p-0ebe70055cc652ca",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.31812019882513,
+  "win_20d_pct": 54.96293617790634,
+  "win_5d_pct": 49.06461816538636
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1ED456AA79F3",
+  "condition_key": "P:ema=STRONG_CONTINUING&weekly_rci9=VERY_HIGH|FLAT",
+  "condition_label": "EMAモーション：強い継続 × 週足RCI9：非常に高い・横ばい",
+  "condition_type": "pair",
+  "count": 6863,
+  "datasetId": "materials",
+  "id": "P2C-1ED456AA79F3",
+  "population_rows": 39007,
+  "retention_pct": 17.59427795011152,
+  "return_10d_pct": 0.8828319777114723,
+  "return_20d_pct": 1.3404320045862164,
+  "return_5d_pct": 0.4722379628598108,
+  "slug": "p-1ed456aa79f3e0e6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.8739618242751,
+  "win_20d_pct": 54.350677743769126,
+  "win_5d_pct": 54.40769342852981
+}

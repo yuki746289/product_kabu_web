@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1B2D1156EFAD",
+  "condition_key": "T:daily_rci14_direction=FALLING&daily_rci14_state=LOW|FALLING&causal_regime=UP_TRANSITION",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI14 位置×向き：低い・下降 × 相場状態：上昇移行",
+  "condition_type": "triple",
+  "count": 0,
+  "datasetId": "financials",
+  "id": "P2C-1B2D1156EFAD",
+  "population_rows": 16307,
+  "retention_pct": 0.0,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-1b2d1156efad7277",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 0,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-167283C7BE7B",
+  "condition_key": "P:weekly_rci26=MID|FLAT&daily_rci9_state=LOW|FALLING",
+  "condition_label": "週足RCI26：中位・横ばい × 日足RCI9 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 5526,
+  "datasetId": "all_225",
+  "id": "P2C-167283C7BE7B",
+  "population_rows": 181318,
+  "retention_pct": 3.047684179176916,
+  "return_10d_pct": 0.500856663192788,
+  "return_20d_pct": 0.8368483798628525,
+  "return_5d_pct": 0.1008680905085672,
+  "slug": "p-167283c7be7b1272",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.32971407889975,
+  "win_20d_pct": 54.053564965617085,
+  "win_5d_pct": 50.3257328990228
+}

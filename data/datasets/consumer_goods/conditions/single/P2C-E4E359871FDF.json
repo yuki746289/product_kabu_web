@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E4E359871FDF",
+  "condition_key": "S:price=UNKNOWN",
+  "condition_label": "価格フェーズ：未分類",
+  "condition_type": "single",
+  "count": 9020,
+  "datasetId": "consumer_goods",
+  "id": "P2C-E4E359871FDF",
+  "population_rows": 33330,
+  "retention_pct": 27.062706270627064,
+  "return_10d_pct": 0.4340684417046648,
+  "return_20d_pct": 0.73546010537767,
+  "return_5d_pct": 0.2602535850034084,
+  "slug": "s-e4e359871fdf9991",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.51884700665188,
+  "win_20d_pct": 51.675171954737074,
+  "win_5d_pct": 51.30820399113082
+}

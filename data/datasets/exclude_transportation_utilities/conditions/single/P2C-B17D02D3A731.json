@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B17D02D3A731",
+  "condition_key": "S:ema=TURNING",
+  "condition_label": "EMAモーション：転換",
+  "condition_type": "single",
+  "count": 7663,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-B17D02D3A731",
+  "population_rows": 166470,
+  "retention_pct": 4.603231813539977,
+  "return_10d_pct": 0.8390705682746543,
+  "return_20d_pct": 1.4801339297883134,
+  "return_5d_pct": 0.4736773480976395,
+  "slug": "s-b17d02d3a7318e0a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.42072295445648,
+  "win_20d_pct": 53.50384966723215,
+  "win_5d_pct": 52.277176040715126
+}

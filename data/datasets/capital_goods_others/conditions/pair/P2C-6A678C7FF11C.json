@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6A678C7FF11C",
+  "condition_key": "P:fan=WIDE_STABLE&weekly_rci9=VERY_HIGH|FLAT",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 週足RCI9：非常に高い・横ばい",
+  "condition_type": "pair",
+  "count": 2827,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-6A678C7FF11C",
+  "population_rows": 29044,
+  "retention_pct": 9.73350778129734,
+  "return_10d_pct": 0.4308349836920343,
+  "return_20d_pct": 1.2015524049977475,
+  "return_5d_pct": 0.1164899675129025,
+  "slug": "p-6a678c7ff11c34b7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.77679518924655,
+  "win_20d_pct": 55.30785562632696,
+  "win_5d_pct": 52.03395825963919
+}

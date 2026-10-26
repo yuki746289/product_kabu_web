@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9D7441FA7436",
+  "condition_key": "S:daily_rci9_state=EXTREME_HIGH|FLAT",
+  "condition_label": "日足RCI9 位置×向き：極端に高い・横ばい",
+  "condition_type": "single",
+  "count": 4174,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-9D7441FA7436",
+  "population_rows": 166470,
+  "retention_pct": 2.5073586832462307,
+  "return_10d_pct": 0.3873236950711115,
+  "return_20d_pct": 1.1640828512064116,
+  "return_5d_pct": 0.207184243268959,
+  "slug": "s-9d7441fa7436eb97",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4174,
+  "win_10d_pct": 51.62913272640154,
+  "win_20d_pct": 52.86364725617062,
+  "win_5d_pct": 50.52707235265932
+}

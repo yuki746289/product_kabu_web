@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C85BFE84E693",
+  "condition_key": "P:fan=CONVERGED&weekly_rci26=MID|UP",
+  "condition_label": "EMAファン / スプレッド：収束 × 週足RCI26：中位・上向き",
+  "condition_type": "pair",
+  "count": 6765,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-C85BFE84E693",
+  "population_rows": 137426,
+  "retention_pct": 4.922649280339965,
+  "return_10d_pct": 0.9983250622145464,
+  "return_20d_pct": 1.5129677469492004,
+  "return_5d_pct": 0.6017083585107769,
+  "slug": "p-c85bfe84e693e61d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.78713968957872,
+  "win_20d_pct": 56.3821919834344,
+  "win_5d_pct": 54.24981522542498
+}

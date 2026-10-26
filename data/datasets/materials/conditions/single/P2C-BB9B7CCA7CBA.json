@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BB9B7CCA7CBA",
+  "condition_key": "S:price=TREND_ADVANCING",
+  "condition_label": "価格フェーズ：トレンド進行",
+  "condition_type": "single",
+  "count": 12223,
+  "datasetId": "materials",
+  "id": "P2C-BB9B7CCA7CBA",
+  "population_rows": 39007,
+  "retention_pct": 31.335401338221345,
+  "return_10d_pct": 0.7939336461812248,
+  "return_20d_pct": 1.3146928903280206,
+  "return_5d_pct": 0.3368133990365295,
+  "slug": "s-bb9b7cca7cba5d28",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.831056205514194,
+  "win_20d_pct": 54.98894982401572,
+  "win_5d_pct": 53.26024707518613
+}

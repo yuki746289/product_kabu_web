@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-811DE7DBF96A",
+  "condition_key": "S:daily_rci9_state=HIGH|RISING",
+  "condition_label": "日足RCI9 位置×向き：高い・上昇",
+  "condition_type": "single",
+  "count": 1092,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-811DE7DBF96A",
+  "population_rows": 14848,
+  "retention_pct": 7.354525862068965,
+  "return_10d_pct": 0.1127629860578489,
+  "return_20d_pct": 0.2873310231098667,
+  "return_5d_pct": 0.3086322032283787,
+  "slug": "s-811de7dbf96a0080",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1092,
+  "win_10d_pct": 46.88644688644688,
+  "win_20d_pct": 47.61904761904761,
+  "win_5d_pct": 49.45054945054945
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-444143CB092C",
+  "condition_key": "P:fan=CONVERGED&daily_rci9_position=NEUTRAL",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI9 位置：中立",
+  "condition_type": "pair",
+  "count": 2923,
+  "datasetId": "materials",
+  "id": "P2C-444143CB092C",
+  "population_rows": 39007,
+  "retention_pct": 7.493526802881534,
+  "return_10d_pct": 0.4936264506137254,
+  "return_20d_pct": 0.7306596387380268,
+  "return_5d_pct": 0.173277958374635,
+  "slug": "p-444143cb092c8e8e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.75401984262744,
+  "win_20d_pct": 51.64271047227926,
+  "win_5d_pct": 50.80396852548751
+}

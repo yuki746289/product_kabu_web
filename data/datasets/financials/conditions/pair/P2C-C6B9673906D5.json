@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C6B9673906D5",
+  "condition_key": "P:ema=CONTINUING&daily_rci14_position=EXTREME_HIGH",
+  "condition_label": "EMAモーション：継続 × 日足RCI14 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 613,
+  "datasetId": "financials",
+  "id": "P2C-C6B9673906D5",
+  "population_rows": 16307,
+  "retention_pct": 3.759121849512479,
+  "return_10d_pct": 0.2090260330260662,
+  "return_20d_pct": 1.0410254109982162,
+  "return_5d_pct": 0.2990033987879116,
+  "slug": "p-c6b9673906d52e5e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 47.30831973898858,
+  "win_20d_pct": 52.36541598694943,
+  "win_5d_pct": 53.01794453507341
+}

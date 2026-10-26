@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-552550A872DE",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI9：非常に高い・上向き × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 424,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-552550A872DE",
+  "population_rows": 14848,
+  "retention_pct": 2.855603448275862,
+  "return_10d_pct": 0.2784877239000243,
+  "return_20d_pct": 0.328541692082518,
+  "return_5d_pct": 0.3323681701435702,
+  "slug": "p-552550a872de79f1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.47169811320755,
+  "win_20d_pct": 54.95283018867924,
+  "win_5d_pct": 53.301886792452834
+}

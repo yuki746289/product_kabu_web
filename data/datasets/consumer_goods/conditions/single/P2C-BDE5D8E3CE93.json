@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BDE5D8E3CE93",
+  "condition_key": "S:daily_rci26_state=LOW|FALLING",
+  "condition_label": "日足RCI26 位置×向き：低い・下降",
+  "condition_type": "single",
+  "count": 599,
+  "datasetId": "consumer_goods",
+  "id": "P2C-BDE5D8E3CE93",
+  "population_rows": 33330,
+  "retention_pct": 1.797179717971797,
+  "return_10d_pct": 0.3687502320919928,
+  "return_20d_pct": 0.9461436029379284,
+  "return_5d_pct": 0.0305857626296454,
+  "slug": "s-bde5d8e3ce93cdaa",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 599,
+  "win_10d_pct": 48.91485809682805,
+  "win_20d_pct": 52.75459098497496,
+  "win_5d_pct": 49.58263772954925
+}

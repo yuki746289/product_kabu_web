@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EF64DF256BC6",
+  "condition_key": "S:ema=MIXED",
+  "condition_label": "EMAモーション：混在",
+  "condition_type": "single",
+  "count": 882,
+  "datasetId": "consumer_goods",
+  "id": "P2C-EF64DF256BC6",
+  "population_rows": 33330,
+  "retention_pct": 2.646264626462646,
+  "return_10d_pct": 0.0443799601966443,
+  "return_20d_pct": 0.4487534067611818,
+  "return_5d_pct": -0.057327588504849,
+  "slug": "s-ef64df256bc62e74",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.90702947845806,
+  "win_20d_pct": 53.96825396825397,
+  "win_5d_pct": 48.97959183673469
+}

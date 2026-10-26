@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C381185AB506",
+  "condition_key": "P:fan=CONVERGED&daily_rci14_position=LOW",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 12552,
+  "datasetId": "all_225",
+  "id": "P2C-C381185AB506",
+  "population_rows": 181318,
+  "retention_pct": 6.922644194178185,
+  "return_10d_pct": 0.3431915974091263,
+  "return_20d_pct": 0.5353216784769913,
+  "return_5d_pct": 0.1630641166854613,
+  "slug": "p-c381185ab50623c6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.85245379222435,
+  "win_20d_pct": 51.302892660769785,
+  "win_5d_pct": 49.75302740599108
+}

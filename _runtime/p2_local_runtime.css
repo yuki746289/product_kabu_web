@@ -1,0 +1,43 @@
+/* Created: 2026-10-07T12:11:00+09:00
+   Purpose: Apache-local UI normalization without copying preview/kabu.
+   Source: scripts/postprocess_p2_accuracy_highlight.py
+*/
+.p2-acc-60{font-weight:700!important;color:#8a4b00!important;background:#fff2cc!important}
+.p2-acc-70{font-weight:800!important;color:#0b5d1e!important;background:#dff4e4!important}
+.p2-accuracy-legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 16px;padding:10px 12px;border:1px solid #d9dee7;border-radius:9px;background:#fff;font-size:13px}
+.p2-accuracy-legend strong{margin-right:2px}
+.p2-accuracy-legend .p2-acc-60,.p2-accuracy-legend .p2-acc-70{display:inline-block;padding:3px 8px;border-radius:6px}
+.p2-condition-col{width:280px!important;min-width:280px!important;max-width:280px!important}
+.p2-condition-inner{display:block;width:280px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-condition-inner a{display:block;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-scroll-20{overflow:auto!important}
+.p2-sticky-fav,.p2-sticky-id,.p2-sticky-condition{position:sticky!important;background:#fff!important}
+thead .p2-sticky-fav,thead .p2-sticky-id,thead .p2-sticky-condition{background:#eef2f7!important;z-index:40!important}
+.p2-sticky-fav{left:0!important;width:44px!important;min-width:44px!important;max-width:44px!important;text-align:center!important;z-index:22!important}
+.p2-sticky-id{left:44px!important;width:155px!important;min-width:155px!important;max-width:155px!important;z-index:21!important}
+.p2-sticky-condition{left:199px!important;z-index:20!important;box-shadow:2px 0 0 #cbd5e1}
+.p2-favorite-btn{border:0;background:transparent;padding:2px 5px;font-size:20px;line-height:1;cursor:pointer;color:#98a2b3}
+.p2-favorite-btn.is-favorite{color:#b7791f}
+.p2-favorite-btn:disabled{cursor:not-allowed;color:#d0d5dd}
+.p2-favorites-panel{margin:14px 0 18px}
+.p2-favorites-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.p2-favorites-list{min-width:0}
+.p2-favorites-table-wrap{margin-top:8px}
+.p2-favorites-table{margin:0}
+.p2-favorites-table tbody tr:last-child td{border-bottom:0}
+.p2-favorite-empty{color:#667085;font-size:13px;padding:6px 0}
+.p2-fav-io-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.p2-fav-io-status{font-size:13px;color:#667085}
+.p2-asset-group{background:#dbe4f0!important;text-align:center!important;font-weight:800!important}
+.focus-table tbody tr:nth-child(5n) td{border-bottom:3px solid #94a3b8!important}
+.p2-growth-500{font-weight:700!important;color:#174a7c!important;background:#e7f1ff!important}
+.p2-growth-1000{font-weight:800!important;color:#5b2a86!important;background:#efe4ff!important}
+@media(max-width:760px){
+  .p2-sticky-id{width:135px!important;min-width:135px!important;max-width:135px!important}
+  .p2-sticky-condition{left:179px!important}
+  .p2-condition-col,.p2-condition-inner{width:240px!important;min-width:240px!important;max-width:240px!important}
+  .p2-condition-inner a{max-width:240px}
+}
+.p2-favorites-list{display:block!important;min-width:0!important}
+.legend .correct:before{background:#2457a6!important}
+.legend .incorrect:before{background:#c2413b!important}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-26550F49E6EC",
+  "condition_key": "S:causal_regime=UP_TRANSITION",
+  "condition_label": "相場状態：上昇移行",
+  "condition_type": "single",
+  "count": 0,
+  "datasetId": "materials",
+  "id": "P2C-26550F49E6EC",
+  "population_rows": 39007,
+  "retention_pct": 0.0,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "s-26550f49e6ec69de",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 0,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

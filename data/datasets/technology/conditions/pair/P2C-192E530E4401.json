@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-192E530E4401",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci9_position=NEUTRAL",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI9 位置：中立",
+  "condition_type": "pair",
+  "count": 2631,
+  "datasetId": "technology",
+  "id": "P2C-192E530E4401",
+  "population_rows": 48782,
+  "retention_pct": 5.393382805133041,
+  "return_10d_pct": 0.8006666663046625,
+  "return_20d_pct": 0.7288029009067154,
+  "return_5d_pct": 0.5054793448908257,
+  "slug": "p-192e530e4401cd2f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.983656404408976,
+  "win_20d_pct": 52.109464082098064,
+  "win_5d_pct": 53.24971493728621
+}

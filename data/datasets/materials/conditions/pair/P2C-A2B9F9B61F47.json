@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A2B9F9B61F47",
+  "condition_key": "P:weekly_rci14=MID|FLAT&daily_rci26_position=HIGH",
+  "condition_label": "週足RCI14：中位・横ばい × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 1752,
+  "datasetId": "materials",
+  "id": "P2C-A2B9F9B61F47",
+  "population_rows": 39007,
+  "retention_pct": 4.491501525367242,
+  "return_10d_pct": 0.5995652849048912,
+  "return_20d_pct": 0.8206088542097238,
+  "return_5d_pct": 0.3823919927023911,
+  "slug": "p-a2b9f9b61f470b85",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.68036529680366,
+  "win_20d_pct": 53.398058252427184,
+  "win_5d_pct": 54.965753424657535
+}

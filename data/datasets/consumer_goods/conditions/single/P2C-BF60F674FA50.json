@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BF60F674FA50",
+  "condition_key": "S:weekly_rci14=HIGH|FLAT",
+  "condition_label": "週足RCI14：高い・横ばい",
+  "condition_type": "single",
+  "count": 5512,
+  "datasetId": "consumer_goods",
+  "id": "P2C-BF60F674FA50",
+  "population_rows": 33330,
+  "retention_pct": 16.537653765376536,
+  "return_10d_pct": 0.5816531333623303,
+  "return_20d_pct": 0.8317093080773174,
+  "return_5d_pct": 0.2249787315078391,
+  "slug": "s-bf60f674fa506ac3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.48766328011612,
+  "win_20d_pct": 50.92558983666061,
+  "win_5d_pct": 52.06821480406386
+}

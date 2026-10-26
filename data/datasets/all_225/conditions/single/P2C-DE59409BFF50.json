@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DE59409BFF50",
+  "condition_key": "S:daily_rci26_position=LOW",
+  "condition_label": "日足RCI26 位置：低い",
+  "condition_type": "single",
+  "count": 8823,
+  "datasetId": "all_225",
+  "id": "P2C-DE59409BFF50",
+  "population_rows": 181318,
+  "retention_pct": 4.866036466318843,
+  "return_10d_pct": 0.5124092513789329,
+  "return_20d_pct": 1.3674958263308576,
+  "return_5d_pct": 0.1496795819956715,
+  "slug": "s-de59409bff5084e7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 8823,
+  "win_10d_pct": 53.00918055083304,
+  "win_20d_pct": 55.03287236454318,
+  "win_5d_pct": 50.54969964864559
+}

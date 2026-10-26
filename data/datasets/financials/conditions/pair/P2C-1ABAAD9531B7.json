@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1ABAAD9531B7",
+  "condition_key": "P:daily_rci9_direction=FLAT&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI9 向き：横ばい × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 861,
+  "datasetId": "financials",
+  "id": "P2C-1ABAAD9531B7",
+  "population_rows": 16307,
+  "retention_pct": 5.279941129576256,
+  "return_10d_pct": 0.4557362145311538,
+  "return_20d_pct": 0.5629506982349307,
+  "return_5d_pct": 0.4021166393850844,
+  "slug": "p-1abaad9531b7f9af",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 861,
+  "win_10d_pct": 54.12311265969802,
+  "win_20d_pct": 51.91637630662021,
+  "win_5d_pct": 52.84552845528455
+}

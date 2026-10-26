@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3629C7C3AF2A",
+  "condition_key": "P:fan=SPREADING&daily_rci9_direction=RISING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 向き：上昇",
+  "condition_type": "pair",
+  "count": 1039,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-3629C7C3AF2A",
+  "population_rows": 29044,
+  "retention_pct": 3.5773309461506675,
+  "return_10d_pct": 0.5107997489743951,
+  "return_20d_pct": 0.968227512221884,
+  "return_5d_pct": 0.4632836474136092,
+  "slug": "p-3629c7c3af2a63c4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.26179018286814,
+  "win_20d_pct": 55.43792107795957,
+  "win_5d_pct": 54.18671799807508
+}

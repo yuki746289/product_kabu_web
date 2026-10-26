@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-93FE0B48115B",
+  "condition_key": "S:daily_rci26_state=NEUTRAL|FALLING",
+  "condition_label": "日足RCI26 位置×向き：中立・下降",
+  "condition_type": "single",
+  "count": 8107,
+  "datasetId": "all_225",
+  "id": "P2C-93FE0B48115B",
+  "population_rows": 181318,
+  "retention_pct": 4.471150134018685,
+  "return_10d_pct": 0.162669598699525,
+  "return_20d_pct": 0.671009054312116,
+  "return_5d_pct": 0.0200562059185146,
+  "slug": "s-93fe0b48115b3722",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 8107,
+  "win_10d_pct": 50.73393363759714,
+  "win_20d_pct": 52.79595111714603,
+  "win_5d_pct": 49.82114222277044
+}

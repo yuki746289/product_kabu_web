@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AC19408C6083",
+  "condition_key": "S:weekly_rci9=HIGH|UP",
+  "condition_label": "週足RCI9：高い・上向き",
+  "condition_type": "single",
+  "count": 2945,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-AC19408C6083",
+  "population_rows": 29044,
+  "retention_pct": 10.139787908001653,
+  "return_10d_pct": -0.0332661485239385,
+  "return_20d_pct": 0.1254269671468221,
+  "return_5d_pct": -0.0664333362420529,
+  "slug": "s-ac19408c60832234",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 48.35314091680815,
+  "win_20d_pct": 48.93039049235993,
+  "win_5d_pct": 48.455008488964346
+}

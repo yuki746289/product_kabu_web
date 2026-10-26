@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F1A86818A564",
+  "condition_key": "P:fan=CONVERGED&daily_rci9_direction=RISING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI9 向き：上昇",
+  "condition_type": "pair",
+  "count": 3342,
+  "datasetId": "technology",
+  "id": "P2C-F1A86818A564",
+  "population_rows": 48782,
+  "retention_pct": 6.850887622483704,
+  "return_10d_pct": 0.3473370924476351,
+  "return_20d_pct": 0.7595062512883103,
+  "return_5d_pct": -0.0004706859823954,
+  "slug": "p-f1a86818a5647813",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.46618791143028,
+  "win_20d_pct": 52.21424296828246,
+  "win_5d_pct": 49.07241172950329
+}

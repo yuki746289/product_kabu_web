@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-91AF744A4B5E",
+  "condition_key": "P:ema=CONTINUING&weekly_rci14=HIGH|FLAT",
+  "condition_label": "EMAモーション：継続 × 週足RCI14：高い・横ばい",
+  "condition_type": "pair",
+  "count": 1359,
+  "datasetId": "consumer_goods",
+  "id": "P2C-91AF744A4B5E",
+  "population_rows": 33330,
+  "retention_pct": 4.077407740774078,
+  "return_10d_pct": 0.9084617421979092,
+  "return_20d_pct": 1.368314179898224,
+  "return_5d_pct": 0.3909361256251852,
+  "slug": "p-91af744a4b5efbb0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.12729948491538,
+  "win_20d_pct": 51.06696100073583,
+  "win_5d_pct": 51.50846210448859
+}

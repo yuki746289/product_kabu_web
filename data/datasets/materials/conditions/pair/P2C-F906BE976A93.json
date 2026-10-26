@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F906BE976A93",
+  "condition_key": "P:daily_rci14_state=HIGH|FLAT&daily_rci26_state=EXTREME_HIGH|FLAT",
+  "condition_label": "日足RCI14 位置×向き：高い・横ばい × 日足RCI26 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 1385,
+  "datasetId": "materials",
+  "id": "P2C-F906BE976A93",
+  "population_rows": 39007,
+  "retention_pct": 3.550644756069424,
+  "return_10d_pct": 0.7908319550519398,
+  "return_20d_pct": 1.4330145326942365,
+  "return_5d_pct": 0.4638443857723424,
+  "slug": "p-f906be976a9324e2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1385,
+  "win_10d_pct": 54.368231046931406,
+  "win_20d_pct": 55.20231213872832,
+  "win_5d_pct": 53.28519855595668
+}

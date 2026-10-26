@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4B88CE32DD13",
+  "condition_key": "P:price=UNKNOWN&daily_rci9_position=NEUTRAL",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI9 位置：中立",
+  "condition_type": "pair",
+  "count": 2905,
+  "datasetId": "technology",
+  "id": "P2C-4B88CE32DD13",
+  "population_rows": 48782,
+  "retention_pct": 5.955065392972818,
+  "return_10d_pct": 0.414301608333081,
+  "return_20d_pct": 1.277983068602357,
+  "return_5d_pct": 0.0534797713765219,
+  "slug": "p-4b88ce32dd135e56",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.5645438898451,
+  "win_20d_pct": 53.567735263702176,
+  "win_5d_pct": 51.39414802065404
+}

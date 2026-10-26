@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DC8FA39A0F40",
+  "condition_key": "S:daily_rci9_state=EXTREME_LOW|FLAT",
+  "condition_label": "日足RCI9 位置×向き：極端に低い・横ばい",
+  "condition_type": "single",
+  "count": 467,
+  "datasetId": "financials",
+  "id": "P2C-DC8FA39A0F40",
+  "population_rows": 16307,
+  "retention_pct": 2.863800821732998,
+  "return_10d_pct": 1.1621914821324733,
+  "return_20d_pct": 1.676503816788706,
+  "return_5d_pct": 0.5776419437825655,
+  "slug": "s-dc8fa39a0f402bb4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 467,
+  "win_10d_pct": 56.3169164882227,
+  "win_20d_pct": 56.3169164882227,
+  "win_5d_pct": 56.74518201284796
+}

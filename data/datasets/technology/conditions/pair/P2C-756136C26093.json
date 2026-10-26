@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-756136C26093",
+  "condition_key": "P:daily_rci9_position=EXTREME_LOW&daily_rci26_position=HIGH",
+  "condition_label": "日足RCI9 位置：極端に低い × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 3251,
+  "datasetId": "technology",
+  "id": "P2C-756136C26093",
+  "population_rows": 48782,
+  "retention_pct": 6.664343405354433,
+  "return_10d_pct": 0.4050504116509743,
+  "return_20d_pct": 0.8425246965353785,
+  "return_5d_pct": 0.3426122559053987,
+  "slug": "p-756136c26093c4ac",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3251,
+  "win_10d_pct": 51.52260842817594,
+  "win_20d_pct": 53.02983697323901,
+  "win_5d_pct": 52.69147954475546
+}

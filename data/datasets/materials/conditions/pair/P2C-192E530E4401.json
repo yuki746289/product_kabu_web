@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-192E530E4401",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci9_position=NEUTRAL",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI9 位置：中立",
+  "condition_type": "pair",
+  "count": 2014,
+  "datasetId": "materials",
+  "id": "P2C-192E530E4401",
+  "population_rows": 39007,
+  "retention_pct": 5.163175840233804,
+  "return_10d_pct": 0.9433913940076948,
+  "return_20d_pct": 1.096127664064692,
+  "return_5d_pct": 0.3592044617624378,
+  "slug": "p-192e530e4401cd2f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.766633565044685,
+  "win_20d_pct": 53.87288977159881,
+  "win_5d_pct": 53.27706057596823
+}

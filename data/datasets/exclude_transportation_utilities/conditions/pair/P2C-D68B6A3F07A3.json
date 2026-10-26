@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D68B6A3F07A3",
+  "condition_key": "P:daily_rci9_direction=RISING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 向き：上昇 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 13729,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-D68B6A3F07A3",
+  "population_rows": 166470,
+  "retention_pct": 8.247131615306062,
+  "return_10d_pct": 0.4259777064857773,
+  "return_20d_pct": 0.7869446611291993,
+  "return_5d_pct": 0.1771041466166654,
+  "slug": "p-d68b6a3f07a37abc",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 13729,
+  "win_10d_pct": 52.02126884696627,
+  "win_20d_pct": 52.92188866219762,
+  "win_5d_pct": 50.63005317211741
+}

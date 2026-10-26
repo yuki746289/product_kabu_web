@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1B7AD66EC0D0",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&daily_rci9_position=HIGH",
+  "condition_label": "週足RCI9：非常に高い・上向き × 日足RCI9 位置：高い",
+  "condition_type": "pair",
+  "count": 669,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-1B7AD66EC0D0",
+  "population_rows": 14848,
+  "retention_pct": 4.505657327586207,
+  "return_10d_pct": 0.3754554755183882,
+  "return_20d_pct": 0.0663305614776351,
+  "return_5d_pct": 0.3495386988585655,
+  "slug": "p-1b7ad66ec0d0011c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.327354260089685,
+  "win_20d_pct": 49.17787742899851,
+  "win_5d_pct": 50.22421524663677
+}

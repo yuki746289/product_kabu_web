@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EB503EA045CA",
+  "condition_key": "P:fan=WIDE_STABLE&weekly_rci9=HIGH|FLAT",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 週足RCI9：高い・横ばい",
+  "condition_type": "pair",
+  "count": 6148,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-EB503EA045CA",
+  "population_rows": 137426,
+  "retention_pct": 4.473680380713984,
+  "return_10d_pct": 0.8814402624626221,
+  "return_20d_pct": 1.536571096361126,
+  "return_5d_pct": 0.4233058394218235,
+  "slug": "p-eb503ea045ca4847",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.95315549772284,
+  "win_20d_pct": 56.70354702245363,
+  "win_5d_pct": 53.88744307091737
+}

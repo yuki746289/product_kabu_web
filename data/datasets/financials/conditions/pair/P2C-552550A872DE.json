@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-552550A872DE",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI9：非常に高い・上向き × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 425,
+  "datasetId": "financials",
+  "id": "P2C-552550A872DE",
+  "population_rows": 16307,
+  "retention_pct": 2.606242717851229,
+  "return_10d_pct": 1.592212496495082,
+  "return_20d_pct": 2.217615851231046,
+  "return_5d_pct": 0.8408358378758515,
+  "slug": "p-552550a872de79f1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 59.05882352941176,
+  "win_20d_pct": 62.82352941176471,
+  "win_5d_pct": 56.00000000000001
+}

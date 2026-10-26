@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B17D02D3A731",
+  "condition_key": "S:ema=TURNING",
+  "condition_label": "EMAモーション：転換",
+  "condition_type": "single",
+  "count": 1220,
+  "datasetId": "consumer_goods",
+  "id": "P2C-B17D02D3A731",
+  "population_rows": 33330,
+  "retention_pct": 3.6603660366036608,
+  "return_10d_pct": 0.8468659217543458,
+  "return_20d_pct": 0.6632284117989495,
+  "return_5d_pct": 0.5799774895545249,
+  "slug": "s-b17d02d3a7318e0a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.93442622950819,
+  "win_20d_pct": 52.62295081967213,
+  "win_5d_pct": 55.81967213114755
+}

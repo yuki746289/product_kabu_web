@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7039A70D0548",
+  "condition_key": "S:daily_rci14_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 位置：極端に高い",
+  "condition_type": "single",
+  "count": 3980,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-7039A70D0548",
+  "population_rows": 29044,
+  "retention_pct": 13.703346646467429,
+  "return_10d_pct": 0.3881720553829262,
+  "return_20d_pct": 0.7334378535190561,
+  "return_5d_pct": 0.2373195439171411,
+  "slug": "s-7039a70d0548d538",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3980,
+  "win_10d_pct": 51.90954773869346,
+  "win_20d_pct": 51.68341708542713,
+  "win_5d_pct": 51.78391959798995
+}

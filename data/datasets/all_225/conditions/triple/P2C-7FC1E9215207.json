@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7FC1E9215207",
+  "condition_key": "T:fan=CONVERGED&daily_rci9_position=LOW&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI9 位置：低い × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "triple",
+  "count": 7616,
+  "datasetId": "all_225",
+  "id": "P2C-7FC1E9215207",
+  "population_rows": 181318,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-7fc1e9215207dfc1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

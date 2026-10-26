@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-95BF655ADB5E",
+  "condition_key": "T:fan=CONVERGED&daily_rci9_state=LOW|FALLING&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI9 位置×向き：低い・下降 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 3588,
+  "datasetId": "technology",
+  "id": "P2C-95BF655ADB5E",
+  "population_rows": 48782,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-95bf655adb5e8aa6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

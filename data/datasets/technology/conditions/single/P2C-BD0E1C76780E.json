@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BD0E1C76780E",
+  "condition_key": "S:daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "日足RCI14 位置×向き：中立・下降",
+  "condition_type": "single",
+  "count": 6919,
+  "datasetId": "technology",
+  "id": "P2C-BD0E1C76780E",
+  "population_rows": 48782,
+  "retention_pct": 14.183510311180353,
+  "return_10d_pct": 0.6162388759161856,
+  "return_20d_pct": 1.070847116352868,
+  "return_5d_pct": 0.24719877085486,
+  "slug": "s-bd0e1c76780e297e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6919,
+  "win_10d_pct": 52.11735799971095,
+  "win_20d_pct": 53.0857060268825,
+  "win_5d_pct": 51.48142795201619
+}

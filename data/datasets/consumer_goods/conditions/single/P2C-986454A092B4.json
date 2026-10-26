@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-986454A092B4",
+  "condition_key": "S:weekly_rci9=MID|DOWN",
+  "condition_label": "週足RCI9：中位・下向き",
+  "condition_type": "single",
+  "count": 1166,
+  "datasetId": "consumer_goods",
+  "id": "P2C-986454A092B4",
+  "population_rows": 33330,
+  "retention_pct": 3.498349834983498,
+  "return_10d_pct": 0.4321785550193172,
+  "return_20d_pct": 0.7139024597128572,
+  "return_5d_pct": 0.1348073082211931,
+  "slug": "s-986454a092b47738",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.914236706689536,
+  "win_20d_pct": 51.80102915951973,
+  "win_5d_pct": 47.34133790737564
+}

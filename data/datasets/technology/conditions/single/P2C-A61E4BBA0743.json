@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A61E4BBA0743",
+  "condition_key": "S:weekly_rci26=MID|UP",
+  "condition_label": "週足RCI26：中位・上向き",
+  "condition_type": "single",
+  "count": 3281,
+  "datasetId": "technology",
+  "id": "P2C-A61E4BBA0743",
+  "population_rows": 48782,
+  "retention_pct": 6.725841498913534,
+  "return_10d_pct": 1.332867973372274,
+  "return_20d_pct": 1.858287492489836,
+  "return_5d_pct": 0.7071116856994233,
+  "slug": "s-a61e4bba07431dea",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 56.11094178604085,
+  "win_20d_pct": 57.02958218969197,
+  "win_5d_pct": 54.4346235903688
+}

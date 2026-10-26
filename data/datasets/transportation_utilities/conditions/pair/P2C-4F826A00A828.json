@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4F826A00A828",
+  "condition_key": "P:daily_rci9_direction=RISING&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI9 向き：上昇 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 704,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-4F826A00A828",
+  "population_rows": 14848,
+  "retention_pct": 4.741379310344827,
+  "return_10d_pct": -0.3424499408544857,
+  "return_20d_pct": -0.4644692021477126,
+  "return_5d_pct": -0.1046619310005773,
+  "slug": "p-4f826a00a82881b4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 704,
+  "win_10d_pct": 47.30113636363637,
+  "win_20d_pct": 47.58522727272727,
+  "win_5d_pct": 47.01704545454545
+}

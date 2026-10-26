@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A44E2D763D8D",
+  "condition_key": "T:price=UNKNOWN&daily_rci14_direction=FALLING&daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI14 向き：下降 × 日足RCI14 位置×向き：中立・下降",
+  "condition_type": "triple",
+  "count": 1583,
+  "datasetId": "materials",
+  "id": "P2C-A44E2D763D8D",
+  "population_rows": 39007,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-a44e2d763d8d9448",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

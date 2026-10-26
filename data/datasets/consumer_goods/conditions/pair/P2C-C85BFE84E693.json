@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C85BFE84E693",
+  "condition_key": "P:fan=CONVERGED&weekly_rci26=MID|UP",
+  "condition_label": "EMAファン / スプレッド：収束 × 週足RCI26：中位・上向き",
+  "condition_type": "pair",
+  "count": 1653,
+  "datasetId": "consumer_goods",
+  "id": "P2C-C85BFE84E693",
+  "population_rows": 33330,
+  "retention_pct": 4.95949594959496,
+  "return_10d_pct": 0.5823342708411883,
+  "return_20d_pct": 0.9895166496715426,
+  "return_5d_pct": 0.2963296379609473,
+  "slug": "p-c85bfe84e693e61d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.78100423472474,
+  "win_20d_pct": 51.75544794188862,
+  "win_5d_pct": 52.63157894736842
+}

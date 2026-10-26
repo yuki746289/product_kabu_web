@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-167283C7BE7B",
+  "condition_key": "P:weekly_rci26=MID|FLAT&daily_rci9_state=LOW|FALLING",
+  "condition_label": "週足RCI26：中位・横ばい × 日足RCI9 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 4083,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-167283C7BE7B",
+  "population_rows": 137426,
+  "retention_pct": 2.9710535124357835,
+  "return_10d_pct": 0.6472665685011039,
+  "return_20d_pct": 0.996735634434712,
+  "return_5d_pct": 0.1553554875105433,
+  "slug": "p-167283c7be7b1272",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.27381827087926,
+  "win_20d_pct": 54.02890031839333,
+  "win_5d_pct": 50.820475140827824
+}

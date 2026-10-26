@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E25D11685CDC",
+  "condition_key": "P:daily_rci14_state=HIGH|FLAT&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 位置×向き：高い・横ばい × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 5193,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-E25D11685CDC",
+  "population_rows": 137426,
+  "retention_pct": 3.7787609331567538,
+  "return_10d_pct": 0.7118596253164806,
+  "return_20d_pct": 1.2289061629485205,
+  "return_5d_pct": 0.3713600957925078,
+  "slug": "p-e25d11685cdc87a4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 5193,
+  "win_10d_pct": 53.167725784710186,
+  "win_20d_pct": 53.97803891350414,
+  "win_5d_pct": 52.47448488349702
+}

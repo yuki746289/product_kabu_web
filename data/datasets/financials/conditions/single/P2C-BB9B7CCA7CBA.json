@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BB9B7CCA7CBA",
+  "condition_key": "S:price=TREND_ADVANCING",
+  "condition_label": "価格フェーズ：トレンド進行",
+  "condition_type": "single",
+  "count": 5116,
+  "datasetId": "financials",
+  "id": "P2C-BB9B7CCA7CBA",
+  "population_rows": 16307,
+  "retention_pct": 31.3730299871221,
+  "return_10d_pct": 0.4461794554685399,
+  "return_20d_pct": 1.1481404249675409,
+  "return_5d_pct": 0.3545506553401097,
+  "slug": "s-bb9b7cca7cba5d28",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.83424550430024,
+  "win_20d_pct": 55.718475073313776,
+  "win_5d_pct": 52.52150117279124
+}

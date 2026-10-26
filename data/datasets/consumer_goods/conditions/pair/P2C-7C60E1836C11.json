@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7C60E1836C11",
+  "condition_key": "P:ema=DECELERATING&daily_rci9_position=EXTREME_LOW",
+  "condition_label": "EMAモーション：減速 × 日足RCI9 位置：極端に低い",
+  "condition_type": "pair",
+  "count": 1842,
+  "datasetId": "consumer_goods",
+  "id": "P2C-7C60E1836C11",
+  "population_rows": 33330,
+  "retention_pct": 5.526552655265526,
+  "return_10d_pct": 0.6982838063734095,
+  "return_20d_pct": 0.81009676621595,
+  "return_5d_pct": 0.468821582805603,
+  "slug": "p-7c60e1836c116767",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.60586319218241,
+  "win_20d_pct": 51.302931596091206,
+  "win_5d_pct": 54.39739413680782
+}

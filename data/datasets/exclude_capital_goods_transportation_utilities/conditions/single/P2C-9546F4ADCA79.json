@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9546F4ADCA79",
+  "condition_key": "S:daily_rci26_state=HIGH|RISING",
+  "condition_label": "日足RCI26 位置×向き：高い・上昇",
+  "condition_type": "single",
+  "count": 11436,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-9546F4ADCA79",
+  "population_rows": 137426,
+  "retention_pct": 8.321569426454966,
+  "return_10d_pct": 0.6375531481924944,
+  "return_20d_pct": 1.441271647316093,
+  "return_5d_pct": 0.3207219140556919,
+  "slug": "s-9546f4adca79e708",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 11436,
+  "win_10d_pct": 53.45400489681707,
+  "win_20d_pct": 54.92785308264101,
+  "win_5d_pct": 52.824414130814965
+}

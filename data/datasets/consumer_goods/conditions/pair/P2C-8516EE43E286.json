@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8516EE43E286",
+  "condition_key": "P:ema=DECELERATING&weekly_rci26=MID|FLAT",
+  "condition_label": "EMAモーション：減速 × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 1603,
+  "datasetId": "consumer_goods",
+  "id": "P2C-8516EE43E286",
+  "population_rows": 33330,
+  "retention_pct": 4.8094809480948095,
+  "return_10d_pct": 0.5670429883165387,
+  "return_20d_pct": 1.0999477345749926,
+  "return_5d_pct": 0.2779178826322129,
+  "slug": "p-8516ee43e286738e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.39987523393637,
+  "win_20d_pct": 52.089831565814094,
+  "win_5d_pct": 52.089831565814094
+}

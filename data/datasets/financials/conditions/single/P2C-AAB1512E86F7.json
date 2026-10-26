@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AAB1512E86F7",
+  "condition_key": "S:daily_rci26_state=HIGH|FALLING",
+  "condition_label": "日足RCI26 位置×向き：高い・下降",
+  "condition_type": "single",
+  "count": 3403,
+  "datasetId": "financials",
+  "id": "P2C-AAB1512E86F7",
+  "population_rows": 16307,
+  "retention_pct": 20.868338750229963,
+  "return_10d_pct": 0.3272541093202902,
+  "return_20d_pct": 0.3861081528119015,
+  "return_5d_pct": 0.4136790359379177,
+  "slug": "s-aab1512e86f79243",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3403,
+  "win_10d_pct": 52.483103144284456,
+  "win_20d_pct": 52.27740229209521,
+  "win_5d_pct": 53.83485160152807
+}

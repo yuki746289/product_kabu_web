@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BD0CAE7F576B",
+  "condition_key": "S:fan=SPREADING",
+  "condition_label": "EMAファン / スプレッド：拡大",
+  "condition_type": "single",
+  "count": 8791,
+  "datasetId": "materials",
+  "id": "P2C-BD0CAE7F576B",
+  "population_rows": 39007,
+  "retention_pct": 22.53698054195401,
+  "return_10d_pct": 0.8831798379076542,
+  "return_20d_pct": 1.4984217617375533,
+  "return_5d_pct": 0.3932322033334213,
+  "slug": "s-bd0cae7f576bf3be",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.39654191787054,
+  "win_20d_pct": 54.79280510018215,
+  "win_5d_pct": 53.08838584916392
+}

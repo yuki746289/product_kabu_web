@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-21BE16496F3B",
+  "condition_key": "S:daily_rci9_state=EXTREME_LOW|FALLING",
+  "condition_label": "日足RCI9 位置×向き：極端に低い・下降",
+  "condition_type": "single",
+  "count": 1604,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-21BE16496F3B",
+  "population_rows": 29044,
+  "retention_pct": 5.522655281641647,
+  "return_10d_pct": 0.7043649307849785,
+  "return_20d_pct": 0.7403334920695582,
+  "return_5d_pct": -0.1429295594918973,
+  "slug": "s-21be16496f3b7154",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1604,
+  "win_10d_pct": 52.0573566084788,
+  "win_20d_pct": 52.3067331670823,
+  "win_5d_pct": 49.37655860349127
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-FDD40B94AE84",
+  "condition_key": "S:daily_rci9_position=LOW",
+  "condition_label": "日足RCI9 位置：低い",
+  "condition_type": "single",
+  "count": 15348,
+  "datasetId": "technology",
+  "id": "P2C-FDD40B94AE84",
+  "population_rows": 48782,
+  "retention_pct": 31.462424664835392,
+  "return_10d_pct": 0.5273919251828969,
+  "return_20d_pct": 0.9427394332352136,
+  "return_5d_pct": 0.2184580174565722,
+  "slug": "s-fdd40b94ae8400ae",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 15348,
+  "win_10d_pct": 52.45634610372687,
+  "win_20d_pct": 52.92277614858259,
+  "win_5d_pct": 51.4138649986969
+}

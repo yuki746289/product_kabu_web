@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-30C4B96141E8",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci14_state=HIGH|FLAT",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI14 位置×向き：高い・横ばい",
+  "condition_type": "pair",
+  "count": 1643,
+  "datasetId": "materials",
+  "id": "P2C-30C4B96141E8",
+  "population_rows": 39007,
+  "retention_pct": 4.212064501243367,
+  "return_10d_pct": 1.044078075991996,
+  "return_20d_pct": 1.842790342004052,
+  "return_5d_pct": 0.4999013679699004,
+  "slug": "p-30c4b96141e85e32",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 57.51673767498479,
+  "win_20d_pct": 57.151552038953135,
+  "win_5d_pct": 55.38648813146683
+}

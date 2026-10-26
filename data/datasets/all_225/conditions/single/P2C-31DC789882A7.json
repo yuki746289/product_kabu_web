@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-31DC789882A7",
+  "condition_key": "S:daily_rci26_direction=RISING",
+  "condition_label": "日足RCI26 向き：上昇",
+  "condition_type": "single",
+  "count": 23895,
+  "datasetId": "all_225",
+  "id": "P2C-31DC789882A7",
+  "population_rows": 181318,
+  "retention_pct": 13.17850406468194,
+  "return_10d_pct": 0.5918017429640741,
+  "return_20d_pct": 1.3080929059640485,
+  "return_5d_pct": 0.3014255258028975,
+  "slug": "s-31dc789882a769e9",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 23895,
+  "win_10d_pct": 52.96505545093115,
+  "win_20d_pct": 54.11853340030136,
+  "win_5d_pct": 52.13224523958987
+}

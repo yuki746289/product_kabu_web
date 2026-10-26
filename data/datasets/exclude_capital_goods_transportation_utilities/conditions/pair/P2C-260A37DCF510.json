@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-260A37DCF510",
+  "condition_key": "P:weekly_rci9=HIGH|UP&daily_rci14_state=HIGH|FALLING",
+  "condition_label": "週足RCI9：高い・上向き × 日足RCI14 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 4988,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-260A37DCF510",
+  "population_rows": 137426,
+  "retention_pct": 3.629589742843421,
+  "return_10d_pct": 0.6135051177625641,
+  "return_20d_pct": 0.6982175437766116,
+  "return_5d_pct": 0.2352279716149436,
+  "slug": "p-260a37dcf510dc5a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.56615878107458,
+  "win_20d_pct": 52.46591820368886,
+  "win_5d_pct": 51.76423416198877
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AB7FEBA60B14",
+  "condition_key": "T:price=TREND_ADVANCING&weekly_rci9=VERY_HIGH|FLAT&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "価格フェーズ：トレンド進行 × 週足RCI9：非常に高い・横ばい × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "triple",
+  "count": 13751,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-AB7FEBA60B14",
+  "population_rows": 137426,
+  "retention_pct": 10.006112380481133,
+  "return_10d_pct": 0.9164327587173968,
+  "return_20d_pct": 1.5473539461066217,
+  "return_5d_pct": 0.5076664627435015,
+  "slug": "t-ab7feba60b14b9ae",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.55603228856083,
+  "win_20d_pct": 54.2663853931767,
+  "win_5d_pct": 53.48701912588175
+}

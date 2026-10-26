@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7C60E1836C11",
+  "condition_key": "P:ema=DECELERATING&daily_rci9_position=EXTREME_LOW",
+  "condition_label": "EMAモーション：減速 × 日足RCI9 位置：極端に低い",
+  "condition_type": "pair",
+  "count": 2186,
+  "datasetId": "materials",
+  "id": "P2C-7C60E1836C11",
+  "population_rows": 39007,
+  "retention_pct": 5.604122337016433,
+  "return_10d_pct": 0.6358434174079499,
+  "return_20d_pct": 1.0328494305524136,
+  "return_5d_pct": 0.3556064103181889,
+  "slug": "p-7c60e1836c116767",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.82982616651418,
+  "win_20d_pct": 51.5096065873742,
+  "win_5d_pct": 52.0128087831656
+}

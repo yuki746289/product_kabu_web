@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BF532524EFDA",
+  "condition_key": "P:fan=WIDE_STABLE&daily_rci14_direction=RISING",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 日足RCI14 向き：上昇",
+  "condition_type": "pair",
+  "count": 8166,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-BF532524EFDA",
+  "population_rows": 166470,
+  "retention_pct": 4.90538835826275,
+  "return_10d_pct": 0.5497092866581901,
+  "return_20d_pct": 1.3680001562400337,
+  "return_5d_pct": 0.2268215972387192,
+  "slug": "p-bf532524efda8778",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.86554004408524,
+  "win_20d_pct": 55.115794633010665,
+  "win_5d_pct": 51.33480284104824
+}

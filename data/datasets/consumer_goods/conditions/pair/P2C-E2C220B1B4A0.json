@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E2C220B1B4A0",
+  "condition_key": "P:fan=CONVERGED&daily_rci26_position=HIGH",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 6599,
+  "datasetId": "consumer_goods",
+  "id": "P2C-E2C220B1B4A0",
+  "population_rows": 33330,
+  "retention_pct": 19.7989798979898,
+  "return_10d_pct": 0.6265903318674971,
+  "return_20d_pct": 0.8277127410399419,
+  "return_5d_pct": 0.3811005071288842,
+  "slug": "p-e2c220b1b4a070bf",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.94741627519321,
+  "win_20d_pct": 51.89508793208005,
+  "win_5d_pct": 52.25034096075163
+}

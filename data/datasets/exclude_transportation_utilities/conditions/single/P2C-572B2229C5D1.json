@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-572B2229C5D1",
+  "condition_key": "S:daily_rci14_position=LOW",
+  "condition_label": "日足RCI14 位置：低い",
+  "condition_type": "single",
+  "count": 29518,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-572B2229C5D1",
+  "population_rows": 166470,
+  "retention_pct": 17.73172343365171,
+  "return_10d_pct": 0.4253003098007473,
+  "return_20d_pct": 0.7506455023842894,
+  "return_5d_pct": 0.2163590243083968,
+  "slug": "s-572b2229c5d1dd8a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 29518,
+  "win_10d_pct": 51.63290195812724,
+  "win_20d_pct": 52.40306399132321,
+  "win_5d_pct": 51.20604376990311
+}

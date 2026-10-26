@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BDE5D8E3CE93",
+  "condition_key": "S:daily_rci26_state=LOW|FALLING",
+  "condition_label": "日足RCI26 位置×向き：低い・下降",
+  "condition_type": "single",
+  "count": 921,
+  "datasetId": "technology",
+  "id": "P2C-BDE5D8E3CE93",
+  "population_rows": 48782,
+  "retention_pct": 1.88799147226436,
+  "return_10d_pct": 0.2150021140173174,
+  "return_20d_pct": 0.5214819381062927,
+  "return_5d_pct": 0.0098767138520814,
+  "slug": "s-bde5d8e3ce93cdaa",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 921,
+  "win_10d_pct": 50.1628664495114,
+  "win_20d_pct": 52.00868621064061,
+  "win_5d_pct": 47.014115092290986
+}

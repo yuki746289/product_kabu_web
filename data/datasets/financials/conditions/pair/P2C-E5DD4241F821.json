@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E5DD4241F821",
+  "condition_key": "P:fan=CONVERGED&daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI14 位置×向き：中立・下降",
+  "condition_type": "pair",
+  "count": 827,
+  "datasetId": "financials",
+  "id": "P2C-E5DD4241F821",
+  "population_rows": 16307,
+  "retention_pct": 5.071441712148157,
+  "return_10d_pct": 0.1565948051536386,
+  "return_20d_pct": -0.0567251878026705,
+  "return_5d_pct": -0.0351053411879011,
+  "slug": "p-e5dd4241f8210e4d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.69770253929868,
+  "win_20d_pct": 49.4558645707376,
+  "win_5d_pct": 47.15840386940749
+}

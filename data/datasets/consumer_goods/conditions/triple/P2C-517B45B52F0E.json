@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-517B45B52F0E",
+  "condition_key": "T:price=TREND_ADVANCING&weekly_rci9=VERY_HIGH|FLAT&causal_regime=UP_TRANSITION",
+  "condition_label": "価格フェーズ：トレンド進行 × 週足RCI9：非常に高い・横ばい × 相場状態：上昇移行",
+  "condition_type": "triple",
+  "count": 0,
+  "datasetId": "consumer_goods",
+  "id": "P2C-517B45B52F0E",
+  "population_rows": 33330,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-517b45b52f0e5c32",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

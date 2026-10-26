@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9280B2CD300D",
+  "condition_key": "P:ema=DECELERATING&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "EMAモーション：減速 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 2241,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-9280B2CD300D",
+  "population_rows": 29044,
+  "retention_pct": 7.715879355460681,
+  "return_10d_pct": 0.4151534793197556,
+  "return_20d_pct": 1.2337637933568064,
+  "return_5d_pct": -0.2480363066730062,
+  "slug": "p-9280b2cd300d7ecb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.78090138331102,
+  "win_20d_pct": 55.77867023650156,
+  "win_5d_pct": 47.25568942436412
+}

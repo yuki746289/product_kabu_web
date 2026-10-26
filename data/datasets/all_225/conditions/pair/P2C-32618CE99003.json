@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-32618CE99003",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci14_direction=RISING",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI14 向き：上昇",
+  "condition_type": "pair",
+  "count": 9750,
+  "datasetId": "all_225",
+  "id": "P2C-32618CE99003",
+  "population_rows": 181318,
+  "retention_pct": 5.377292932858293,
+  "return_10d_pct": 0.3433289902286471,
+  "return_20d_pct": 0.8959760548198817,
+  "return_5d_pct": 0.2394156904971001,
+  "slug": "p-32618ce990034364",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.34358974358975,
+  "win_20d_pct": 53.45305284761416,
+  "win_5d_pct": 52.09230769230769
+}

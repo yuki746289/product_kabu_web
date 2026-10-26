@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1FFE0FBA82D0",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci9_direction=RISING",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI9 向き：上昇",
+  "condition_type": "pair",
+  "count": 710,
+  "datasetId": "financials",
+  "id": "P2C-1FFE0FBA82D0",
+  "population_rows": 16307,
+  "retention_pct": 4.353958422763231,
+  "return_10d_pct": 0.8569973340289742,
+  "return_20d_pct": 0.9188661341751116,
+  "return_5d_pct": 0.6566007947733378,
+  "slug": "p-1ffe0fba82d0310a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.633802816901415,
+  "win_20d_pct": 58.309859154929576,
+  "win_5d_pct": 54.3661971830986
+}

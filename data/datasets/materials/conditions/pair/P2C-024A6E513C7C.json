@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-024A6E513C7C",
+  "condition_key": "P:ema=CONTINUING&price=TREND_ADVANCING",
+  "condition_label": "EMAモーション：継続 × 価格フェーズ：トレンド進行",
+  "condition_type": "pair",
+  "count": 3247,
+  "datasetId": "materials",
+  "id": "P2C-024A6E513C7C",
+  "population_rows": 39007,
+  "retention_pct": 8.324146947983694,
+  "return_10d_pct": 0.7206948053268988,
+  "return_20d_pct": 1.1430670069301856,
+  "return_5d_pct": 0.3311654441731725,
+  "slug": "p-024a6e513c7c018b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.91222667077302,
+  "win_20d_pct": 55.53158705701079,
+  "win_5d_pct": 52.47921157991993
+}

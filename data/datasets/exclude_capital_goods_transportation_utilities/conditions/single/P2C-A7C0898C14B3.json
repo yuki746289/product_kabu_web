@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A7C0898C14B3",
+  "condition_key": "S:fan=CONVERGED",
+  "condition_label": "EMAファン / スプレッド：収束",
+  "condition_type": "single",
+  "count": 52069,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-A7C0898C14B3",
+  "population_rows": 137426,
+  "retention_pct": 37.888754675243405,
+  "return_10d_pct": 0.5234257141851327,
+  "return_20d_pct": 0.8892621605635351,
+  "return_5d_pct": 0.2500286740949474,
+  "slug": "s-a7c0898c14b3170f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.138508517544025,
+  "win_20d_pct": 52.92015676631061,
+  "win_5d_pct": 51.28963490752655
+}

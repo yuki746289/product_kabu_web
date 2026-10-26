@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6D879ED3389E",
+  "condition_key": "P:fan=MILD_SPREAD&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：緩やかな拡大 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 2356,
+  "datasetId": "materials",
+  "id": "P2C-6D879ED3389E",
+  "population_rows": 39007,
+  "retention_pct": 6.039941548952752,
+  "return_10d_pct": 0.6502296869819861,
+  "return_20d_pct": 1.0769479763745038,
+  "return_5d_pct": 0.158059697025305,
+  "slug": "p-6d879ed3389edef7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.2258064516129,
+  "win_20d_pct": 52.92869269949067,
+  "win_5d_pct": 51.273344651952456
+}

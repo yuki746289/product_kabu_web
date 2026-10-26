@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1B9D1ABB7D05",
+  "condition_key": "P:fan=SPREADING&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 5342,
+  "datasetId": "materials",
+  "id": "P2C-1B9D1ABB7D05",
+  "population_rows": 39007,
+  "retention_pct": 13.69497782449304,
+  "return_10d_pct": 0.7991887632254382,
+  "return_20d_pct": 1.331934280271477,
+  "return_5d_pct": 0.395077461573799,
+  "slug": "p-1b9d1abb7d05e7d0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.33208536128791,
+  "win_20d_pct": 53.44440284537626,
+  "win_5d_pct": 53.03257207038562
+}

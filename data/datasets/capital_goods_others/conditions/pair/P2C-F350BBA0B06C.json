@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F350BBA0B06C",
+  "condition_key": "P:daily_rci14_direction=FALLING&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 5783,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-F350BBA0B06C",
+  "population_rows": 29044,
+  "retention_pct": 19.911169260432448,
+  "return_10d_pct": 0.3939559395873948,
+  "return_20d_pct": 0.4462798041276794,
+  "return_5d_pct": 0.077594821499184,
+  "slug": "p-f350bba0b06c7d2c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 5783,
+  "win_10d_pct": 51.4093031298634,
+  "win_20d_pct": 51.16721424865987,
+  "win_5d_pct": 50.45823966799239
+}

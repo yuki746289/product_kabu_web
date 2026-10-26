@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7054A1CB10C8",
+  "condition_key": "P:fan=SPREADING&daily_rci14_position=NEUTRAL",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI14 位置：中立",
+  "condition_type": "pair",
+  "count": 548,
+  "datasetId": "financials",
+  "id": "P2C-7054A1CB10C8",
+  "population_rows": 16307,
+  "retention_pct": 3.360520022076409,
+  "return_10d_pct": 1.2868584400701806,
+  "return_20d_pct": 1.3461561826016002,
+  "return_5d_pct": 0.7116626288590426,
+  "slug": "p-7054a1cb10c8d536",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 58.21167883211679,
+  "win_20d_pct": 55.393053016453386,
+  "win_5d_pct": 53.10218978102191
+}

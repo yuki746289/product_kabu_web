@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C60DCAD333AD",
+  "condition_key": "S:daily_rci26_state=LOW|FLAT",
+  "condition_label": "日足RCI26 位置×向き：低い・横ばい",
+  "condition_type": "single",
+  "count": 526,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-C60DCAD333AD",
+  "population_rows": 29044,
+  "retention_pct": 1.811045310563284,
+  "return_10d_pct": 1.0324886748821869,
+  "return_20d_pct": 2.2754544654503626,
+  "return_5d_pct": 0.2388813336259712,
+  "slug": "s-c60dcad333ad4d32",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 526,
+  "win_10d_pct": 56.27376425855514,
+  "win_20d_pct": 55.13307984790875,
+  "win_5d_pct": 51.14068441064639
+}

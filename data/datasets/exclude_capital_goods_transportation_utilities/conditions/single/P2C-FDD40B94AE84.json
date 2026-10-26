@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-FDD40B94AE84",
+  "condition_key": "S:daily_rci9_position=LOW",
+  "condition_label": "日足RCI9 位置：低い",
+  "condition_type": "single",
+  "count": 43216,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-FDD40B94AE84",
+  "population_rows": 137426,
+  "retention_pct": 31.446742246736427,
+  "return_10d_pct": 0.5777874427395217,
+  "return_20d_pct": 0.9793809888076116,
+  "return_5d_pct": 0.2174908942915266,
+  "slug": "s-fdd40b94ae8400ae",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 43216,
+  "win_10d_pct": 52.59394668641244,
+  "win_20d_pct": 52.78992802425421,
+  "win_5d_pct": 51.35597926693817
+}

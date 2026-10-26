@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7390FC1D1D02",
+  "condition_key": "S:daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI26 向き：下降",
+  "condition_type": "single",
+  "count": 4399,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-7390FC1D1D02",
+  "population_rows": 14848,
+  "retention_pct": 29.626885775862068,
+  "return_10d_pct": -0.1938802851911004,
+  "return_20d_pct": 0.252444582383973,
+  "return_5d_pct": -0.1094161198784183,
+  "slug": "s-7390fc1d1d026b7c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4399,
+  "win_10d_pct": 48.12457376676517,
+  "win_20d_pct": 49.22692132787631,
+  "win_5d_pct": 47.7835871789043
+}

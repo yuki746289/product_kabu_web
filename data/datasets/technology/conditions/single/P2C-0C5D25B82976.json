@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0C5D25B82976",
+  "condition_key": "S:daily_rci9_direction=FLAT",
+  "condition_label": "日足RCI9 向き：横ばい",
+  "condition_type": "single",
+  "count": 7247,
+  "datasetId": "technology",
+  "id": "P2C-0C5D25B82976",
+  "population_rows": 48782,
+  "retention_pct": 14.855889467426508,
+  "return_10d_pct": 0.5876187008407808,
+  "return_20d_pct": 1.184728882053688,
+  "return_5d_pct": 0.2576213765463082,
+  "slug": "s-0c5d25b829768750",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 7247,
+  "win_10d_pct": 52.51828342762522,
+  "win_20d_pct": 54.25179458862507,
+  "win_5d_pct": 51.828342762522425
+}

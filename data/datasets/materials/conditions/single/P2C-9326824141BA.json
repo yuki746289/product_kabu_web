@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9326824141BA",
+  "condition_key": "S:daily_rci9_position=EXTREME_LOW",
+  "condition_label": "日足RCI9 位置：極端に低い",
+  "condition_type": "single",
+  "count": 3267,
+  "datasetId": "materials",
+  "id": "P2C-9326824141BA",
+  "population_rows": 39007,
+  "retention_pct": 8.37541979644679,
+  "return_10d_pct": 0.5681923208137989,
+  "return_20d_pct": 0.8206049281278733,
+  "return_5d_pct": 0.3650858410634409,
+  "slug": "s-9326824141baee1e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3267,
+  "win_10d_pct": 51.60697887970616,
+  "win_20d_pct": 50.62748699112335,
+  "win_5d_pct": 51.91307009488828
+}

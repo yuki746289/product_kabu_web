@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-54F5DC75978C",
+  "condition_key": "P:daily_rci9_position=HIGH&daily_rci26_state=HIGH|RISING",
+  "condition_label": "日足RCI9 位置：高い × 日足RCI26 位置×向き：高い・上昇",
+  "condition_type": "pair",
+  "count": 1625,
+  "datasetId": "materials",
+  "id": "P2C-54F5DC75978C",
+  "population_rows": 39007,
+  "retention_pct": 4.16591893762658,
+  "return_10d_pct": 1.1846124003502747,
+  "return_20d_pct": 2.001184824533297,
+  "return_5d_pct": 0.727805245847416,
+  "slug": "p-54f5dc75978cf492",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1625,
+  "win_10d_pct": 57.04615384615385,
+  "win_20d_pct": 58.2512315270936,
+  "win_5d_pct": 56.55384615384615
+}

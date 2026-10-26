@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9054C39B4C40",
+  "condition_key": "P:daily_rci14_position=NEUTRAL&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 位置：中立 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 443,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-9054C39B4C40",
+  "population_rows": 14848,
+  "retention_pct": 2.983566810344828,
+  "return_10d_pct": -0.1840594580258284,
+  "return_20d_pct": -0.2304983514100723,
+  "return_5d_pct": 0.23679794837954,
+  "slug": "p-9054c39b4c400918",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 443,
+  "win_10d_pct": 48.30699774266365,
+  "win_20d_pct": 49.887133182844245,
+  "win_5d_pct": 53.72460496613996
+}

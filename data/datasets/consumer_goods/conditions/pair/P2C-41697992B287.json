@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-41697992B287",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI14 位置×向き：中立・下降",
+  "condition_type": "pair",
+  "count": 1052,
+  "datasetId": "consumer_goods",
+  "id": "P2C-41697992B287",
+  "population_rows": 33330,
+  "retention_pct": 3.1563156315631566,
+  "return_10d_pct": 0.4263506538424554,
+  "return_20d_pct": 0.6004640163710708,
+  "return_5d_pct": 0.3894926614656589,
+  "slug": "p-41697992b2871126",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.61977186311788,
+  "win_20d_pct": 50.09505703422054,
+  "win_5d_pct": 51.71102661596958
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D86034F1563F",
+  "condition_key": "S:daily_rci14_state=HIGH|FALLING",
+  "condition_label": "日足RCI14 位置×向き：高い・下降",
+  "condition_type": "single",
+  "count": 14507,
+  "datasetId": "technology",
+  "id": "P2C-D86034F1563F",
+  "population_rows": 48782,
+  "retention_pct": 29.73842810872863,
+  "return_10d_pct": 0.57939689530846,
+  "return_20d_pct": 1.0279563569065338,
+  "return_5d_pct": 0.2764302586431083,
+  "slug": "s-d86034f1563f1083",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 14507,
+  "win_10d_pct": 52.82277521196663,
+  "win_20d_pct": 53.24048538334253,
+  "win_5d_pct": 51.56820845109258
+}

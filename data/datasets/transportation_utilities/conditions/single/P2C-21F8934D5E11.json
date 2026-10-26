@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-21F8934D5E11",
+  "condition_key": "S:daily_rci14_state=LOW|RISING",
+  "condition_label": "日足RCI14 位置×向き：低い・上昇",
+  "condition_type": "single",
+  "count": 383,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-21F8934D5E11",
+  "population_rows": 14848,
+  "retention_pct": 2.579471982758621,
+  "return_10d_pct": -0.5231347592081474,
+  "return_20d_pct": -0.0074843078840014,
+  "return_5d_pct": -0.1933476308372919,
+  "slug": "s-21f8934d5e117653",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 383,
+  "win_10d_pct": 45.16971279373368,
+  "win_20d_pct": 45.95300261096606,
+  "win_5d_pct": 45.16971279373368
+}

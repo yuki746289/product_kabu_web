@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-52A40BDF0C68",
+  "condition_key": "T:ema=DECELERATING&daily_rci9_state=LOW|FALLING&daily_rci14_position=LOW",
+  "condition_label": "EMAモーション：減速 × 日足RCI9 位置×向き：低い・下降 × 日足RCI14 位置：低い",
+  "condition_type": "triple",
+  "count": 476,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-52A40BDF0C68",
+  "population_rows": 14848,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-52a40bdf0c68a971",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

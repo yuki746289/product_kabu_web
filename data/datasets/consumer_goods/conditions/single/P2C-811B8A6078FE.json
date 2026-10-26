@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-811B8A6078FE",
+  "condition_key": "S:ema=FLATTENING",
+  "condition_label": "EMAモーション：平坦化",
+  "condition_type": "single",
+  "count": 473,
+  "datasetId": "consumer_goods",
+  "id": "P2C-811B8A6078FE",
+  "population_rows": 33330,
+  "retention_pct": 1.419141914191419,
+  "return_10d_pct": 0.1389559852043221,
+  "return_20d_pct": 0.4503908665350719,
+  "return_5d_pct": -0.0804669347872575,
+  "slug": "s-811b8a6078fe1735",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 47.780126849894295,
+  "win_20d_pct": 54.44915254237288,
+  "win_5d_pct": 47.780126849894295
+}

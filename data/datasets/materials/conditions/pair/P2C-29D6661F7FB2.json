@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-29D6661F7FB2",
+  "condition_key": "P:weekly_rci14=HIGH|FLAT&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "週足RCI14：高い・横ばい × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 1817,
+  "datasetId": "materials",
+  "id": "P2C-29D6661F7FB2",
+  "population_rows": 39007,
+  "retention_pct": 4.658138282872305,
+  "return_10d_pct": 0.3209229535546318,
+  "return_20d_pct": 0.8896072724867963,
+  "return_5d_pct": -0.0846468285479057,
+  "slug": "p-29d6661f7fb27e15",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.39405613648872,
+  "win_20d_pct": 50.90809025866814,
+  "win_5d_pct": 48.4314804623005
+}

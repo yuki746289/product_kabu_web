@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-78E253DAADB4",
+  "condition_key": "S:weekly_rci26=HIGH|UP",
+  "condition_label": "週足RCI26：高い・上向き",
+  "condition_type": "single",
+  "count": 1625,
+  "datasetId": "materials",
+  "id": "P2C-78E253DAADB4",
+  "population_rows": 39007,
+  "retention_pct": 4.16591893762658,
+  "return_10d_pct": 1.1293253463124762,
+  "return_20d_pct": 1.4201060908615333,
+  "return_5d_pct": 0.592835803819513,
+  "slug": "s-78e253daadb493e2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 57.72307692307693,
+  "win_20d_pct": 57.54775107825015,
+  "win_5d_pct": 55.69230769230769
+}

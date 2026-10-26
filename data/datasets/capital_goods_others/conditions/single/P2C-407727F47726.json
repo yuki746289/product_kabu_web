@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-407727F47726",
+  "condition_key": "S:weekly_rci14=HIGH|DOWN",
+  "condition_label": "週足RCI14：高い・下向き",
+  "condition_type": "single",
+  "count": 52,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-407727F47726",
+  "population_rows": 29044,
+  "retention_pct": 0.1790386999035945,
+  "return_10d_pct": 2.9889974074134957,
+  "return_20d_pct": 5.054119050742743,
+  "return_5d_pct": 0.829731320307961,
+  "slug": "s-407727f47726fef6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 73.07692307692307,
+  "win_20d_pct": 59.61538461538461,
+  "win_5d_pct": 55.76923076923077
+}

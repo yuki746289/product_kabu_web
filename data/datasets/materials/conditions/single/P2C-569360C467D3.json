@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-569360C467D3",
+  "condition_key": "S:daily_rci14_state=EXTREME_LOW|FALLING",
+  "condition_label": "日足RCI14 位置×向き：極端に低い・下降",
+  "condition_type": "single",
+  "count": 282,
+  "datasetId": "materials",
+  "id": "P2C-569360C467D3",
+  "population_rows": 39007,
+  "retention_pct": 0.7229471633296587,
+  "return_10d_pct": 0.9299299129253068,
+  "return_20d_pct": 1.710950432266099,
+  "return_5d_pct": 0.8529181853073117,
+  "slug": "s-569360c467d39f2d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 282,
+  "win_10d_pct": 52.83687943262412,
+  "win_20d_pct": 52.83687943262412,
+  "win_5d_pct": 55.673758865248224
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5D39C651A006",
+  "condition_key": "P:daily_rci14_position=NEUTRAL&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 位置：中立 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 3065,
+  "datasetId": "consumer_goods",
+  "id": "P2C-5D39C651A006",
+  "population_rows": 33330,
+  "retention_pct": 9.195919591959196,
+  "return_10d_pct": 0.5544526582784273,
+  "return_20d_pct": 0.9158445773853172,
+  "return_5d_pct": 0.2451487124578692,
+  "slug": "p-5d39c651a006cea4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3065,
+  "win_10d_pct": 51.90864600326264,
+  "win_20d_pct": 50.91443500979752,
+  "win_5d_pct": 51.45187601957586
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A35B479482B2",
+  "condition_key": "P:fan=WIDE_STABLE&ema=STRONG_CONTINUING",
+  "condition_label": "EMAファン / スプレッド：広い安定 × EMAモーション：強い継続",
+  "condition_type": "pair",
+  "count": 13991,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-A35B479482B2",
+  "population_rows": 137426,
+  "retention_pct": 10.18075182279918,
+  "return_10d_pct": 0.5549169604106947,
+  "return_20d_pct": 1.0267923666544931,
+  "return_5d_pct": 0.3568983211437783,
+  "slug": "p-a35b479482b2465c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.733900364520046,
+  "win_20d_pct": 53.524449528167,
+  "win_5d_pct": 52.61239368165249
+}

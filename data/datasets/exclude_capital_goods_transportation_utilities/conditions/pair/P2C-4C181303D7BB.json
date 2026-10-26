@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4C181303D7BB",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&daily_rci26_direction=FALLING",
+  "condition_label": "週足RCI9：非常に高い・上向き × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 4092,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-4C181303D7BB",
+  "population_rows": 137426,
+  "retention_pct": 2.9776024915227106,
+  "return_10d_pct": 0.3872679330804469,
+  "return_20d_pct": 0.5767162219586189,
+  "return_5d_pct": 0.1305007297354453,
+  "slug": "p-4c181303d7bb2811",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.80840664711632,
+  "win_20d_pct": 50.623319481789295,
+  "win_5d_pct": 50.78201368523949
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E099C49B7EA1",
+  "condition_key": "P:price=CORRECTION_ENDING&daily_rci26_position=HIGH",
+  "condition_label": "価格フェーズ：調整終了 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 985,
+  "datasetId": "technology",
+  "id": "P2C-E099C49B7EA1",
+  "population_rows": 48782,
+  "retention_pct": 2.019187405190439,
+  "return_10d_pct": 0.347301029767296,
+  "return_20d_pct": 0.771132296330032,
+  "return_5d_pct": 0.149830738648315,
+  "slug": "p-e099c49b7ea1aab0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.55837563451777,
+  "win_20d_pct": 52.38578680203045,
+  "win_5d_pct": 50.76142131979695
+}

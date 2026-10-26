@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1C87D11365DD",
+  "condition_key": "S:daily_rci14_state=NEUTRAL|FLAT",
+  "condition_label": "日足RCI14 位置×向き：中立・横ばい",
+  "condition_type": "single",
+  "count": 2654,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-1C87D11365DD",
+  "population_rows": 137426,
+  "retention_pct": 1.9312211663004089,
+  "return_10d_pct": 0.2281148924618552,
+  "return_20d_pct": 0.8844328414804297,
+  "return_5d_pct": 0.0552356424020419,
+  "slug": "s-1c87d11365ddcc9f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2654,
+  "win_10d_pct": 51.39412207987942,
+  "win_20d_pct": 53.637391632114586,
+  "win_5d_pct": 50.71590052750565
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F11A40D51E75",
+  "condition_key": "P:daily_rci14_state=LOW|FALLING&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 位置×向き：低い・下降 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 1239,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-F11A40D51E75",
+  "population_rows": 14848,
+  "retention_pct": 8.344558189655173,
+  "return_10d_pct": -0.2509706036149849,
+  "return_20d_pct": 0.4009051007669624,
+  "return_5d_pct": -0.0699680144346161,
+  "slug": "p-f11a40d51e754fcf",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1239,
+  "win_10d_pct": 49.31396287328491,
+  "win_20d_pct": 50.04035512510089,
+  "win_5d_pct": 47.13478611783696
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-83CB53403E0F",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|FLAT&weekly_rci14=HIGH|FLAT",
+  "condition_label": "週足RCI9：非常に高い・横ばい × 週足RCI14：高い・横ばい",
+  "condition_type": "pair",
+  "count": 1461,
+  "datasetId": "materials",
+  "id": "P2C-83CB53403E0F",
+  "population_rows": 39007,
+  "retention_pct": 3.745481580229189,
+  "return_10d_pct": 0.4551949182493418,
+  "return_20d_pct": 0.5625551222587653,
+  "return_5d_pct": 0.2309156121229019,
+  "slug": "p-83cb53403e0f3056",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.12936344969199,
+  "win_20d_pct": 49.45205479452055,
+  "win_5d_pct": 50.44490075290896
+}

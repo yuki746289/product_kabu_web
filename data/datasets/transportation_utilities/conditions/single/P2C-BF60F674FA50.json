@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BF60F674FA50",
+  "condition_key": "S:weekly_rci14=HIGH|FLAT",
+  "condition_label": "週足RCI14：高い・横ばい",
+  "condition_type": "single",
+  "count": 2907,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-BF60F674FA50",
+  "population_rows": 14848,
+  "retention_pct": 19.57839439655172,
+  "return_10d_pct": 0.1376201612250142,
+  "return_20d_pct": 0.1956500365761118,
+  "return_5d_pct": 0.1619936347452948,
+  "slug": "s-bf60f674fa506ac3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.80839353285174,
+  "win_20d_pct": 49.01960784313725,
+  "win_5d_pct": 51.840385276917786
+}

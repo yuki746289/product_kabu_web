@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3BF149A66F1E",
+  "condition_key": "T:fan=CONVERGED&ema=DECELERATING&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × EMAモーション：減速 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 2241,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-3BF149A66F1E",
+  "population_rows": 29044,
+  "retention_pct": 7.715879355460681,
+  "return_10d_pct": -0.002867719633954,
+  "return_20d_pct": -0.0770154805113183,
+  "return_5d_pct": -0.036458498204835,
+  "slug": "t-3bf149a66f1e0791",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 48.728246318607766,
+  "win_20d_pct": 49.486836233824185,
+  "win_5d_pct": 48.728246318607766
+}

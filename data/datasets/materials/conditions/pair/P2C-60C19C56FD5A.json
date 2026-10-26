@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-60C19C56FD5A",
+  "condition_key": "P:fan=WIDE_STABLE&daily_rci26_direction=RISING",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 1470,
+  "datasetId": "materials",
+  "id": "P2C-60C19C56FD5A",
+  "population_rows": 39007,
+  "retention_pct": 3.768554362037583,
+  "return_10d_pct": 0.9567073473835624,
+  "return_20d_pct": 1.7262402980519054,
+  "return_5d_pct": 0.5495310436160853,
+  "slug": "p-60c19c56fd5a9fbb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.17006802721088,
+  "win_20d_pct": 56.36487406398911,
+  "win_5d_pct": 55.10204081632652
+}

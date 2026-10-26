@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-97D2CADF50DE",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci14_position=EXTREME_HIGH",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI14 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 4089,
+  "datasetId": "materials",
+  "id": "P2C-97D2CADF50DE",
+  "population_rows": 39007,
+  "retention_pct": 10.482733868280052,
+  "return_10d_pct": 0.7134272394792951,
+  "return_20d_pct": 1.3968628096448017,
+  "return_5d_pct": 0.3339766595296404,
+  "slug": "p-97d2cadf50dee3ce",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.80288579114698,
+  "win_20d_pct": 55.67792462065589,
+  "win_5d_pct": 53.02029836145758
+}

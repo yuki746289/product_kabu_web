@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7071E0920744",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci14_state=EXTREME_HIGH|FLAT",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI14 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 12542,
+  "datasetId": "all_225",
+  "id": "P2C-7071E0920744",
+  "population_rows": 181318,
+  "retention_pct": 6.917129021939355,
+  "return_10d_pct": 0.6479850451839332,
+  "return_20d_pct": 1.253805103794564,
+  "return_5d_pct": 0.3663220525396669,
+  "slug": "p-7071e0920744a17a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.52415882634348,
+  "win_20d_pct": 54.38596491228071,
+  "win_5d_pct": 53.07765906553978
+}

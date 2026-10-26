@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-01F9B64DB034",
+  "condition_key": "P:fan=CONVERGED&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 11446,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-01F9B64DB034",
+  "population_rows": 137426,
+  "retention_pct": 8.328846069884884,
+  "return_10d_pct": 0.5006916144994542,
+  "return_20d_pct": 0.800978712054567,
+  "return_5d_pct": 0.2793191632421967,
+  "slug": "p-01f9b64db0347af7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.362921544644415,
+  "win_20d_pct": 52.30271781875382,
+  "win_5d_pct": 51.40660492748559
+}

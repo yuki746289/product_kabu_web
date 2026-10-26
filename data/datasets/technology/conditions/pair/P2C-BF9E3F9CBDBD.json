@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BF9E3F9CBDBD",
+  "condition_key": "P:ema=CONTINUING&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "EMAモーション：継続 × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "pair",
+  "count": 1977,
+  "datasetId": "technology",
+  "id": "P2C-BF9E3F9CBDBD",
+  "population_rows": 48782,
+  "retention_pct": 4.052724365544668,
+  "return_10d_pct": 0.339819214266206,
+  "return_20d_pct": 0.47069617940118,
+  "return_5d_pct": 0.1612179198418905,
+  "slug": "p-bf9e3f9cbdbd0672",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.66717248356096,
+  "win_20d_pct": 52.14972180070815,
+  "win_5d_pct": 53.06019221041984
+}

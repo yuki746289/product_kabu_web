@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3F37859C2013",
+  "condition_key": "S:weekly_rci14=LOW|FLAT",
+  "condition_label": "週足RCI14：低い・横ばい",
+  "condition_type": "single",
+  "count": 1801,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-3F37859C2013",
+  "population_rows": 166470,
+  "retention_pct": 1.0818766144049978,
+  "return_10d_pct": 0.2424449850674372,
+  "return_20d_pct": 0.1498562062380174,
+  "return_5d_pct": -0.1081902057475073,
+  "slug": "s-3f37859c201382b2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.24986118822876,
+  "win_20d_pct": 49.19489172681843,
+  "win_5d_pct": 49.47251526929484
+}

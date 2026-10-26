@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9965368BD4D3",
+  "condition_key": "P:daily_rci9_position=NEUTRAL&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "日足RCI9 位置：中立 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 1369,
+  "datasetId": "materials",
+  "id": "P2C-9965368BD4D3",
+  "population_rows": 39007,
+  "retention_pct": 3.5096264772989465,
+  "return_10d_pct": 0.5769335990413421,
+  "return_20d_pct": 1.379903589813021,
+  "return_5d_pct": 0.2954877202443601,
+  "slug": "p-9965368bd4d35a8d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1369,
+  "win_10d_pct": 52.73922571219869,
+  "win_20d_pct": 52.85087719298246,
+  "win_5d_pct": 52.958363769174575
+}

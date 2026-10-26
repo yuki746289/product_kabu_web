@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8516EE43E286",
+  "condition_key": "P:ema=DECELERATING&weekly_rci26=MID|FLAT",
+  "condition_label": "EMAモーション：減速 × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 8052,
+  "datasetId": "all_225",
+  "id": "P2C-8516EE43E286",
+  "population_rows": 181318,
+  "retention_pct": 4.4408166867051255,
+  "return_10d_pct": 0.3062265951153421,
+  "return_20d_pct": 0.8486789762580373,
+  "return_5d_pct": 0.0687725862490765,
+  "slug": "p-8516ee43e286738e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.18579234972678,
+  "win_20d_pct": 53.81461232604374,
+  "win_5d_pct": 50.422255340288125
+}

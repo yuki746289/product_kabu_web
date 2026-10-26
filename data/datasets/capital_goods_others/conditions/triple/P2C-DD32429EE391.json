@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DD32429EE391",
+  "condition_key": "T:ema=DECELERATING&price=UNKNOWN&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "EMAモーション：減速 × 価格フェーズ：未分類 × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "triple",
+  "count": 1439,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-DD32429EE391",
+  "population_rows": 29044,
+  "retention_pct": 4.954551714639857,
+  "return_10d_pct": 1.0891105352495236,
+  "return_20d_pct": 1.7517303754888376,
+  "return_5d_pct": 0.1629306787906839,
+  "slug": "t-dd32429ee39113e6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 56.636553161918,
+  "win_20d_pct": 57.47046560111188,
+  "win_5d_pct": 52.05003474635164
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9032CAB33F34",
+  "condition_key": "P:fan=SPREADING&price=EARLY_PULLBACK",
+  "condition_label": "EMAファン / スプレッド：拡大 × 価格フェーズ：初期押し目",
+  "condition_type": "pair",
+  "count": 1317,
+  "datasetId": "materials",
+  "id": "P2C-9032CAB33F34",
+  "population_rows": 39007,
+  "retention_pct": 3.376317071294896,
+  "return_10d_pct": 0.5368751212253777,
+  "return_20d_pct": 1.2200561891357218,
+  "return_5d_pct": 0.064680630660341,
+  "slug": "p-9032cab33f34b3dc",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.65831435079727,
+  "win_20d_pct": 52.08807896735004,
+  "win_5d_pct": 50.34168564920274
+}

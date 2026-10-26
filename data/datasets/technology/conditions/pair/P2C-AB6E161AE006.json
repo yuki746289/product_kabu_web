@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AB6E161AE006",
+  "condition_key": "P:fan=CONVERGED&price=TREND_ADVANCING",
+  "condition_label": "EMAファン / スプレッド：収束 × 価格フェーズ：トレンド進行",
+  "condition_type": "pair",
+  "count": 5815,
+  "datasetId": "technology",
+  "id": "P2C-AB6E161AE006",
+  "population_rows": 48782,
+  "retention_pct": 11.920380468205485,
+  "return_10d_pct": 0.9279527670540472,
+  "return_20d_pct": 1.307467105196312,
+  "return_5d_pct": 0.4813587758680691,
+  "slug": "p-ab6e161ae006689c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.067067927773,
+  "win_20d_pct": 54.5845518665061,
+  "win_5d_pct": 53.53396388650044
+}

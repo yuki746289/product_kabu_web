@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A96FE08A7F3F",
+  "condition_key": "T:fan=CONVERGED&price=UNKNOWN&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 価格フェーズ：未分類 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 12195,
+  "datasetId": "all_225",
+  "id": "P2C-A96FE08A7F3F",
+  "population_rows": 181318,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-a96fe08a7f3ffe9f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

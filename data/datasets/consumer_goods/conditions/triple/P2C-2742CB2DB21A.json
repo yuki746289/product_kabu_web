@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-2742CB2DB21A",
+  "condition_key": "T:daily_rci9_position=LOW&daily_rci9_direction=RISING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI9 向き：上昇 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 1222,
+  "datasetId": "consumer_goods",
+  "id": "P2C-2742CB2DB21A",
+  "population_rows": 33330,
+  "retention_pct": 3.6663666366636662,
+  "return_10d_pct": 0.24677740575842833,
+  "return_20d_pct": 0.649640378890411,
+  "return_5d_pct": 0.07220294386243203,
+  "slug": "t-2742cb2db21a7e77",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1222,
+  "win_10d_pct": 50.90016366612111,
+  "win_20d_pct": 50.40916530278232,
+  "win_5d_pct": 48.854337152209496
+}

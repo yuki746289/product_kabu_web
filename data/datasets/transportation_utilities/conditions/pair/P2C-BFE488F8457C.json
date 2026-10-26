@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BFE488F8457C",
+  "condition_key": "P:price=UNKNOWN&weekly_rci9=VERY_HIGH|FLAT",
+  "condition_label": "価格フェーズ：未分類 × 週足RCI9：非常に高い・横ばい",
+  "condition_type": "pair",
+  "count": 1734,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-BFE488F8457C",
+  "population_rows": 14848,
+  "retention_pct": 11.67834051724138,
+  "return_10d_pct": -0.4545694743787932,
+  "return_20d_pct": -0.298588313872919,
+  "return_5d_pct": -0.3572583955469331,
+  "slug": "p-bfe488f8457cfae8",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 43.25259515570934,
+  "win_20d_pct": 44.51501154734412,
+  "win_5d_pct": 43.540945790080734
+}

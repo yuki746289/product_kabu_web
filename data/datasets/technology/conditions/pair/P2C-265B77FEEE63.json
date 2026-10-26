@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-265B77FEEE63",
+  "condition_key": "P:daily_rci9_position=EXTREME_LOW&daily_rci9_direction=FALLING",
+  "condition_label": "日足RCI9 位置：極端に低い × 日足RCI9 向き：下降",
+  "condition_type": "pair",
+  "count": 2612,
+  "datasetId": "technology",
+  "id": "P2C-265B77FEEE63",
+  "population_rows": 48782,
+  "retention_pct": 5.354434012545611,
+  "return_10d_pct": 0.4613431583053097,
+  "return_20d_pct": 0.7132231942113967,
+  "return_5d_pct": 0.3810418810277159,
+  "slug": "p-265b77feee63bc8a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2612,
+  "win_10d_pct": 52.14395099540582,
+  "win_20d_pct": 52.20222137112217,
+  "win_5d_pct": 52.603369065849925
+}

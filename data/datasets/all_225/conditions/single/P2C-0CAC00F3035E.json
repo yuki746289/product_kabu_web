@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0CAC00F3035E",
+  "condition_key": "S:daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI14 向き：下降",
+  "condition_type": "single",
+  "count": 108638,
+  "datasetId": "all_225",
+  "id": "P2C-0CAC00F3035E",
+  "population_rows": 181318,
+  "retention_pct": 59.9157281681907,
+  "return_10d_pct": 0.5310453880044823,
+  "return_20d_pct": 0.9064279132006,
+  "return_5d_pct": 0.236301475869529,
+  "slug": "s-0cac00f3035e6a8a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 108638,
+  "win_10d_pct": 52.322391796608926,
+  "win_20d_pct": 52.55855490903735,
+  "win_5d_pct": 51.43320016936983
+}

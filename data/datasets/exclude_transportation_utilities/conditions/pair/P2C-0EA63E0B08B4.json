@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0EA63E0B08B4",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci26_position=NEUTRAL",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI26 位置：中立",
+  "condition_type": "pair",
+  "count": 4426,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-0EA63E0B08B4",
+  "population_rows": 166470,
+  "retention_pct": 2.6587373100258307,
+  "return_10d_pct": 0.3888554602853202,
+  "return_20d_pct": 0.812891772813332,
+  "return_5d_pct": 0.3125271761936363,
+  "slug": "p-0ea63e0b08b4feb5",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.446000903750566,
+  "win_20d_pct": 52.57685352622061,
+  "win_5d_pct": 52.169001355625845
+}

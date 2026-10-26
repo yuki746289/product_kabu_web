@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7D05AE6068A6",
+  "condition_key": "S:daily_rci26_state=NEUTRAL|RISING",
+  "condition_label": "日足RCI26 位置×向き：中立・上昇",
+  "condition_type": "single",
+  "count": 429,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-7D05AE6068A6",
+  "population_rows": 14848,
+  "retention_pct": 2.889278017241379,
+  "return_10d_pct": 0.1874413601288315,
+  "return_20d_pct": 0.4135733687476471,
+  "return_5d_pct": 0.2877344664334438,
+  "slug": "s-7d05ae6068a670ca",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 429,
+  "win_10d_pct": 49.65034965034965,
+  "win_20d_pct": 49.417249417249415,
+  "win_5d_pct": 50.815850815850816
+}

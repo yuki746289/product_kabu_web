@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F57FE5668FFF",
+  "condition_key": "P:price=UNKNOWN&daily_rci14_position=NEUTRAL",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI14 位置：中立",
+  "condition_type": "pair",
+  "count": 911,
+  "datasetId": "financials",
+  "id": "P2C-F57FE5668FFF",
+  "population_rows": 16307,
+  "retention_pct": 5.586557919911694,
+  "return_10d_pct": 0.7029540821115241,
+  "return_20d_pct": 0.4725518866933512,
+  "return_5d_pct": 0.4979257783282204,
+  "slug": "p-f57fe5668fff8c53",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.87266739846323,
+  "win_20d_pct": 52.68935236004391,
+  "win_5d_pct": 52.90889132821077
+}

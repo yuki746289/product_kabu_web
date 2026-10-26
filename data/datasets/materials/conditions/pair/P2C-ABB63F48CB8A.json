@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-ABB63F48CB8A",
+  "condition_key": "P:fan=SPREADING&daily_rci9_position=LOW",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 位置：低い",
+  "condition_type": "pair",
+  "count": 2551,
+  "datasetId": "materials",
+  "id": "P2C-ABB63F48CB8A",
+  "population_rows": 39007,
+  "retention_pct": 6.539851821467941,
+  "return_10d_pct": 0.9203366338038198,
+  "return_20d_pct": 1.3971444881560002,
+  "return_5d_pct": 0.4273247247307613,
+  "slug": "p-abb63f48cb8a9204",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.939631517052135,
+  "win_20d_pct": 54.98039215686275,
+  "win_5d_pct": 53.547628381027046
+}

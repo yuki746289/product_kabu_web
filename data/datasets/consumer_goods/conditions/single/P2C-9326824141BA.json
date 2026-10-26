@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9326824141BA",
+  "condition_key": "S:daily_rci9_position=EXTREME_LOW",
+  "condition_label": "日足RCI9 位置：極端に低い",
+  "condition_type": "single",
+  "count": 2698,
+  "datasetId": "consumer_goods",
+  "id": "P2C-9326824141BA",
+  "population_rows": 33330,
+  "retention_pct": 8.094809480948095,
+  "return_10d_pct": 0.6820585492618507,
+  "return_20d_pct": 0.735185913588984,
+  "return_5d_pct": 0.4948478097598989,
+  "slug": "s-9326824141baee1e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2698,
+  "win_10d_pct": 52.742772424017794,
+  "win_20d_pct": 51.29725722757599,
+  "win_5d_pct": 53.6693847294292
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C78932533254",
+  "condition_key": "S:weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI26：中位・横ばい",
+  "condition_type": "single",
+  "count": 5202,
+  "datasetId": "materials",
+  "id": "P2C-C78932533254",
+  "population_rows": 39007,
+  "retention_pct": 13.336067885251364,
+  "return_10d_pct": 0.763460967849893,
+  "return_20d_pct": 1.4919174580895973,
+  "return_5d_pct": 0.2870292868599453,
+  "slug": "s-c78932533254dc87",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.40215301806997,
+  "win_20d_pct": 55.67307692307693,
+  "win_5d_pct": 52.44136870434448
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4DBB95D3DCFE",
+  "condition_key": "T:fan=CONVERGED&price=UNKNOWN&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "EMAファン / スプレッド：収束 × 価格フェーズ：未分類 × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "triple",
+  "count": 981,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-4DBB95D3DCFE",
+  "population_rows": 29044,
+  "retention_pct": 3.377633934719736,
+  "return_10d_pct": 0.6685562554857104,
+  "return_20d_pct": 0.2808407355625105,
+  "return_5d_pct": 0.4327732174249018,
+  "slug": "t-4dbb95d3dcfeb030",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.133537206931706,
+  "win_20d_pct": 47.60448521916412,
+  "win_5d_pct": 52.08970438328237
+}

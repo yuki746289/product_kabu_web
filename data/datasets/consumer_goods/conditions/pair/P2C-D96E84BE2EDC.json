@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D96E84BE2EDC",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci9_position=LOW",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI9 位置：低い",
+  "condition_type": "pair",
+  "count": 2504,
+  "datasetId": "consumer_goods",
+  "id": "P2C-D96E84BE2EDC",
+  "population_rows": 33330,
+  "retention_pct": 7.512751275127513,
+  "return_10d_pct": 0.7417414806778828,
+  "return_20d_pct": 1.1199292502968272,
+  "return_5d_pct": 0.4274300554650494,
+  "slug": "p-d96e84be2edc11b8",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.11661341853036,
+  "win_20d_pct": 52.67571884984026,
+  "win_5d_pct": 52.31629392971247
+}

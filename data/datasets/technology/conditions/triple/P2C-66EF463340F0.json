@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-66EF463340F0",
+  "condition_key": "T:price=TREND_ADVANCING&weekly_rci14=VERY_HIGH|FLAT&causal_regime=UP_TRANSITION",
+  "condition_label": "価格フェーズ：トレンド進行 × 週足RCI14：非常に高い・横ばい × 相場状態：上昇移行",
+  "condition_type": "triple",
+  "count": 0,
+  "datasetId": "technology",
+  "id": "P2C-66EF463340F0",
+  "population_rows": 48782,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-66ef463340f02ba5",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

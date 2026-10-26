@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-71A85613EDA7",
+  "condition_key": "P:fan=SPREADING&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 551,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-71A85613EDA7",
+  "population_rows": 14848,
+  "retention_pct": 3.7109375,
+  "return_10d_pct": 0.3218829433443906,
+  "return_20d_pct": 0.939684790742452,
+  "return_5d_pct": 0.0949040429809505,
+  "slug": "p-71a85613eda7369b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 48.457350272232304,
+  "win_20d_pct": 50.27223230490018,
+  "win_5d_pct": 45.19056261343013
+}

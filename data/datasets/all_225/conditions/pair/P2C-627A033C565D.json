@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-627A033C565D",
+  "condition_key": "P:daily_rci14_state=HIGH|FALLING&daily_rci26_direction=RISING",
+  "condition_label": "日足RCI14 位置×向き：高い・下降 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 6576,
+  "datasetId": "all_225",
+  "id": "P2C-627A033C565D",
+  "population_rows": 181318,
+  "retention_pct": 3.626777264253963,
+  "return_10d_pct": 0.4805614546273022,
+  "return_20d_pct": 1.1765761112867346,
+  "return_5d_pct": 0.1937297156607952,
+  "slug": "p-627a033c565de159",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6576,
+  "win_10d_pct": 51.84002433090025,
+  "win_20d_pct": 53.6425855513308,
+  "win_5d_pct": 50.669099756691
+}

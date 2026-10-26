@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BA8ABAABD2B4",
+  "condition_key": "P:daily_rci26_position=EXTREME_HIGH&causal_regime=RANGE",
+  "condition_label": "日足RCI26 位置：極端に高い × 相場状態：レンジ",
+  "condition_type": "pair",
+  "count": 0,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-BA8ABAABD2B4",
+  "population_rows": 14848,
+  "retention_pct": 0.0,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "p-ba8abaabd2b405f1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 0,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-FAE2157416F4",
+  "condition_key": "S:daily_rci9_direction=RISING",
+  "condition_label": "日足RCI9 向き：上昇",
+  "condition_type": "single",
+  "count": 2676,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-FAE2157416F4",
+  "population_rows": 14848,
+  "retention_pct": 18.02262931034483,
+  "return_10d_pct": 0.1308682070530798,
+  "return_20d_pct": 0.2564997797727709,
+  "return_5d_pct": 0.2262124703748896,
+  "slug": "s-fae2157416f41570",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2676,
+  "win_10d_pct": 48.09417040358744,
+  "win_20d_pct": 48.318385650224215,
+  "win_5d_pct": 49.47683109118087
+}

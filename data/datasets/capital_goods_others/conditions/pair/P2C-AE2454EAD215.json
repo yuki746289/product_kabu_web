@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AE2454EAD215",
+  "condition_key": "P:price=UNKNOWN&daily_rci14_position=LOW",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 1190,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-AE2454EAD215",
+  "population_rows": 29044,
+  "retention_pct": 4.097231786255337,
+  "return_10d_pct": 0.4264185304315673,
+  "return_20d_pct": 0.5750565237881804,
+  "return_5d_pct": -0.1529024841889918,
+  "slug": "p-ae2454ead2158b60",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.27731092436975,
+  "win_20d_pct": 52.56518082422203,
+  "win_5d_pct": 47.39495798319327
+}

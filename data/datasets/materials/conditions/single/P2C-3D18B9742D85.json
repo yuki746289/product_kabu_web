@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3D18B9742D85",
+  "condition_key": "S:price=IN_CORRECTION",
+  "condition_label": "価格フェーズ：調整中",
+  "condition_type": "single",
+  "count": 1480,
+  "datasetId": "materials",
+  "id": "P2C-3D18B9742D85",
+  "population_rows": 39007,
+  "retention_pct": 3.794190786269131,
+  "return_10d_pct": 0.7574600500781653,
+  "return_20d_pct": 1.946595894110932,
+  "return_5d_pct": 0.1423325796031229,
+  "slug": "s-3d18b9742d8571ad",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.054054054054056,
+  "win_20d_pct": 57.200811359026375,
+  "win_5d_pct": 50.74324324324324
+}

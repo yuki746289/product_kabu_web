@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6BE5623BA965",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci26_direction=RISING",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 1851,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-6BE5623BA965",
+  "population_rows": 29044,
+  "retention_pct": 6.373089106183722,
+  "return_10d_pct": 0.7719530605420266,
+  "return_20d_pct": 1.3347894372263784,
+  "return_5d_pct": 0.4388444809507335,
+  "slug": "p-6be5623ba965be5c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.268503511615336,
+  "win_20d_pct": 53.53862776877364,
+  "win_5d_pct": 52.78227984873042
+}

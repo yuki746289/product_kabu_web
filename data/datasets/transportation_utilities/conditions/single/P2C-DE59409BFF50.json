@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DE59409BFF50",
+  "condition_key": "S:daily_rci26_position=LOW",
+  "condition_label": "日足RCI26 位置：低い",
+  "condition_type": "single",
+  "count": 781,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-DE59409BFF50",
+  "population_rows": 14848,
+  "retention_pct": 5.259967672413793,
+  "return_10d_pct": 0.3740744342887973,
+  "return_20d_pct": 0.6330395358346493,
+  "return_5d_pct": 0.2309878381569269,
+  "slug": "s-de59409bff5084e7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 781,
+  "win_10d_pct": 52.496798975672206,
+  "win_20d_pct": 50.76923076923077,
+  "win_5d_pct": 52.496798975672206
+}

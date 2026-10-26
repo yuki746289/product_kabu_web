@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BFE22C3B63E1",
+  "condition_key": "P:weekly_rci26=LOW|FLAT&daily_rci26_direction=FALLING",
+  "condition_label": "週足RCI26：低い・横ばい × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 1351,
+  "datasetId": "materials",
+  "id": "P2C-BFE22C3B63E1",
+  "population_rows": 39007,
+  "retention_pct": 3.46348091368216,
+  "return_10d_pct": -0.5054358657957795,
+  "return_20d_pct": -0.0666635959345988,
+  "return_5d_pct": -0.5699148912788923,
+  "slug": "p-bfe22c3b63e12d1a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 44.92968171724648,
+  "win_20d_pct": 47.77777777777778,
+  "win_5d_pct": 46.1880088823094
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E2C220B1B4A0",
+  "condition_key": "P:fan=CONVERGED&daily_rci26_position=HIGH",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 9110,
+  "datasetId": "materials",
+  "id": "P2C-E2C220B1B4A0",
+  "population_rows": 39007,
+  "retention_pct": 23.3547824749404,
+  "return_10d_pct": 0.5746831646004306,
+  "return_20d_pct": 0.8827899683048614,
+  "return_5d_pct": 0.2843564134859594,
+  "slug": "p-e2c220b1b4a070bf",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.78814489571899,
+  "win_20d_pct": 52.67376743164599,
+  "win_5d_pct": 52.195389681668495
+}

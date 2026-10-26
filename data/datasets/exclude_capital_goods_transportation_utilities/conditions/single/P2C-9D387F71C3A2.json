@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9D387F71C3A2",
+  "condition_key": "S:weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "週足RCI14：非常に高い・横ばい",
+  "condition_type": "single",
+  "count": 66717,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-9D387F71C3A2",
+  "population_rows": 137426,
+  "retention_pct": 48.54758197138824,
+  "return_10d_pct": 0.6415668038903689,
+  "return_20d_pct": 1.223605777983216,
+  "return_5d_pct": 0.3075010065809129,
+  "slug": "s-9d387f71c3a2f4ba",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.352219074598686,
+  "win_20d_pct": 54.04522010315461,
+  "win_5d_pct": 52.228067808804354
+}

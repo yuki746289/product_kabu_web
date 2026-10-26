@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8A2A95A91360",
+  "condition_key": "P:fan=WIDE_STABLE&price=TREND_ADVANCING",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 価格フェーズ：トレンド進行",
+  "condition_type": "pair",
+  "count": 1997,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-8A2A95A91360",
+  "population_rows": 29044,
+  "retention_pct": 6.875774686682274,
+  "return_10d_pct": 0.5618962321544493,
+  "return_20d_pct": 1.802299481217555,
+  "return_5d_pct": 0.5578542618491256,
+  "slug": "p-8a2a95a91360a1cf",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.62744116174262,
+  "win_20d_pct": 54.18127190786179,
+  "win_5d_pct": 53.58037055583375
+}

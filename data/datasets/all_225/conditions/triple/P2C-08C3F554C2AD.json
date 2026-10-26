@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-08C3F554C2AD",
+  "condition_key": "T:weekly_rci9=HIGH|UP&daily_rci14_direction=FALLING&daily_rci14_state=HIGH|FALLING",
+  "condition_label": "週足RCI9：高い・上向き × 日足RCI14 向き：下降 × 日足RCI14 位置×向き：高い・下降",
+  "condition_type": "triple",
+  "count": 6672,
+  "datasetId": "all_225",
+  "id": "P2C-08C3F554C2AD",
+  "population_rows": 181318,
+  "retention_pct": 3.6797229177467217,
+  "return_10d_pct": 0.4488306568353583,
+  "return_20d_pct": 0.4791366496759244,
+  "return_5d_pct": 0.1612477628726987,
+  "slug": "t-08c3f554c2ad95c3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.85851318944844,
+  "win_20d_pct": 51.39388489208633,
+  "win_5d_pct": 51.13908872901679
+}

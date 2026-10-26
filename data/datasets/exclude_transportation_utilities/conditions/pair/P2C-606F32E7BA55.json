@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-606F32E7BA55",
+  "condition_key": "P:daily_rci9_position=LOW&daily_rci14_position=LOW",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 14704,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-606F32E7BA55",
+  "population_rows": 166470,
+  "retention_pct": 8.83282273082237,
+  "return_10d_pct": 0.5326664863936542,
+  "return_20d_pct": 0.834272785961717,
+  "return_5d_pct": 0.266402028239834,
+  "slug": "p-606f32e7ba55a8eb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 14704,
+  "win_10d_pct": 52.18307943416758,
+  "win_20d_pct": 52.6358751105367,
+  "win_5d_pct": 51.43498367791077
+}

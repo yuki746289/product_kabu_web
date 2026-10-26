@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6AEC83150EEC",
+  "condition_key": "P:fan=CONVERGED&ema=STRONG_CONTINUING",
+  "condition_label": "EMAファン / スプレッド：収束 × EMAモーション：強い継続",
+  "condition_type": "pair",
+  "count": 2681,
+  "datasetId": "materials",
+  "id": "P2C-6AEC83150EEC",
+  "population_rows": 39007,
+  "retention_pct": 6.8731253364780684,
+  "return_10d_pct": 0.7221989701118872,
+  "return_20d_pct": 0.8434500239914777,
+  "return_5d_pct": 0.3785598869194276,
+  "slug": "p-6aec83150eec9a88",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.158895934352856,
+  "win_20d_pct": 52.55501678478179,
+  "win_5d_pct": 53.897799328608734
+}

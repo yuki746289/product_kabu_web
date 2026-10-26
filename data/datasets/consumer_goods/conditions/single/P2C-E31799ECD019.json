@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E31799ECD019",
+  "condition_key": "S:daily_rci9_state=LOW|FLAT",
+  "condition_label": "日足RCI9 位置×向き：低い・横ばい",
+  "condition_type": "single",
+  "count": 1488,
+  "datasetId": "consumer_goods",
+  "id": "P2C-E31799ECD019",
+  "population_rows": 33330,
+  "retention_pct": 4.464446444644465,
+  "return_10d_pct": 0.7307017487379481,
+  "return_20d_pct": 1.2485471710079508,
+  "return_5d_pct": 0.2129062348092446,
+  "slug": "s-e31799ecd019edf1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1488,
+  "win_10d_pct": 52.1505376344086,
+  "win_20d_pct": 52.21774193548387,
+  "win_5d_pct": 51.47849462365591
+}

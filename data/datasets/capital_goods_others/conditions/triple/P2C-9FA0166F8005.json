@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9FA0166F8005",
+  "condition_key": "T:ema=DECELERATING&price=UNKNOWN&daily_rci14_direction=FALLING",
+  "condition_label": "EMAモーション：減速 × 価格フェーズ：未分類 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 1641,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-9FA0166F8005",
+  "population_rows": 29044,
+  "retention_pct": 5.650048202726897,
+  "return_10d_pct": 0.7561139906364336,
+  "return_20d_pct": 1.5551379822151263,
+  "return_5d_pct": -0.0615654033299149,
+  "slug": "t-9fa0166f8005be75",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.991468616697134,
+  "win_20d_pct": 57.3780487804878,
+  "win_5d_pct": 47.95856185252895
+}

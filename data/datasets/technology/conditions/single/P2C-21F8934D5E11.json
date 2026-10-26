@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-21F8934D5E11",
+  "condition_key": "S:daily_rci14_state=LOW|RISING",
+  "condition_label": "日足RCI14 位置×向き：低い・上昇",
+  "condition_type": "single",
+  "count": 1143,
+  "datasetId": "technology",
+  "id": "P2C-21F8934D5E11",
+  "population_rows": 48782,
+  "retention_pct": 2.3430773646016974,
+  "return_10d_pct": 0.1370725639612255,
+  "return_20d_pct": 0.7328809099063502,
+  "return_5d_pct": 0.1900874269261655,
+  "slug": "s-21f8934d5e117653",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1143,
+  "win_10d_pct": 52.14348206474191,
+  "win_20d_pct": 54.51358457493427,
+  "win_5d_pct": 50.39370078740157
+}

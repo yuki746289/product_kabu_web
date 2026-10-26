@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3D18B9742D85",
+  "condition_key": "S:price=IN_CORRECTION",
+  "condition_label": "価格フェーズ：調整中",
+  "condition_type": "single",
+  "count": 544,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-3D18B9742D85",
+  "population_rows": 14848,
+  "retention_pct": 3.6637931034482754,
+  "return_10d_pct": -1.1478002970198118,
+  "return_20d_pct": -0.0643162777203273,
+  "return_5d_pct": -0.6793475551202386,
+  "slug": "s-3d18b9742d8571ad",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 44.85294117647059,
+  "win_20d_pct": 49.81617647058824,
+  "win_5d_pct": 41.36029411764706
+}

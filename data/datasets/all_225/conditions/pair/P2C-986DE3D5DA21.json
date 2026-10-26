@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-986DE3D5DA21",
+  "condition_key": "P:fan=CONVERGED&daily_rci26_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 20516,
+  "datasetId": "all_225",
+  "id": "P2C-986DE3D5DA21",
+  "population_rows": 181318,
+  "retention_pct": 11.314927365181616,
+  "return_10d_pct": 0.2773226406709841,
+  "return_20d_pct": 0.5980976605528219,
+  "return_5d_pct": 0.1473298116903207,
+  "slug": "p-986de3d5da2179a6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.11210762331838,
+  "win_20d_pct": 51.44097137562783,
+  "win_5d_pct": 50.472801715734064
+}

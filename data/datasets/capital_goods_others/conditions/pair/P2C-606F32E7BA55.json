@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-606F32E7BA55",
+  "condition_key": "P:daily_rci9_position=LOW&daily_rci14_position=LOW",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 2503,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-606F32E7BA55",
+  "population_rows": 29044,
+  "retention_pct": 8.617958958821099,
+  "return_10d_pct": 0.5785486644361404,
+  "return_20d_pct": 0.7550465821143297,
+  "return_5d_pct": 0.2059663675991807,
+  "slug": "p-606f32e7ba55a8eb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2503,
+  "win_10d_pct": 52.33719536556133,
+  "win_20d_pct": 52.677857713828935,
+  "win_5d_pct": 49.38074310827008
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-047FF9F35A4D",
+  "condition_key": "P:daily_rci26_position=HIGH&daily_rci26_direction=RISING",
+  "condition_label": "日足RCI26 位置：高い × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 15168,
+  "datasetId": "all_225",
+  "id": "P2C-047FF9F35A4D",
+  "population_rows": 181318,
+  "retention_pct": 8.365413251855855,
+  "return_10d_pct": 0.6205806392625192,
+  "return_20d_pct": 1.3487173183174828,
+  "return_5d_pct": 0.319304901789218,
+  "slug": "p-047ff9f35a4d974f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 15168,
+  "win_10d_pct": 52.894251054852326,
+  "win_20d_pct": 54.26913694204523,
+  "win_5d_pct": 52.40638185654009
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C9572F06D80D",
+  "condition_key": "P:daily_rci14_position=LOW&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "日足RCI14 位置：低い × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 3133,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-C9572F06D80D",
+  "population_rows": 29044,
+  "retention_pct": 10.787081669191572,
+  "return_10d_pct": 0.4931781829589062,
+  "return_20d_pct": 0.7417705813584153,
+  "return_5d_pct": 0.1976231711252661,
+  "slug": "p-c9572f06d80ddfd7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3133,
+  "win_10d_pct": 51.00542610916055,
+  "win_20d_pct": 52.29885057471264,
+  "win_5d_pct": 50.87775295244175
+}

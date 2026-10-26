@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E25D11685CDC",
+  "condition_key": "P:daily_rci14_state=HIGH|FLAT&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 位置×向き：高い・横ばい × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 1821,
+  "datasetId": "technology",
+  "id": "P2C-E25D11685CDC",
+  "population_rows": 48782,
+  "retention_pct": 3.73293427903735,
+  "return_10d_pct": 0.5396136714233262,
+  "return_20d_pct": 0.8815216190049702,
+  "return_5d_pct": 0.2945803135108952,
+  "slug": "p-e25d11685cdc87a4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1821,
+  "win_10d_pct": 50.63152114222954,
+  "win_20d_pct": 51.53846153846153,
+  "win_5d_pct": 50.19220208676551
+}

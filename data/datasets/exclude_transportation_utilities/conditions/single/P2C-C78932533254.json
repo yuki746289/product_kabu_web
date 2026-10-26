@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C78932533254",
+  "condition_key": "S:weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI26：中位・横ばい",
+  "condition_type": "single",
+  "count": 22661,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-C78932533254",
+  "population_rows": 166470,
+  "retention_pct": 13.61266294227188,
+  "return_10d_pct": 0.5618523519124304,
+  "return_20d_pct": 1.1099156656414344,
+  "return_5d_pct": 0.2009283567942662,
+  "slug": "s-c78932533254dc87",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.54573937602047,
+  "win_20d_pct": 54.96203425746072,
+  "win_5d_pct": 51.86002382948678
+}

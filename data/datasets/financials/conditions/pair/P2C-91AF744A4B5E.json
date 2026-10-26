@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-91AF744A4B5E",
+  "condition_key": "P:ema=CONTINUING&weekly_rci14=HIGH|FLAT",
+  "condition_label": "EMAモーション：継続 × 週足RCI14：高い・横ばい",
+  "condition_type": "pair",
+  "count": 780,
+  "datasetId": "financials",
+  "id": "P2C-91AF744A4B5E",
+  "population_rows": 16307,
+  "retention_pct": 4.783221929232845,
+  "return_10d_pct": 0.8587137314487375,
+  "return_20d_pct": 1.7826328164151115,
+  "return_5d_pct": 0.1972279918199927,
+  "slug": "p-91af744a4b5efbb0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.69230769230769,
+  "win_20d_pct": 53.71794871794872,
+  "win_5d_pct": 50.256410256410255
+}

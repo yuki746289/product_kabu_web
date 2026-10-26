@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D61040F5DA65",
+  "condition_key": "P:price=UNKNOWN&daily_rci9_position=LOW",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI9 位置：低い",
+  "condition_type": "pair",
+  "count": 3389,
+  "datasetId": "consumer_goods",
+  "id": "P2C-D61040F5DA65",
+  "population_rows": 33330,
+  "retention_pct": 10.168016801680167,
+  "return_10d_pct": 0.6094933544867507,
+  "return_20d_pct": 0.9175670541394402,
+  "return_5d_pct": 0.340472242699814,
+  "slug": "p-d61040f5da650ade",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.55237533195633,
+  "win_20d_pct": 51.82998819362455,
+  "win_5d_pct": 51.22455001475361
+}

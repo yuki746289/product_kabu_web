@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DDB2FBB9C28B",
+  "condition_key": "P:price=TREND_ADVANCING&daily_rci9_position=HIGH",
+  "condition_label": "価格フェーズ：トレンド進行 × 日足RCI9 位置：高い",
+  "condition_type": "pair",
+  "count": 31434,
+  "datasetId": "all_225",
+  "id": "P2C-DDB2FBB9C28B",
+  "population_rows": 181318,
+  "retention_pct": 17.336392415535137,
+  "return_10d_pct": 0.5857995357310462,
+  "return_20d_pct": 1.0966961664309616,
+  "return_5d_pct": 0.3358389200709538,
+  "slug": "p-ddb2fbb9c28b9536",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.95857988165681,
+  "win_20d_pct": 53.50857652038316,
+  "win_5d_pct": 52.79633517846918
+}

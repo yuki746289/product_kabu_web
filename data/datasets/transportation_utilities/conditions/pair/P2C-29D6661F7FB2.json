@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-29D6661F7FB2",
+  "condition_key": "P:weekly_rci14=HIGH|FLAT&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "週足RCI14：高い・横ばい × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 669,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-29D6661F7FB2",
+  "population_rows": 14848,
+  "retention_pct": 4.505657327586207,
+  "return_10d_pct": 0.1490101272539456,
+  "return_20d_pct": -0.2980359969679218,
+  "return_5d_pct": 0.0483135996010242,
+  "slug": "p-29d6661f7fb27e15",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.97159940209267,
+  "win_20d_pct": 46.33781763826608,
+  "win_5d_pct": 52.3168908819133
+}

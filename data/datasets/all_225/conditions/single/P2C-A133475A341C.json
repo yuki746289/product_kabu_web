@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A133475A341C",
+  "condition_key": "S:daily_rci14_state=EXTREME_HIGH|RISING",
+  "condition_label": "日足RCI14 位置×向き：極端に高い・上昇",
+  "condition_type": "single",
+  "count": 2734,
+  "datasetId": "all_225",
+  "id": "P2C-A133475A341C",
+  "population_rows": 181318,
+  "retention_pct": 1.5078480900958535,
+  "return_10d_pct": 0.4033227511026971,
+  "return_20d_pct": 0.9951646994658084,
+  "return_5d_pct": 0.1675747657076339,
+  "slug": "s-a133475a341c72e3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2734,
+  "win_10d_pct": 52.04828090709584,
+  "win_20d_pct": 53.20160995243322,
+  "win_5d_pct": 51.71909290416971
+}

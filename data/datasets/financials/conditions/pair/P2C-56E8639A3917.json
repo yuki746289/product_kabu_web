@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-56E8639A3917",
+  "condition_key": "P:daily_rci9_position=NEUTRAL&daily_rci14_state=HIGH|FALLING",
+  "condition_label": "日足RCI9 位置：中立 × 日足RCI14 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 1554,
+  "datasetId": "financials",
+  "id": "P2C-56E8639A3917",
+  "population_rows": 16307,
+  "retention_pct": 9.529649843625435,
+  "return_10d_pct": 0.5850763667320836,
+  "return_20d_pct": 0.9939645734829136,
+  "return_5d_pct": 0.2087268787399202,
+  "slug": "p-56e8639a391753ad",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1554,
+  "win_10d_pct": 52.76705276705277,
+  "win_20d_pct": 54.95495495495496,
+  "win_5d_pct": 51.86615186615187
+}

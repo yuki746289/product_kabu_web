@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C86430BC696E",
+  "condition_key": "S:price=CORRECTION_ENDING",
+  "condition_label": "価格フェーズ：調整終了",
+  "condition_type": "single",
+  "count": 838,
+  "datasetId": "consumer_goods",
+  "id": "P2C-C86430BC696E",
+  "population_rows": 33330,
+  "retention_pct": 2.5142514251425143,
+  "return_10d_pct": 0.0207184749732296,
+  "return_20d_pct": 0.5491046186159769,
+  "return_5d_pct": -0.0350713700197992,
+  "slug": "s-c86430bc696efcde",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 47.85202863961814,
+  "win_20d_pct": 49.88038277511962,
+  "win_5d_pct": 48.21002386634845
+}

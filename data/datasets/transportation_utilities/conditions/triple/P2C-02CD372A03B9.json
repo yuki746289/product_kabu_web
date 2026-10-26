@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-02CD372A03B9",
+  "condition_key": "T:price=UNKNOWN&daily_rci9_position=LOW&daily_rci14_direction=FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI9 位置：低い × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 1313,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-02CD372A03B9",
+  "population_rows": 14848,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-02cd372a03b96a51",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

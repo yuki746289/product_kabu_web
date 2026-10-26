@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6493E60CA7C4",
+  "condition_key": "P:ema=CONTINUING&daily_rci26_position=NEUTRAL",
+  "condition_label": "EMAモーション：継続 × 日足RCI26 位置：中立",
+  "condition_type": "pair",
+  "count": 4401,
+  "datasetId": "all_225",
+  "id": "P2C-6493E60CA7C4",
+  "population_rows": 181318,
+  "retention_pct": 2.4272273023086512,
+  "return_10d_pct": 0.2720459112595242,
+  "return_20d_pct": 0.7528529378072932,
+  "return_5d_pct": 0.1377735741850597,
+  "slug": "p-6493e60ca7c48dd7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.8972960690752,
+  "win_20d_pct": 52.74175199089874,
+  "win_5d_pct": 52.37446034992047
+}

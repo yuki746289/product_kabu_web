@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-18FE5DDD64BC",
+  "condition_key": "P:daily_rci9_direction=RISING&daily_rci26_position=HIGH",
+  "condition_label": "日足RCI9 向き：上昇 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 3327,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-18FE5DDD64BC",
+  "population_rows": 29044,
+  "retention_pct": 11.455033741908828,
+  "return_10d_pct": 0.3276277519239783,
+  "return_20d_pct": 0.6401847808906815,
+  "return_5d_pct": 0.1237458236775394,
+  "slug": "p-18fe5ddd64bcb5fe",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3327,
+  "win_10d_pct": 51.69822663059813,
+  "win_20d_pct": 53.0827067669173,
+  "win_5d_pct": 50.10519987977157
+}

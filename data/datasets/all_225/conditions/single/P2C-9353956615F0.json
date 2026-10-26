@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9353956615F0",
+  "condition_key": "S:daily_rci9_state=NEUTRAL|RISING",
+  "condition_label": "日足RCI9 位置×向き：中立・上昇",
+  "condition_type": "single",
+  "count": 6366,
+  "datasetId": "all_225",
+  "id": "P2C-9353956615F0",
+  "population_rows": 181318,
+  "retention_pct": 3.510958647238553,
+  "return_10d_pct": 0.3138324543770638,
+  "return_20d_pct": 0.6421816633897147,
+  "return_5d_pct": 0.2075857904385031,
+  "slug": "s-9353956615f03d0d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6366,
+  "win_10d_pct": 51.57084511467169,
+  "win_20d_pct": 52.07416719044626,
+  "win_5d_pct": 51.16242538485706
+}

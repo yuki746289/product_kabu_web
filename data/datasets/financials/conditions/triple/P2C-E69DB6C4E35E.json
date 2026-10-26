@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E69DB6C4E35E",
+  "condition_key": "T:daily_rci9_position=LOW&daily_rci9_direction=RISING&daily_rci9_state=LOW|RISING",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI9 向き：上昇 × 日足RCI9 位置×向き：低い・上昇",
+  "condition_type": "triple",
+  "count": 883,
+  "datasetId": "financials",
+  "id": "P2C-E69DB6C4E35E",
+  "population_rows": 16307,
+  "retention_pct": 5.414852517323849,
+  "return_10d_pct": 0.9376291241466099,
+  "return_20d_pct": 0.24682060166911698,
+  "return_5d_pct": 0.399350420969666,
+  "slug": "t-e69db6c4e35eaab5",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 883,
+  "win_10d_pct": 53.5673839184598,
+  "win_20d_pct": 50.962627406568515,
+  "win_5d_pct": 50.962627406568515
+}

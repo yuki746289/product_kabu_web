@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C3F7E3E4ACC3",
+  "condition_key": "P:ema=STRONG_CONTINUING&weekly_rci14=HIGH|FLAT",
+  "condition_label": "EMAモーション：強い継続 × 週足RCI14：高い・横ばい",
+  "condition_type": "pair",
+  "count": 7996,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-C3F7E3E4ACC3",
+  "population_rows": 137426,
+  "retention_pct": 5.818404086562951,
+  "return_10d_pct": 0.6800118606106426,
+  "return_20d_pct": 0.7664416827235064,
+  "return_5d_pct": 0.3851488544067374,
+  "slug": "p-c3f7e3e4acc32660",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.73936968484242,
+  "win_20d_pct": 51.86389792344258,
+  "win_5d_pct": 53.064032016008
+}

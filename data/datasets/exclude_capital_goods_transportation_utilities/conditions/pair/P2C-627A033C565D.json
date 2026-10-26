@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-627A033C565D",
+  "condition_key": "P:daily_rci14_state=HIGH|FALLING&daily_rci26_direction=RISING",
+  "condition_label": "日足RCI14 位置×向き：高い・下降 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 4957,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-627A033C565D",
+  "population_rows": 137426,
+  "retention_pct": 3.607032148210673,
+  "return_10d_pct": 0.5185576337496836,
+  "return_20d_pct": 1.299255468471943,
+  "return_5d_pct": 0.1966075924388574,
+  "slug": "p-627a033c565de159",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4957,
+  "win_10d_pct": 52.47125277385516,
+  "win_20d_pct": 54.2263465805931,
+  "win_5d_pct": 51.01876134758927
+}

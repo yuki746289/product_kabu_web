@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C683AED4F70B",
+  "condition_key": "P:price=UNKNOWN&daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI14 位置×向き：中立・下降",
+  "condition_type": "pair",
+  "count": 625,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-C683AED4F70B",
+  "population_rows": 14848,
+  "retention_pct": 4.209321120689656,
+  "return_10d_pct": 0.2057313409266421,
+  "return_20d_pct": 0.7527046978411375,
+  "return_5d_pct": 0.3293017250592224,
+  "slug": "p-c683aed4f70bbadb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 46.400000000000006,
+  "win_20d_pct": 49.28,
+  "win_5d_pct": 48.8
+}

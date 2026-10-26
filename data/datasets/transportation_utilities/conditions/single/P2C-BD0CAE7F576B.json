@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BD0CAE7F576B",
+  "condition_key": "S:fan=SPREADING",
+  "condition_label": "EMAファン / スプレッド：拡大",
+  "condition_type": "single",
+  "count": 2964,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-BD0CAE7F576B",
+  "population_rows": 14848,
+  "retention_pct": 19.962284482758623,
+  "return_10d_pct": 0.2229396129809588,
+  "return_20d_pct": 0.3726598561881647,
+  "return_5d_pct": 0.1124019144213214,
+  "slug": "s-bd0cae7f576bf3be",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 48.71794871794872,
+  "win_20d_pct": 48.80188997637529,
+  "win_5d_pct": 48.78542510121457
+}

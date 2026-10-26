@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1FE36434DCAD",
+  "condition_key": "P:weekly_rci26=MID|FLAT&daily_rci14_position=LOW",
+  "condition_label": "週足RCI26：中位・横ばい × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 1125,
+  "datasetId": "technology",
+  "id": "P2C-1FE36434DCAD",
+  "population_rows": 48782,
+  "retention_pct": 2.3061785084662376,
+  "return_10d_pct": 0.261346145587659,
+  "return_20d_pct": 0.7158304790888416,
+  "return_5d_pct": 0.2261611787381589,
+  "slug": "p-1fe36434dcadd73b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.6,
+  "win_20d_pct": 55.56544968833482,
+  "win_5d_pct": 52.0
+}

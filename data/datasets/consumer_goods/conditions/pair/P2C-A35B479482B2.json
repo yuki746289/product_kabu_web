@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A35B479482B2",
+  "condition_key": "P:fan=WIDE_STABLE&ema=STRONG_CONTINUING",
+  "condition_label": "EMAファン / スプレッド：広い安定 × EMAモーション：強い継続",
+  "condition_type": "pair",
+  "count": 3519,
+  "datasetId": "consumer_goods",
+  "id": "P2C-A35B479482B2",
+  "population_rows": 33330,
+  "retention_pct": 10.558055805580558,
+  "return_10d_pct": 0.7141314685112068,
+  "return_20d_pct": 1.2009764456780156,
+  "return_5d_pct": 0.4799023251447247,
+  "slug": "p-a35b479482b2465c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.196930946291566,
+  "win_20d_pct": 53.625248791583736,
+  "win_5d_pct": 53.14009661835749
+}

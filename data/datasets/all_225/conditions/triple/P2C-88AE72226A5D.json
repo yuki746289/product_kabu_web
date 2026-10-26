@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-88AE72226A5D",
+  "condition_key": "T:fan=SPREADING&ema=DECELERATING&causal_regime=UP_TRANSITION",
+  "condition_label": "EMAファン / スプレッド：拡大 × EMAモーション：減速 × 相場状態：上昇移行",
+  "condition_type": "triple",
+  "count": 0,
+  "datasetId": "all_225",
+  "id": "P2C-88AE72226A5D",
+  "population_rows": 181318,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-88ae72226a5d4211",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

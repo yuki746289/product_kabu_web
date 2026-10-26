@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-05EE16294327",
+  "condition_key": "P:daily_rci14_direction=FALLING&daily_rci26_state=HIGH|RISING",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI26 位置×向き：高い・上昇",
+  "condition_type": "pair",
+  "count": 6320,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-05EE16294327",
+  "population_rows": 166470,
+  "retention_pct": 3.796479846218538,
+  "return_10d_pct": 0.4936894679747949,
+  "return_20d_pct": 1.1749688523788218,
+  "return_5d_pct": 0.176667338283704,
+  "slug": "p-05ee1629432755af",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6320,
+  "win_10d_pct": 51.58227848101266,
+  "win_20d_pct": 53.5126582278481,
+  "win_5d_pct": 50.66455696202532
+}

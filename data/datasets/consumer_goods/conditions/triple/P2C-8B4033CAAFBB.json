@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8B4033CAAFBB",
+  "condition_key": "T:fan=SPREADING&daily_rci9_position=LOW&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 位置：低い × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 2021,
+  "datasetId": "consumer_goods",
+  "id": "P2C-8B4033CAAFBB",
+  "population_rows": 33330,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-8b4033caafbbd920",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

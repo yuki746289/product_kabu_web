@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-2FDE77F89FAA",
+  "condition_key": "S:daily_rci14_state=LOW|FALLING",
+  "condition_label": "日足RCI14 位置×向き：低い・下降",
+  "condition_type": "single",
+  "count": 4772,
+  "datasetId": "materials",
+  "id": "P2C-2FDE77F89FAA",
+  "population_rows": 39007,
+  "retention_pct": 12.233701643294792,
+  "return_10d_pct": 0.5140404912431392,
+  "return_20d_pct": 0.9348820326209946,
+  "return_5d_pct": 0.2999401524569211,
+  "slug": "s-2fde77f89faa24f6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4772,
+  "win_10d_pct": 52.32606873428332,
+  "win_20d_pct": 52.59849119865885,
+  "win_5d_pct": 52.053646269907794
+}

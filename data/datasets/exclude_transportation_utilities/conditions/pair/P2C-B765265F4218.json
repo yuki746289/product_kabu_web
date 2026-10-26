@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B765265F4218",
+  "condition_key": "P:daily_rci9_state=HIGH|RISING&daily_rci26_position=HIGH",
+  "condition_label": "日足RCI9 位置×向き：高い・上昇 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 6652,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-B765265F4218",
+  "population_rows": 166470,
+  "retention_pct": 3.9959151799122967,
+  "return_10d_pct": 0.3791588973686878,
+  "return_20d_pct": 0.8849255674002011,
+  "return_5d_pct": 0.2517754453076646,
+  "slug": "p-b765265f42181d3d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 6652,
+  "win_10d_pct": 52.79615153337343,
+  "win_20d_pct": 54.07641395908544,
+  "win_5d_pct": 51.96933253156946
+}

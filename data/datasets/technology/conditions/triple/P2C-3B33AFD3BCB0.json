@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3B33AFD3BCB0",
+  "condition_key": "T:fan=SPREADING&daily_rci9_state=LOW|FALLING&daily_rci14_state=HIGH|FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 位置×向き：低い・下降 × 日足RCI14 位置×向き：高い・下降",
+  "condition_type": "triple",
+  "count": 1291,
+  "datasetId": "technology",
+  "id": "P2C-3B33AFD3BCB0",
+  "population_rows": 48782,
+  "retention_pct": 2.6464679594932554,
+  "return_10d_pct": 1.2169251370843135,
+  "return_20d_pct": 1.7984649388788647,
+  "return_5d_pct": 0.5399069856032143,
+  "slug": "t-3b33afd3bcb083d4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 57.629744384198304,
+  "win_20d_pct": 55.770720371804806,
+  "win_5d_pct": 54.06661502711077
+}

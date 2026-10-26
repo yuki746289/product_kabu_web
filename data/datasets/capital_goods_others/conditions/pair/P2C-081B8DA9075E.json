@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-081B8DA9075E",
+  "condition_key": "P:fan=MILD_SPREAD&ema=DECELERATING",
+  "condition_label": "EMAファン / スプレッド：緩やかな拡大 × EMAモーション：減速",
+  "condition_type": "pair",
+  "count": 1495,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-081B8DA9075E",
+  "population_rows": 29044,
+  "retention_pct": 5.147362622228343,
+  "return_10d_pct": 0.4799299376437881,
+  "return_20d_pct": 0.5873301120728215,
+  "return_5d_pct": -0.0070604196802912,
+  "slug": "p-081b8da9075e28d2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.30769230769232,
+  "win_20d_pct": 53.5475234270415,
+  "win_5d_pct": 49.03010033444816
+}

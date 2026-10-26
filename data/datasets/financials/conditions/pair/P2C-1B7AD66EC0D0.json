@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1B7AD66EC0D0",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&daily_rci9_position=HIGH",
+  "condition_label": "週足RCI9：非常に高い・上向き × 日足RCI9 位置：高い",
+  "condition_type": "pair",
+  "count": 628,
+  "datasetId": "financials",
+  "id": "P2C-1B7AD66EC0D0",
+  "population_rows": 16307,
+  "retention_pct": 3.851106886613111,
+  "return_10d_pct": 0.9543480048785348,
+  "return_20d_pct": 1.644819292587275,
+  "return_5d_pct": 0.6010546562427536,
+  "slug": "p-1b7ad66ec0d0011c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.73248407643312,
+  "win_20d_pct": 56.52866242038217,
+  "win_5d_pct": 53.34394904458599
+}

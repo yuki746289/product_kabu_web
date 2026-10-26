@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4D0CEC0471D6",
+  "condition_key": "T:fan=SPREADING&daily_rci9_state=LOW|FALLING&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 位置×向き：低い・下降 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 7198,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-4D0CEC0471D6",
+  "population_rows": 166470,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-4d0cec0471d6e4b0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

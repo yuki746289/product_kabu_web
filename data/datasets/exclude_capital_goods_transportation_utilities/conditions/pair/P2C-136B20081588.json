@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-136B20081588",
+  "condition_key": "P:daily_rci9_position=LOW&daily_rci14_state=LOW|FALLING",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 9286,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-136B20081588",
+  "population_rows": 137426,
+  "retention_pct": 6.757091089022456,
+  "return_10d_pct": 0.5109994120047577,
+  "return_20d_pct": 0.849357748891518,
+  "return_5d_pct": 0.2602284085292319,
+  "slug": "p-136b200815885bf1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 9286,
+  "win_10d_pct": 52.17531768253284,
+  "win_20d_pct": 52.60663507109005,
+  "win_5d_pct": 51.79840620288606
+}

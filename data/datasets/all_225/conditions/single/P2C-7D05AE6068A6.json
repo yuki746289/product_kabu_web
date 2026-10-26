@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7D05AE6068A6",
+  "condition_key": "S:daily_rci26_state=NEUTRAL|RISING",
+  "condition_label": "日足RCI26 位置×向き：中立・上昇",
+  "condition_type": "single",
+  "count": 4612,
+  "datasetId": "all_225",
+  "id": "P2C-7D05AE6068A6",
+  "population_rows": 181318,
+  "retention_pct": 2.543597436547944,
+  "return_10d_pct": 0.6061831498859385,
+  "return_20d_pct": 1.3732372972651303,
+  "return_5d_pct": 0.3596041605326542,
+  "slug": "s-7d05ae6068a670ca",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4612,
+  "win_10d_pct": 52.79705117085863,
+  "win_20d_pct": 54.5770065075922,
+  "win_5d_pct": 52.55854293148309
+}

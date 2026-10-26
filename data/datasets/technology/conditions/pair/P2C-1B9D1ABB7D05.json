@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1B9D1ABB7D05",
+  "condition_key": "P:fan=SPREADING&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 7059,
+  "datasetId": "technology",
+  "id": "P2C-1B9D1ABB7D05",
+  "population_rows": 48782,
+  "retention_pct": 14.470501414456152,
+  "return_10d_pct": 0.7725469177161579,
+  "return_20d_pct": 1.163360019463125,
+  "return_5d_pct": 0.3748112325789437,
+  "slug": "p-1b9d1abb7d05e7d0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.46366340841479,
+  "win_20d_pct": 53.11038684993623,
+  "win_5d_pct": 52.826179345516366
+}

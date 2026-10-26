@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DCDF241048F7",
+  "condition_key": "S:ema=DECELERATING",
+  "condition_label": "EMAモーション：減速",
+  "condition_type": "single",
+  "count": 14700,
+  "datasetId": "materials",
+  "id": "P2C-DCDF241048F7",
+  "population_rows": 39007,
+  "retention_pct": 37.68554362037583,
+  "return_10d_pct": 0.6773777807154701,
+  "return_20d_pct": 1.4678501470911929,
+  "return_5d_pct": 0.2241960349245952,
+  "slug": "s-dcdf241048f702d6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.87755102040816,
+  "win_20d_pct": 53.84510684633184,
+  "win_5d_pct": 51.102040816326536
+}

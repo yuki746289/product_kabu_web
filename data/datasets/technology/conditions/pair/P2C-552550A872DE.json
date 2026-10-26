@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-552550A872DE",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI9：非常に高い・上向き × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 962,
+  "datasetId": "technology",
+  "id": "P2C-552550A872DE",
+  "population_rows": 48782,
+  "retention_pct": 1.9720388667951287,
+  "return_10d_pct": -0.0657764714611346,
+  "return_20d_pct": -0.2280827568906315,
+  "return_5d_pct": -0.3590290616199263,
+  "slug": "p-552550a872de79f1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.975051975051976,
+  "win_20d_pct": 49.27234927234928,
+  "win_5d_pct": 48.12889812889813
+}

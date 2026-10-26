@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-A2B9F9B61F47",
+  "condition_key": "P:weekly_rci14=MID|FLAT&daily_rci26_position=HIGH",
+  "condition_label": "週足RCI14：中位・横ばい × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 1270,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-A2B9F9B61F47",
+  "population_rows": 29044,
+  "retention_pct": 4.372675939953174,
+  "return_10d_pct": 0.0783968240257281,
+  "return_20d_pct": 0.4580694691908153,
+  "return_5d_pct": -0.1271180654984755,
+  "slug": "p-a2b9f9b61f470b85",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.52755905511811,
+  "win_20d_pct": 52.44094488188976,
+  "win_5d_pct": 48.58267716535433
+}

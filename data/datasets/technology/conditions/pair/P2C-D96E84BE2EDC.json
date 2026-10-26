@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D96E84BE2EDC",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci9_position=LOW",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI9 位置：低い",
+  "condition_type": "pair",
+  "count": 3482,
+  "datasetId": "technology",
+  "id": "P2C-D96E84BE2EDC",
+  "population_rows": 48782,
+  "retention_pct": 7.137878725759501,
+  "return_10d_pct": 0.8052568558197422,
+  "return_20d_pct": 0.8438207706575558,
+  "return_5d_pct": 0.4744302590185197,
+  "slug": "p-d96e84be2edc11b8",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.221711659965536,
+  "win_20d_pct": 52.82964665326055,
+  "win_5d_pct": 54.30786904078116
+}

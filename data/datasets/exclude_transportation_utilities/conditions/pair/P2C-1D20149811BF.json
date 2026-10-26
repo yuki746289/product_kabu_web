@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1D20149811BF",
+  "condition_key": "P:daily_rci9_position=HIGH&daily_rci26_state=EXTREME_HIGH|FLAT",
+  "condition_label": "日足RCI9 位置：高い × 日足RCI26 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 20480,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-1D20149811BF",
+  "population_rows": 166470,
+  "retention_pct": 12.30251697002463,
+  "return_10d_pct": 0.6409903766240544,
+  "return_20d_pct": 1.095804741295455,
+  "return_5d_pct": 0.2970143575928166,
+  "slug": "p-1d20149811bfad07",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 20480,
+  "win_10d_pct": 53.21777343750001,
+  "win_20d_pct": 53.53096307872632,
+  "win_5d_pct": 51.87500000000001
+}

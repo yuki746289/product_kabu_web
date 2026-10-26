@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EF9437135AAF",
+  "condition_key": "P:fan=SPREADING&weekly_rci14=HIGH|FLAT",
+  "condition_label": "EMAファン / スプレッド：拡大 × 週足RCI14：高い・横ばい",
+  "condition_type": "pair",
+  "count": 497,
+  "datasetId": "financials",
+  "id": "P2C-EF9437135AAF",
+  "population_rows": 16307,
+  "retention_pct": 3.0477708959342613,
+  "return_10d_pct": 0.5276109741602452,
+  "return_20d_pct": -0.2541705192584912,
+  "return_5d_pct": 0.1699196777122389,
+  "slug": "p-ef9437135aaf264f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.93561368209256,
+  "win_20d_pct": 49.899396378269614,
+  "win_5d_pct": 51.10663983903421
+}

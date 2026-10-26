@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E31799ECD019",
+  "condition_key": "S:daily_rci9_state=LOW|FLAT",
+  "condition_label": "日足RCI9 位置×向き：低い・横ばい",
+  "condition_type": "single",
+  "count": 734,
+  "datasetId": "financials",
+  "id": "P2C-E31799ECD019",
+  "population_rows": 16307,
+  "retention_pct": 4.5011344821242405,
+  "return_10d_pct": 0.2961155431050261,
+  "return_20d_pct": 0.948863830150676,
+  "return_5d_pct": -0.1782843713954063,
+  "slug": "s-e31799ecd019edf1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 734,
+  "win_10d_pct": 52.86103542234333,
+  "win_20d_pct": 52.17983651226158,
+  "win_5d_pct": 46.45776566757493
+}

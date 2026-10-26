@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3E8E3805F437",
+  "condition_key": "P:daily_rci14_state=LOW|FALLING&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "日足RCI14 位置×向き：低い・下降 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 14095,
+  "datasetId": "all_225",
+  "id": "P2C-3E8E3805F437",
+  "population_rows": 181318,
+  "retention_pct": 7.773635270629501,
+  "return_10d_pct": 0.4352090209238993,
+  "return_20d_pct": 0.8024219912329039,
+  "return_5d_pct": 0.2821204834493207,
+  "slug": "p-3e8e3805f437606a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 14095,
+  "win_10d_pct": 51.44377438808088,
+  "win_20d_pct": 51.99034981905911,
+  "win_5d_pct": 51.79141539553033
+}

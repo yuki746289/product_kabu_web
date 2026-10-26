@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4C1881130B1B",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci26_direction=RISING",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 1801,
+  "datasetId": "consumer_goods",
+  "id": "P2C-4C1881130B1B",
+  "population_rows": 33330,
+  "retention_pct": 5.403540354035403,
+  "return_10d_pct": 0.5780981201131917,
+  "return_20d_pct": 1.2696702270842957,
+  "return_5d_pct": 0.2784626975905805,
+  "slug": "p-4c1881130b1bde72",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.748473070516376,
+  "win_20d_pct": 53.08162132148806,
+  "win_5d_pct": 52.137701277068295
+}

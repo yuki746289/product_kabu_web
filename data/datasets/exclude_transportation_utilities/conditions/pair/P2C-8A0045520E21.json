@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8A0045520E21",
+  "condition_key": "P:price=RESUMING&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "価格フェーズ：再開 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 4049,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-8A0045520E21",
+  "population_rows": 166470,
+  "retention_pct": 2.432270078692857,
+  "return_10d_pct": 0.2581483075703427,
+  "return_20d_pct": 0.4440406656452576,
+  "return_5d_pct": 0.0265625408343124,
+  "slug": "p-8a0045520e2101e9",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.259323289701165,
+  "win_20d_pct": 51.61848282678528,
+  "win_5d_pct": 50.654482588293405
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AC19408C6083",
+  "condition_key": "S:weekly_rci9=HIGH|UP",
+  "condition_label": "週足RCI9：高い・上向き",
+  "condition_type": "single",
+  "count": 13733,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-AC19408C6083",
+  "population_rows": 137426,
+  "retention_pct": 9.993014422307278,
+  "return_10d_pct": 0.5618427618883374,
+  "return_20d_pct": 0.8111411981906758,
+  "return_5d_pct": 0.2608536703389156,
+  "slug": "s-ac19408c60832234",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.37748489040997,
+  "win_20d_pct": 52.30466758901915,
+  "win_5d_pct": 52.06437049442948
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B6E26B532757",
+  "condition_key": "S:daily_rci26_state=LOW|RISING",
+  "condition_label": "日足RCI26 位置×向き：低い・上昇",
+  "condition_type": "single",
+  "count": 425,
+  "datasetId": "consumer_goods",
+  "id": "P2C-B6E26B532757",
+  "population_rows": 33330,
+  "retention_pct": 1.2751275127512751,
+  "return_10d_pct": 0.3349895806806393,
+  "return_20d_pct": 1.1082540001009529,
+  "return_5d_pct": -0.0790078029412886,
+  "slug": "s-b6e26b532757b93c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 425,
+  "win_10d_pct": 52.47058823529412,
+  "win_20d_pct": 53.88235294117647,
+  "win_5d_pct": 46.588235294117645
+}

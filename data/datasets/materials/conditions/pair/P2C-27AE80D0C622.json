@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-27AE80D0C622",
+  "condition_key": "P:daily_rci9_state=HIGH|RISING&daily_rci14_position=HIGH",
+  "condition_label": "日足RCI9 位置×向き：高い・上昇 × 日足RCI14 位置：高い",
+  "condition_type": "pair",
+  "count": 1445,
+  "datasetId": "materials",
+  "id": "P2C-27AE80D0C622",
+  "population_rows": 39007,
+  "retention_pct": 3.704463301458712,
+  "return_10d_pct": 0.8384330060231079,
+  "return_20d_pct": 1.739500881749379,
+  "return_5d_pct": 0.5492325431719155,
+  "slug": "p-27ae80d0c622582d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1445,
+  "win_10d_pct": 54.32525951557093,
+  "win_20d_pct": 56.37119113573407,
+  "win_5d_pct": 55.22491349480969
+}

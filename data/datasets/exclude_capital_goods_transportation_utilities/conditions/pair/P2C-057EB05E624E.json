@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-057EB05E624E",
+  "condition_key": "P:fan=SPREADING&daily_rci14_position=LOW",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 4368,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-057EB05E624E",
+  "population_rows": 137426,
+  "retention_pct": 3.1784378501884656,
+  "return_10d_pct": 0.5100735124333167,
+  "return_20d_pct": 0.7311629479418191,
+  "return_5d_pct": 0.3246334021996567,
+  "slug": "p-057eb05e624e0a8b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.73992673992674,
+  "win_20d_pct": 52.03847915712323,
+  "win_5d_pct": 52.99908424908425
+}

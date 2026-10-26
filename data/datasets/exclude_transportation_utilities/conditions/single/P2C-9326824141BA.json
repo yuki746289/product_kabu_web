@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9326824141BA",
+  "condition_key": "S:daily_rci9_position=EXTREME_LOW",
+  "condition_label": "日足RCI9 位置：極端に低い",
+  "condition_type": "single",
+  "count": 14062,
+  "datasetId": "exclude_transportation_utilities",
+  "id": "P2C-9326824141BA",
+  "population_rows": 166470,
+  "retention_pct": 8.447167657836246,
+  "return_10d_pct": 0.626348201682021,
+  "return_20d_pct": 0.8876387500186246,
+  "return_5d_pct": 0.3160819734954024,
+  "slug": "s-9326824141baee1e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 14062,
+  "win_10d_pct": 52.46764329398379,
+  "win_20d_pct": 52.49982220325724,
+  "win_5d_pct": 52.46053193002418
+}

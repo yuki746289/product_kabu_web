@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-2697E743FC4E",
+  "condition_key": "T:daily_rci14_direction=FALLING&daily_rci14_state=LOW|FALLING&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI14 位置×向き：低い・下降 × 日足RCI26 向き：下降",
+  "condition_type": "triple",
+  "count": 15516,
+  "datasetId": "all_225",
+  "id": "P2C-2697E743FC4E",
+  "population_rows": 181318,
+  "retention_pct": 8.557341245767105,
+  "return_10d_pct": 0.4314149588042726,
+  "return_20d_pct": 0.7952131861459336,
+  "return_5d_pct": 0.2845521932451082,
+  "slug": "t-2697e743fc4e7fac",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 15516,
+  "win_10d_pct": 51.482340809486985,
+  "win_20d_pct": 52.043315714838215,
+  "win_5d_pct": 51.77880897138438
+}

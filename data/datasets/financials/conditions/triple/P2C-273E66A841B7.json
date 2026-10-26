@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-273E66A841B7",
+  "condition_key": "T:daily_rci9_position=EXTREME_LOW&daily_rci9_state=EXTREME_LOW|FALLING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 位置：極端に低い × 日足RCI9 位置×向き：極端に低い・下降 × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 844,
+  "datasetId": "financials",
+  "id": "P2C-273E66A841B7",
+  "population_rows": 16307,
+  "retention_pct": 5.175691420862207,
+  "return_10d_pct": 0.985368924474932,
+  "return_20d_pct": 1.2504689803997158,
+  "return_5d_pct": 0.1870601798644119,
+  "slug": "t-273e66a841b7ed12",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 844,
+  "win_10d_pct": 55.09478672985782,
+  "win_20d_pct": 55.21327014218009,
+  "win_5d_pct": 52.48815165876777
+}

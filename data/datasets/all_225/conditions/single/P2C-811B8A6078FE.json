@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-811B8A6078FE",
+  "condition_key": "S:ema=FLATTENING",
+  "condition_label": "EMAモーション：平坦化",
+  "condition_type": "single",
+  "count": 2415,
+  "datasetId": "all_225",
+  "id": "P2C-811B8A6078FE",
+  "population_rows": 181318,
+  "retention_pct": 1.331914095677208,
+  "return_10d_pct": 0.3415996333351846,
+  "return_20d_pct": 0.7857214757968449,
+  "return_5d_pct": 0.1034027180859881,
+  "slug": "s-811b8a6078fe1735",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.25672877846791,
+  "win_20d_pct": 55.73974305843349,
+  "win_5d_pct": 50.5175983436853
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-552550A872DE",
+  "condition_key": "P:weekly_rci9=VERY_HIGH|UP&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI9：非常に高い・上向き × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 931,
+  "datasetId": "materials",
+  "id": "P2C-552550A872DE",
+  "population_rows": 39007,
+  "retention_pct": 2.386751095957136,
+  "return_10d_pct": 1.1084250106711622,
+  "return_20d_pct": 1.5049362487692275,
+  "return_5d_pct": 0.3982877869250047,
+  "slug": "p-552550a872de79f1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.70569280343717,
+  "win_20d_pct": 53.81310418904404,
+  "win_5d_pct": 49.94629430719657
+}

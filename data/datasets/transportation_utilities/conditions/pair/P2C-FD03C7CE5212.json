@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-FD03C7CE5212",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci9_position=NEUTRAL",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI9 位置：中立",
+  "condition_type": "pair",
+  "count": 806,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-FD03C7CE5212",
+  "population_rows": 14848,
+  "retention_pct": 5.428340517241379,
+  "return_10d_pct": 0.2202567553569621,
+  "return_20d_pct": -0.0652738238633544,
+  "return_5d_pct": 0.0691096213786375,
+  "slug": "p-fd03c7ce521208ea",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.50372208436725,
+  "win_20d_pct": 46.45962732919255,
+  "win_5d_pct": 51.36476426799007
+}

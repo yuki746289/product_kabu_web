@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-11375DDC7445",
+  "condition_key": "T:daily_rci9_direction=FLAT&daily_rci14_direction=FALLING&daily_rci14_state=LOW|FALLING",
+  "condition_label": "日足RCI9 向き：横ばい × 日足RCI14 向き：下降 × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "triple",
+  "count": 1309,
+  "datasetId": "materials",
+  "id": "P2C-11375DDC7445",
+  "population_rows": 39007,
+  "retention_pct": 3.3558079319096574,
+  "return_10d_pct": 0.8547595418233945,
+  "return_20d_pct": 0.5623109981643463,
+  "return_5d_pct": 0.572235497110558,
+  "slug": "t-11375ddc7445c154",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1309,
+  "win_10d_pct": 53.32314744079451,
+  "win_20d_pct": 51.79526355996944,
+  "win_5d_pct": 55.003819709702064
+}

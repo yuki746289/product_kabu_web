@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5271BBC35FA6",
+  "condition_key": "S:daily_rci26_state=EXTREME_HIGH|RISING",
+  "condition_label": "日足RCI26 位置×向き：極端に高い・上昇",
+  "condition_type": "single",
+  "count": 140,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-5271BBC35FA6",
+  "population_rows": 14848,
+  "retention_pct": 0.9428879310344828,
+  "return_10d_pct": -0.1457277895710833,
+  "return_20d_pct": -0.0757695249916875,
+  "return_5d_pct": -0.0485220417577407,
+  "slug": "s-5271bbc35fa64d65",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 140,
+  "win_10d_pct": 49.28571428571429,
+  "win_20d_pct": 46.42857142857143,
+  "win_5d_pct": 45.0
+}

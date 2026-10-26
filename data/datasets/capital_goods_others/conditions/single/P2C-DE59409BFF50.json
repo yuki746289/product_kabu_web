@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DE59409BFF50",
+  "condition_key": "S:daily_rci26_position=LOW",
+  "condition_label": "日足RCI26 位置：低い",
+  "condition_type": "single",
+  "count": 1473,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-DE59409BFF50",
+  "population_rows": 29044,
+  "retention_pct": 5.071615479961438,
+  "return_10d_pct": 0.8142588239782383,
+  "return_20d_pct": 1.813018224276982,
+  "return_5d_pct": 0.2215664390041397,
+  "slug": "s-de59409bff5084e7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1473,
+  "win_10d_pct": 53.428377460964015,
+  "win_20d_pct": 55.66870332654447,
+  "win_5d_pct": 52.8173794976239
+}

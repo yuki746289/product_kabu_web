@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F35A41440DBB",
+  "condition_key": "S:weekly_rci9=LOW|FLAT",
+  "condition_label": "週足RCI9：低い・横ばい",
+  "condition_type": "single",
+  "count": 312,
+  "datasetId": "technology",
+  "id": "P2C-F35A41440DBB",
+  "population_rows": 48782,
+  "retention_pct": 0.6395801730146365,
+  "return_10d_pct": 0.5747057976647084,
+  "return_20d_pct": 1.4727891365542007,
+  "return_5d_pct": 0.1935151265275846,
+  "slug": "s-f35a41440dbb3484",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.28205128205128,
+  "win_20d_pct": 53.52564102564102,
+  "win_5d_pct": 51.92307692307693
+}

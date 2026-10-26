@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D0D410B627BF",
+  "condition_key": "P:daily_rci9_position=HIGH&daily_rci9_direction=RISING",
+  "condition_label": "日足RCI9 位置：高い × 日足RCI9 向き：上昇",
+  "condition_type": "pair",
+  "count": 3517,
+  "datasetId": "technology",
+  "id": "P2C-D0D410B627BF",
+  "population_rows": 48782,
+  "retention_pct": 7.209626501578451,
+  "return_10d_pct": 0.1964950361339427,
+  "return_20d_pct": 0.8905731930038439,
+  "return_5d_pct": 0.082746857608811,
+  "slug": "p-d0d410b627bf9740",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3517,
+  "win_10d_pct": 51.35058288313904,
+  "win_20d_pct": 53.141882286039234,
+  "win_5d_pct": 49.7867500710833
+}

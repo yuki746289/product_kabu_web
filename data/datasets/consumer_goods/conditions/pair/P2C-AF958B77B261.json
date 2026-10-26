@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-AF958B77B261",
+  "condition_key": "P:daily_rci9_direction=FLAT&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 向き：横ばい × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 2601,
+  "datasetId": "consumer_goods",
+  "id": "P2C-AF958B77B261",
+  "population_rows": 33330,
+  "retention_pct": 7.803780378037804,
+  "return_10d_pct": 0.842101978564887,
+  "return_20d_pct": 1.1540800628719197,
+  "return_5d_pct": 0.4182524340911465,
+  "slug": "p-af958b77b261a259",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2601,
+  "win_10d_pct": 54.20991926182238,
+  "win_20d_pct": 53.13341022683583,
+  "win_5d_pct": 53.09496347558631
+}

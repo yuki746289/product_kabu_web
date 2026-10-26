@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7390FC1D1D02",
+  "condition_key": "S:daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI26 向き：下降",
+  "condition_type": "single",
+  "count": 4663,
+  "datasetId": "financials",
+  "id": "P2C-7390FC1D1D02",
+  "population_rows": 16307,
+  "retention_pct": 28.59508186668302,
+  "return_10d_pct": 0.2378695718322132,
+  "return_20d_pct": 0.3924237690537044,
+  "return_5d_pct": 0.305433206342327,
+  "slug": "s-7390fc1d1d026b7c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4663,
+  "win_10d_pct": 52.17671027235685,
+  "win_20d_pct": 52.58417327900493,
+  "win_5d_pct": 52.54128243619988
+}

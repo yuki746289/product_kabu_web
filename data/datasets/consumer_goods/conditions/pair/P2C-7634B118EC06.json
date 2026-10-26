@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7634B118EC06",
+  "condition_key": "P:price=UNKNOWN&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 1911,
+  "datasetId": "consumer_goods",
+  "id": "P2C-7634B118EC06",
+  "population_rows": 33330,
+  "retention_pct": 5.733573357335733,
+  "return_10d_pct": 0.5620349285480036,
+  "return_20d_pct": 0.6802107668989917,
+  "return_5d_pct": 0.3530794531205393,
+  "slug": "p-7634b118ec06f31b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.96807953950812,
+  "win_20d_pct": 49.42408376963351,
+  "win_5d_pct": 51.59602302459445
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-B17D02D3A731",
+  "condition_key": "S:ema=TURNING",
+  "condition_label": "EMAモーション：転換",
+  "condition_type": "single",
+  "count": 666,
+  "datasetId": "financials",
+  "id": "P2C-B17D02D3A731",
+  "population_rows": 16307,
+  "retention_pct": 4.084135647268044,
+  "return_10d_pct": 1.048039240734666,
+  "return_20d_pct": 2.112562780504601,
+  "return_5d_pct": 0.6523341675702203,
+  "slug": "s-b17d02d3a7318e0a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.5015015015015,
+  "win_20d_pct": 53.15315315315316,
+  "win_5d_pct": 51.95195195195195
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-07627FE14ABA",
+  "condition_key": "P:price=UNKNOWN&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "価格フェーズ：未分類 × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "pair",
+  "count": 16684,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-07627FE14ABA",
+  "population_rows": 137426,
+  "retention_pct": 12.14035189847627,
+  "return_10d_pct": 0.6779218770947929,
+  "return_20d_pct": 1.2139502219596288,
+  "return_5d_pct": 0.3382827009196412,
+  "slug": "p-07627fe14aba0074",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.9009829777032,
+  "win_20d_pct": 54.07771647877189,
+  "win_5d_pct": 51.89403020858308
+}

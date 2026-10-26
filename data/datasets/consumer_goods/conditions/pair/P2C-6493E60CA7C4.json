@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-6493E60CA7C4",
+  "condition_key": "P:ema=CONTINUING&daily_rci26_position=NEUTRAL",
+  "condition_label": "EMAモーション：継続 × 日足RCI26 位置：中立",
+  "condition_type": "pair",
+  "count": 800,
+  "datasetId": "consumer_goods",
+  "id": "P2C-6493E60CA7C4",
+  "population_rows": 33330,
+  "retention_pct": 2.4002400240024,
+  "return_10d_pct": 0.4659582032555506,
+  "return_20d_pct": 1.2934139283231532,
+  "return_5d_pct": 0.1868519571565002,
+  "slug": "p-6493e60ca7c48dd7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.125,
+  "win_20d_pct": 53.50877192982456,
+  "win_5d_pct": 51.125
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BAE3BF45D1C8",
+  "condition_key": "S:daily_rci26_state=NEUTRAL|FLAT",
+  "condition_label": "日足RCI26 位置×向き：中立・横ばい",
+  "condition_type": "single",
+  "count": 402,
+  "datasetId": "financials",
+  "id": "P2C-BAE3BF45D1C8",
+  "population_rows": 16307,
+  "retention_pct": 2.465198994296928,
+  "return_10d_pct": -0.3871208552148323,
+  "return_20d_pct": -0.2051617458816068,
+  "return_5d_pct": -0.2641604460282623,
+  "slug": "s-bae3bf45d1c82c72",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 402,
+  "win_10d_pct": 47.2636815920398,
+  "win_20d_pct": 49.37655860349127,
+  "win_5d_pct": 46.766169154228855
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5EE9ED5A3C52",
+  "condition_key": "S:weekly_rci9=VERY_HIGH|FLAT",
+  "condition_label": "週足RCI9：非常に高い・横ばい",
+  "condition_type": "single",
+  "count": 7370,
+  "datasetId": "financials",
+  "id": "P2C-5EE9ED5A3C52",
+  "population_rows": 16307,
+  "retention_pct": 45.19531489544367,
+  "return_10d_pct": 0.3212646062068941,
+  "return_20d_pct": 0.6033333458997151,
+  "return_5d_pct": 0.1611738104243597,
+  "slug": "s-5ee9ed5a3c527ed9",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.98100407055632,
+  "win_20d_pct": 53.52246504683046,
+  "win_5d_pct": 50.04070556309362
+}

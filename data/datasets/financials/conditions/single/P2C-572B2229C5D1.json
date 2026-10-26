@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-572B2229C5D1",
+  "condition_key": "S:daily_rci14_position=LOW",
+  "condition_label": "日足RCI14 位置：低い",
+  "condition_type": "single",
+  "count": 2983,
+  "datasetId": "financials",
+  "id": "P2C-572B2229C5D1",
+  "population_rows": 16307,
+  "retention_pct": 18.29275771141228,
+  "return_10d_pct": 0.4411556991360671,
+  "return_20d_pct": 0.5273199762805493,
+  "return_5d_pct": 0.3327699147547497,
+  "slug": "s-572b2229c5d1dd8a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2983,
+  "win_10d_pct": 52.69862554475361,
+  "win_20d_pct": 53.03385853167951,
+  "win_5d_pct": 52.39691585652027
+}

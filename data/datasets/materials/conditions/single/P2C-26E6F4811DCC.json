@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-26E6F4811DCC",
+  "condition_key": "S:daily_rci26_state=EXTREME_HIGH|FALLING",
+  "condition_label": "日足RCI26 位置×向き：極端に高い・下降",
+  "condition_type": "single",
+  "count": 696,
+  "datasetId": "materials",
+  "id": "P2C-26E6F4811DCC",
+  "population_rows": 39007,
+  "retention_pct": 1.7842951265157538,
+  "return_10d_pct": 0.2729463957761534,
+  "return_20d_pct": 0.5572344227609902,
+  "return_5d_pct": 0.0088264792956682,
+  "slug": "s-26e6f4811dcc170c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 696,
+  "win_10d_pct": 50.57471264367817,
+  "win_20d_pct": 49.2816091954023,
+  "win_5d_pct": 49.42528735632184
+}

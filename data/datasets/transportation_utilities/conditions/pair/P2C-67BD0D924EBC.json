@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-67BD0D924EBC",
+  "condition_key": "P:weekly_rci14=MID|FLAT&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI14：中位・横ばい × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 263,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-67BD0D924EBC",
+  "population_rows": 14848,
+  "retention_pct": 1.7712823275862069,
+  "return_10d_pct": -0.3658757408895262,
+  "return_20d_pct": -0.9447425820724948,
+  "return_5d_pct": -0.0293128715515168,
+  "slug": "p-67bd0d924ebc777a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.80988593155893,
+  "win_20d_pct": 49.42965779467681,
+  "win_5d_pct": 48.28897338403042
+}

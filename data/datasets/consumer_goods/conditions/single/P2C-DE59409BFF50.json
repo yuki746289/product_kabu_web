@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DE59409BFF50",
+  "condition_key": "S:daily_rci26_position=LOW",
+  "condition_label": "日足RCI26 位置：低い",
+  "condition_type": "single",
+  "count": 1575,
+  "datasetId": "consumer_goods",
+  "id": "P2C-DE59409BFF50",
+  "population_rows": 33330,
+  "retention_pct": 4.725472547254726,
+  "return_10d_pct": 0.1497619870206108,
+  "return_20d_pct": 0.959129781366032,
+  "return_5d_pct": -0.1064735147548188,
+  "slug": "s-de59409bff5084e7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1575,
+  "win_10d_pct": 49.333333333333336,
+  "win_20d_pct": 53.142857142857146,
+  "win_5d_pct": 47.11111111111111
+}

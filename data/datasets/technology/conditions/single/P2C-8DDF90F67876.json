@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8DDF90F67876",
+  "condition_key": "S:daily_rci9_state=LOW|FALLING",
+  "condition_label": "日足RCI9 位置×向き：低い・下降",
+  "condition_type": "single",
+  "count": 10751,
+  "datasetId": "technology",
+  "id": "P2C-8DDF90F67876",
+  "population_rows": 48782,
+  "retention_pct": 22.03886679512935,
+  "return_10d_pct": 0.5385508948479226,
+  "return_20d_pct": 0.930156370675014,
+  "return_5d_pct": 0.266209591709318,
+  "slug": "s-8ddf90f67876f337",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 10751,
+  "win_10d_pct": 52.86019905125104,
+  "win_20d_pct": 52.83282165782863,
+  "win_5d_pct": 51.52078876383592
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8DFE0C2E0CF8",
+  "condition_key": "T:fan=SPREADING&ema=DECELERATING&daily_rci14_position=LOW",
+  "condition_label": "EMAファン / スプレッド：拡大 × EMAモーション：減速 × 日足RCI14 位置：低い",
+  "condition_type": "triple",
+  "count": 757,
+  "datasetId": "consumer_goods",
+  "id": "P2C-8DFE0C2E0CF8",
+  "population_rows": 33330,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-8dfe0c2e0cf88faa",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

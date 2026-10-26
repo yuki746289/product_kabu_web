@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-446105BDB463",
+  "condition_key": "P:price=UNKNOWN&daily_rci26_state=EXTREME_HIGH|FLAT",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI26 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 1094,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-446105BDB463",
+  "population_rows": 14848,
+  "retention_pct": 7.367995689655173,
+  "return_10d_pct": -0.3299143736462803,
+  "return_20d_pct": -0.1798206743267941,
+  "return_5d_pct": -0.2254080813419016,
+  "slug": "p-446105bdb4631b48",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 47.07495429616088,
+  "win_20d_pct": 48.67337602927722,
+  "win_5d_pct": 44.51553930530165
+}

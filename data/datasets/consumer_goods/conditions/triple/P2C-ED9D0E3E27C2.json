@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-ED9D0E3E27C2",
+  "condition_key": "T:fan=CONVERGED&daily_rci14_direction=FALLING&daily_rci14_state=LOW|FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI14 向き：下降 × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "triple",
+  "count": 1403,
+  "datasetId": "consumer_goods",
+  "id": "P2C-ED9D0E3E27C2",
+  "population_rows": 33330,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-ed9d0e3e27c259b7",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

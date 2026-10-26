@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BCC57ED678F4",
+  "condition_key": "P:weekly_rci26=MID|FLAT&daily_rci26_state=HIGH|FALLING",
+  "condition_label": "週足RCI26：中位・横ばい × 日足RCI26 位置×向き：高い・下降",
+  "condition_type": "pair",
+  "count": 500,
+  "datasetId": "financials",
+  "id": "P2C-BCC57ED678F4",
+  "population_rows": 16307,
+  "retention_pct": 3.066167903354388,
+  "return_10d_pct": 1.6982334248918631,
+  "return_20d_pct": 1.4501778881185314,
+  "return_5d_pct": 1.2561793716404048,
+  "slug": "p-bcc57ed678f4441b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 63.4,
+  "win_20d_pct": 62.8,
+  "win_5d_pct": 58.4
+}

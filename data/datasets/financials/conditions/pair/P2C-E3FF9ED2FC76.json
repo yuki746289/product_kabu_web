@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E3FF9ED2FC76",
+  "condition_key": "P:price=UNKNOWN&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 1237,
+  "datasetId": "financials",
+  "id": "P2C-E3FF9ED2FC76",
+  "population_rows": 16307,
+  "retention_pct": 7.585699392898755,
+  "return_10d_pct": 0.9944501319354307,
+  "return_20d_pct": 1.1627820917208975,
+  "return_5d_pct": 0.2245630329976483,
+  "slug": "p-e3ff9ed2fc7603d0",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.21422797089733,
+  "win_20d_pct": 55.69927243330639,
+  "win_5d_pct": 53.19320937752627
+}

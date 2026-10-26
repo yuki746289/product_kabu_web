@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BFDA0B78313D",
+  "condition_key": "S:weekly_rci26=VERY_LOW|FLAT",
+  "condition_label": "週足RCI26：非常に低い・横ばい",
+  "condition_type": "single",
+  "count": 235,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-BFDA0B78313D",
+  "population_rows": 14848,
+  "retention_pct": 1.5827047413793105,
+  "return_10d_pct": -0.5305125087195242,
+  "return_20d_pct": 0.4047804055046502,
+  "return_5d_pct": -0.5403139686919382,
+  "slug": "s-bfda0b78313dbf9a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 46.38297872340426,
+  "win_20d_pct": 56.17021276595745,
+  "win_5d_pct": 46.80851063829788
+}

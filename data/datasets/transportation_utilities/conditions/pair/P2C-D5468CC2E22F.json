@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-D5468CC2E22F",
+  "condition_key": "P:daily_rci14_state=NEUTRAL|FALLING&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI14 位置×向き：中立・下降 × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 426,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-D5468CC2E22F",
+  "population_rows": 14848,
+  "retention_pct": 2.869073275862069,
+  "return_10d_pct": -0.2530346798051823,
+  "return_20d_pct": -0.2987797407219176,
+  "return_5d_pct": 0.1717069497669587,
+  "slug": "p-d5468cc2e22f8ce3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 426,
+  "win_10d_pct": 47.652582159624416,
+  "win_20d_pct": 49.29577464788733,
+  "win_5d_pct": 52.816901408450704
+}

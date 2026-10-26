@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-811DE7DBF96A",
+  "condition_key": "S:daily_rci9_state=HIGH|RISING",
+  "condition_label": "日足RCI9 位置×向き：高い・上昇",
+  "condition_type": "single",
+  "count": 2131,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-811DE7DBF96A",
+  "population_rows": 29044,
+  "retention_pct": 7.337143644126154,
+  "return_10d_pct": 0.3089073443325023,
+  "return_20d_pct": 0.7029803817084694,
+  "return_5d_pct": 0.2537928943332874,
+  "slug": "s-811de7dbf96a0080",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2131,
+  "win_10d_pct": 51.759737212576255,
+  "win_20d_pct": 52.67605633802817,
+  "win_5d_pct": 52.74519005161896
+}

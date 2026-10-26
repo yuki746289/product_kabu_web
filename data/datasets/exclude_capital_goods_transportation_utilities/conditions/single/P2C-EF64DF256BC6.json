@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EF64DF256BC6",
+  "condition_key": "S:ema=MIXED",
+  "condition_label": "EMAモーション：混在",
+  "condition_type": "single",
+  "count": 4435,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-EF64DF256BC6",
+  "population_rows": 137426,
+  "retention_pct": 3.22719136116892,
+  "return_10d_pct": 0.2760272058649636,
+  "return_20d_pct": 0.684325982645783,
+  "return_5d_pct": 0.0465110930985933,
+  "slug": "s-ef64df256bc62e74",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.55242390078918,
+  "win_20d_pct": 52.86423094271539,
+  "win_5d_pct": 49.08680947012402
+}

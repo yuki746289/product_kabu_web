@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-60D07A7F6D9F",
+  "condition_key": "P:daily_rci9_state=HIGH|FALLING&daily_rci26_direction=RISING",
+  "condition_label": "日足RCI9 位置×向き：高い・下降 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 1429,
+  "datasetId": "consumer_goods",
+  "id": "P2C-60D07A7F6D9F",
+  "population_rows": 33330,
+  "retention_pct": 4.287428742874287,
+  "return_10d_pct": 0.5866789406328858,
+  "return_20d_pct": 1.0519799475125955,
+  "return_5d_pct": 0.3944525225139131,
+  "slug": "p-60d07a7f6d9f7862",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1429,
+  "win_10d_pct": 53.324002799160255,
+  "win_20d_pct": 51.78446466060181,
+  "win_5d_pct": 52.83414975507348
+}

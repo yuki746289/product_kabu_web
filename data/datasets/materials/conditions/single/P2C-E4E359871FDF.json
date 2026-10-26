@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E4E359871FDF",
+  "condition_key": "S:price=UNKNOWN",
+  "condition_label": "価格フェーズ：未分類",
+  "condition_type": "single",
+  "count": 10201,
+  "datasetId": "materials",
+  "id": "P2C-E4E359871FDF",
+  "population_rows": 39007,
+  "retention_pct": 26.1517163586023,
+  "return_10d_pct": 0.6832553394219623,
+  "return_20d_pct": 1.2198731817914377,
+  "return_5d_pct": 0.3105858845612943,
+  "slug": "s-e4e359871fdf9991",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.21046956180766,
+  "win_20d_pct": 53.35948994605199,
+  "win_5d_pct": 51.73022252720322
+}

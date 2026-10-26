@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EBFB0C8DAE12",
+  "condition_key": "P:fan=CONVERGED&price=UNKNOWN",
+  "condition_label": "EMAファン / スプレッド：収束 × 価格フェーズ：未分類",
+  "condition_type": "pair",
+  "count": 4158,
+  "datasetId": "materials",
+  "id": "P2C-EBFB0C8DAE12",
+  "population_rows": 39007,
+  "retention_pct": 10.659625195477734,
+  "return_10d_pct": 0.6551275921648857,
+  "return_20d_pct": 0.9982429021007684,
+  "return_5d_pct": 0.3473606276098727,
+  "slug": "p-ebfb0c8dae121603",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.06445406445406,
+  "win_20d_pct": 54.01828681424446,
+  "win_5d_pct": 53.03030303030303
+}

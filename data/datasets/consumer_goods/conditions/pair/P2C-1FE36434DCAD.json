@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1FE36434DCAD",
+  "condition_key": "P:weekly_rci26=MID|FLAT&daily_rci14_position=LOW",
+  "condition_label": "週足RCI26：中位・横ばい × 日足RCI14 位置：低い",
+  "condition_type": "pair",
+  "count": 926,
+  "datasetId": "consumer_goods",
+  "id": "P2C-1FE36434DCAD",
+  "population_rows": 33330,
+  "retention_pct": 2.7782778277827784,
+  "return_10d_pct": 0.7487622132064959,
+  "return_20d_pct": 0.8446731799569999,
+  "return_5d_pct": 0.3581622771932293,
+  "slug": "p-1fe36434dcadd73b",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.1036717062635,
+  "win_20d_pct": 53.23974082073434,
+  "win_5d_pct": 53.56371490280778
+}

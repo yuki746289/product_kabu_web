@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9ED4B1FC970B",
+  "condition_key": "T:daily_rci9_state=LOW|FALLING&daily_rci14_direction=FALLING&daily_rci14_state=LOW|FALLING",
+  "condition_label": "日足RCI9 位置×向き：低い・下降 × 日足RCI14 向き：下降 × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "triple",
+  "count": 488,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-9ED4B1FC970B",
+  "population_rows": 14848,
+  "retention_pct": 3.2866379310344827,
+  "return_10d_pct": 0.32480158440831414,
+  "return_20d_pct": 0.8837550050836362,
+  "return_5d_pct": 0.15997703544181735,
+  "slug": "t-9ed4b1fc970bb799",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 488,
+  "win_10d_pct": 51.63934426229508,
+  "win_20d_pct": 50.204918032786885,
+  "win_5d_pct": 48.77049180327869
+}

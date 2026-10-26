@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C85BFE84E693",
+  "condition_key": "P:fan=CONVERGED&weekly_rci26=MID|UP",
+  "condition_label": "EMAファン / スプレッド：収束 × 週足RCI26：中位・上向き",
+  "condition_type": "pair",
+  "count": 1964,
+  "datasetId": "materials",
+  "id": "P2C-C85BFE84E693",
+  "population_rows": 39007,
+  "retention_pct": 5.034993719076064,
+  "return_10d_pct": 0.8695105433547914,
+  "return_20d_pct": 1.6153461985938915,
+  "return_5d_pct": 0.4846965489252107,
+  "slug": "p-c85bfe84e693e61d",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 56.10997963340122,
+  "win_20d_pct": 57.95107033639144,
+  "win_5d_pct": 52.59674134419552
+}

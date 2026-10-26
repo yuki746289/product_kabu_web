@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3A1D07FE243F",
+  "condition_key": "P:weekly_rci14=HIGH|UP&daily_rci14_position=HIGH",
+  "condition_label": "週足RCI14：高い・上向き × 日足RCI14 位置：高い",
+  "condition_type": "pair",
+  "count": 1816,
+  "datasetId": "consumer_goods",
+  "id": "P2C-3A1D07FE243F",
+  "population_rows": 33330,
+  "retention_pct": 5.448544854485449,
+  "return_10d_pct": 0.5632109407170622,
+  "return_20d_pct": 0.9105115323378696,
+  "return_5d_pct": 0.5320934673280264,
+  "slug": "p-3a1d07fe243fe466",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.34140969162996,
+  "win_20d_pct": 55.62293274531422,
+  "win_5d_pct": 54.18502202643172
+}

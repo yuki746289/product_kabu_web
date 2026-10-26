@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EB1BA7DCD4AE",
+  "condition_key": "T:ema=DECELERATING&weekly_rci9=VERY_HIGH|FLAT&weekly_rci14=VERY_HIGH|FLAT",
+  "condition_label": "EMAモーション：減速 × 週足RCI9：非常に高い・横ばい × 週足RCI14：非常に高い・横ばい",
+  "condition_type": "triple",
+  "count": 8069,
+  "datasetId": "technology",
+  "id": "P2C-EB1BA7DCD4AE",
+  "population_rows": 48782,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-eb1ba7dcd4ae60a9",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

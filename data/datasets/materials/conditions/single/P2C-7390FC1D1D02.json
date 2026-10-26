@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-7390FC1D1D02",
+  "condition_key": "S:daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI26 向き：下降",
+  "condition_type": "single",
+  "count": 11707,
+  "datasetId": "materials",
+  "id": "P2C-7390FC1D1D02",
+  "population_rows": 39007,
+  "retention_pct": 30.01256184787346,
+  "return_10d_pct": 0.6307768467724466,
+  "return_20d_pct": 1.1879443773407354,
+  "return_5d_pct": 0.2665700597176944,
+  "slug": "s-7390fc1d1d026b7c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 11707,
+  "win_10d_pct": 52.42162808576065,
+  "win_20d_pct": 53.32820644279245,
+  "win_5d_pct": 52.575382249935934
+}

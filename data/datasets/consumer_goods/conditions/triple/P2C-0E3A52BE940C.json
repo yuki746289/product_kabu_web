@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0E3A52BE940C",
+  "condition_key": "T:fan=CONVERGED&weekly_rci26=MID|FLAT&daily_rci14_direction=FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 週足RCI26：中位・横ばい × 日足RCI14 向き：下降",
+  "condition_type": "triple",
+  "count": 1474,
+  "datasetId": "consumer_goods",
+  "id": "P2C-0E3A52BE940C",
+  "population_rows": 33330,
+  "retention_pct": 4.422442244224422,
+  "return_10d_pct": 0.8580031258453507,
+  "return_20d_pct": 0.9933554286088436,
+  "return_5d_pct": 0.3842604963023165,
+  "slug": "t-0e3a52be940c9b04",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 56.44504748982361,
+  "win_20d_pct": 54.613297150610585,
+  "win_5d_pct": 54.54545454545454
+}

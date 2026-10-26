@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-0060DBCC46A8",
+  "condition_key": "P:price=TREND_ADVANCING&weekly_rci9=HIGH|UP",
+  "condition_label": "価格フェーズ：トレンド進行 × 週足RCI9：高い・上向き",
+  "condition_type": "pair",
+  "count": 1050,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-0060DBCC46A8",
+  "population_rows": 29044,
+  "retention_pct": 3.6152045172841207,
+  "return_10d_pct": 0.1489484488166252,
+  "return_20d_pct": -0.3122064310833261,
+  "return_5d_pct": 0.1411625968493068,
+  "slug": "p-0060dbcc46a8011f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.142857142857146,
+  "win_20d_pct": 45.90476190476191,
+  "win_5d_pct": 51.71428571428572
+}

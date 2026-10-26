@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-32A32005CEB8",
+  "condition_key": "T:daily_rci14_direction=FALLING&daily_rci26_direction=RISING&daily_rci26_state=HIGH|RISING",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI26 向き：上昇 × 日足RCI26 位置×向き：高い・上昇",
+  "condition_type": "triple",
+  "count": 1351,
+  "datasetId": "materials",
+  "id": "P2C-32A32005CEB8",
+  "population_rows": 39007,
+  "retention_pct": 3.46348091368216,
+  "return_10d_pct": 0.7932213149586609,
+  "return_20d_pct": 1.7453917713332592,
+  "return_5d_pct": 0.4980697381687226,
+  "slug": "t-32a32005ceb8cc89",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1351,
+  "win_10d_pct": 53.36787564766839,
+  "win_20d_pct": 55.21835677276091,
+  "win_5d_pct": 54.108068097705406
+}

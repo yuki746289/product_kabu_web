@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5008766D75FB",
+  "condition_key": "P:price=UNKNOWN&daily_rci26_direction=FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 10803,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-5008766D75FB",
+  "population_rows": 137426,
+  "retention_pct": 7.860957897341114,
+  "return_10d_pct": 0.546039698761728,
+  "return_20d_pct": 0.8488151270970382,
+  "return_5d_pct": 0.307904269629152,
+  "slug": "p-5008766d75fb4e14",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.27251689345552,
+  "win_20d_pct": 52.02852908484624,
+  "win_5d_pct": 51.837452559474215
+}

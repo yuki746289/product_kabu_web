@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5D39C651A006",
+  "condition_key": "P:daily_rci14_position=NEUTRAL&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 位置：中立 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 4463,
+  "datasetId": "technology",
+  "id": "P2C-5D39C651A006",
+  "population_rows": 48782,
+  "retention_pct": 9.14886638514206,
+  "return_10d_pct": 0.4133349781413985,
+  "return_20d_pct": 0.7248562641082993,
+  "return_5d_pct": 0.1794039230964008,
+  "slug": "p-5d39c651a006cea4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 4463,
+  "win_10d_pct": 51.42280976921353,
+  "win_20d_pct": 51.82612592426619,
+  "win_5d_pct": 50.36970647546494
+}

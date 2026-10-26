@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-8832EAA9D8EC",
+  "condition_key": "P:daily_rci14_position=LOW&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI14 位置：低い × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 5965,
+  "datasetId": "technology",
+  "id": "P2C-8832EAA9D8EC",
+  "population_rows": 48782,
+  "retention_pct": 12.227870936000985,
+  "return_10d_pct": 0.345272598702228,
+  "return_20d_pct": 0.6557404067566487,
+  "return_5d_pct": 0.1993674345608874,
+  "slug": "p-8832eaa9d8ecfe15",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 5965,
+  "win_10d_pct": 51.651299245599326,
+  "win_20d_pct": 52.09661187520966,
+  "win_5d_pct": 52.003352891869234
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DCA56FF23F4D",
+  "condition_key": "S:daily_rci9_state=LOW|RISING",
+  "condition_label": "日足RCI9 位置×向き：低い・上昇",
+  "condition_type": "single",
+  "count": 7014,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-DCA56FF23F4D",
+  "population_rows": 137426,
+  "retention_pct": 5.103837701744939,
+  "return_10d_pct": 0.502907832992743,
+  "return_20d_pct": 0.7705550527959532,
+  "return_5d_pct": 0.1308584739224983,
+  "slug": "s-dca56ff23f4d3993",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 7014,
+  "win_10d_pct": 52.02452238380382,
+  "win_20d_pct": 52.35990303721659,
+  "win_5d_pct": 50.32791559737667
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5F513B767C87",
+  "condition_key": "P:price=TREND_ADVANCING&weekly_rci9=HIGH|FLAT",
+  "condition_label": "価格フェーズ：トレンド進行 × 週足RCI9：高い・横ばい",
+  "condition_type": "pair",
+  "count": 1462,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-5F513B767C87",
+  "population_rows": 29044,
+  "retention_pct": 5.033741908827985,
+  "return_10d_pct": 0.958431579897158,
+  "return_20d_pct": 1.680550942651327,
+  "return_5d_pct": 0.4399701659140723,
+  "slug": "p-5f513b767c8759b3",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.92476060191519,
+  "win_20d_pct": 53.76196990424077,
+  "win_5d_pct": 53.21477428180575
+}

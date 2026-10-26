@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DD2890D2AB4B",
+  "condition_key": "P:daily_rci9_position=HIGH&daily_rci26_position=EXTREME_HIGH",
+  "condition_label": "日足RCI9 位置：高い × 日足RCI26 位置：極端に高い",
+  "condition_type": "pair",
+  "count": 17788,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-DD2890D2AB4B",
+  "population_rows": 137426,
+  "retention_pct": 12.943693333139288,
+  "return_10d_pct": 0.7371972180833513,
+  "return_20d_pct": 1.261448795824716,
+  "return_5d_pct": 0.3308292283027851,
+  "slug": "p-dd2890d2ab4b0d43",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 17788,
+  "win_10d_pct": 53.72723184169102,
+  "win_20d_pct": 54.02609086819613,
+  "win_5d_pct": 52.14189341128851
+}

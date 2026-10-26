@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-30C4B96141E8",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci14_state=HIGH|FLAT",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI14 位置×向き：高い・横ばい",
+  "condition_type": "pair",
+  "count": 559,
+  "datasetId": "transportation_utilities",
+  "id": "P2C-30C4B96141E8",
+  "population_rows": 14848,
+  "retention_pct": 3.7648168103448274,
+  "return_10d_pct": 0.5193719305000573,
+  "return_20d_pct": 0.7146233077066102,
+  "return_5d_pct": 0.2515578349440855,
+  "slug": "p-30c4b96141e85e32",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 49.73166368515206,
+  "win_20d_pct": 46.51162790697674,
+  "win_5d_pct": 50.268336314847936
+}

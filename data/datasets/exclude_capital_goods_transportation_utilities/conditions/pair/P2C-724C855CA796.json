@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-724C855CA796",
+  "condition_key": "P:daily_rci14_direction=FALLING&daily_rci26_direction=RISING",
+  "condition_label": "日足RCI14 向き：下降 × 日足RCI26 向き：上昇",
+  "condition_type": "pair",
+  "count": 7279,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-724C855CA796",
+  "population_rows": 137426,
+  "retention_pct": 5.296668752637784,
+  "return_10d_pct": 0.5602044927213655,
+  "return_20d_pct": 1.2295431315848766,
+  "return_5d_pct": 0.2319761082422172,
+  "slug": "p-724c855ca7969055",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 7279,
+  "win_10d_pct": 52.507212529193566,
+  "win_20d_pct": 53.59252644594038,
+  "win_5d_pct": 51.49058936667125
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-190752970FE0",
+  "condition_key": "P:fan=CONVERGED&daily_rci14_state=LOW|FALLING",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 8620,
+  "datasetId": "all_225",
+  "id": "P2C-190752970FE0",
+  "population_rows": 181318,
+  "retention_pct": 4.754078469870613,
+  "return_10d_pct": 0.4263511163340174,
+  "return_20d_pct": 0.6263217285543844,
+  "return_5d_pct": 0.2341046757433014,
+  "slug": "p-190752970fe00e13",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.3109048723898,
+  "win_20d_pct": 51.51409676296554,
+  "win_5d_pct": 49.96519721577727
+}

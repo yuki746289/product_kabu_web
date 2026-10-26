@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3F37859C2013",
+  "condition_key": "S:weekly_rci14=LOW|FLAT",
+  "condition_label": "週足RCI14：低い・横ばい",
+  "condition_type": "single",
+  "count": 320,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-3F37859C2013",
+  "population_rows": 29044,
+  "retention_pct": 1.101776614791351,
+  "return_10d_pct": 0.2157115907500303,
+  "return_20d_pct": -0.2840099049808623,
+  "return_5d_pct": -0.507152830030668,
+  "slug": "s-3f37859c201382b2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 47.1875,
+  "win_20d_pct": 41.875,
+  "win_5d_pct": 42.5
+}

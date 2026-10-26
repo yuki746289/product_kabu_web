@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E7B1A02CF6E1",
+  "condition_key": "P:daily_rci14_position=LOW&daily_rci26_position=HIGH",
+  "condition_label": "日足RCI14 位置：低い × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 2610,
+  "datasetId": "financials",
+  "id": "P2C-E7B1A02CF6E1",
+  "population_rows": 16307,
+  "retention_pct": 16.005396455509903,
+  "return_10d_pct": 0.512484367030244,
+  "return_20d_pct": 0.5833581239660879,
+  "return_5d_pct": 0.4019600852453679,
+  "slug": "p-e7b1a02cf6e1d688",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2610,
+  "win_10d_pct": 52.87356321839081,
+  "win_20d_pct": 53.06513409961686,
+  "win_5d_pct": 52.95019157088122
+}

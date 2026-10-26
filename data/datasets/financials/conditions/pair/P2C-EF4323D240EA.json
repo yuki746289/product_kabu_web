@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-EF4323D240EA",
+  "condition_key": "P:weekly_rci14=VERY_HIGH|FLAT&daily_rci14_state=NEUTRAL|FALLING",
+  "condition_label": "週足RCI14：非常に高い・横ばい × 日足RCI14 位置×向き：中立・下降",
+  "condition_type": "pair",
+  "count": 1061,
+  "datasetId": "financials",
+  "id": "P2C-EF4323D240EA",
+  "population_rows": 16307,
+  "retention_pct": 6.50640829091801,
+  "return_10d_pct": 0.4963515316201743,
+  "return_20d_pct": 0.4040416447959772,
+  "return_5d_pct": 0.1726984174022574,
+  "slug": "p-ef4323d240ea792c",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 55.23091423185674,
+  "win_20d_pct": 52.785646836638335,
+  "win_5d_pct": 50.51837888784166
+}

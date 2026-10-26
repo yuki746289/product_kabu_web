@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1C87D11365DD",
+  "condition_key": "S:daily_rci14_state=NEUTRAL|FLAT",
+  "condition_label": "日足RCI14 位置×向き：中立・横ばい",
+  "condition_type": "single",
+  "count": 668,
+  "datasetId": "consumer_goods",
+  "id": "P2C-1C87D11365DD",
+  "population_rows": 33330,
+  "retention_pct": 2.004200420042004,
+  "return_10d_pct": 0.1500030933166241,
+  "return_20d_pct": 1.0564525177837976,
+  "return_5d_pct": 0.1781718738604847,
+  "slug": "s-1c87d11365ddcc9f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 668,
+  "win_10d_pct": 49.25149700598803,
+  "win_20d_pct": 52.54491017964072,
+  "win_5d_pct": 49.550898203592816
+}

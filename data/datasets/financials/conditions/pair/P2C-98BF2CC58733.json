@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-98BF2CC58733",
+  "condition_key": "P:daily_rci9_state=LOW|FALLING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 位置×向き：低い・下降 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 3110,
+  "datasetId": "financials",
+  "id": "P2C-98BF2CC58733",
+  "population_rows": 16307,
+  "retention_pct": 19.07156435886429,
+  "return_10d_pct": 0.4330354158523324,
+  "return_20d_pct": 0.7996701727272673,
+  "return_5d_pct": 0.1146339101454275,
+  "slug": "p-98bf2cc58733ae2e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 3110,
+  "win_10d_pct": 53.21543408360129,
+  "win_20d_pct": 52.47588424437299,
+  "win_5d_pct": 50.64308681672026
+}

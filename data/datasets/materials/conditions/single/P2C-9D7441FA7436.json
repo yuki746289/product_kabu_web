@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9D7441FA7436",
+  "condition_key": "S:daily_rci9_state=EXTREME_HIGH|FLAT",
+  "condition_label": "日足RCI9 位置×向き：極端に高い・横ばい",
+  "condition_type": "single",
+  "count": 978,
+  "datasetId": "materials",
+  "id": "P2C-9D7441FA7436",
+  "population_rows": 39007,
+  "retention_pct": 2.5072422898454123,
+  "return_10d_pct": 0.5948285024622965,
+  "return_20d_pct": 1.378846078395395,
+  "return_5d_pct": 0.3516465180774245,
+  "slug": "s-9d7441fa7436eb97",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 978,
+  "win_10d_pct": 54.70347648261759,
+  "win_20d_pct": 55.72597137014314,
+  "win_5d_pct": 53.578732106339466
+}

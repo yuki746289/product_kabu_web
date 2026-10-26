@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1C87D11365DD",
+  "condition_key": "S:daily_rci14_state=NEUTRAL|FLAT",
+  "condition_label": "日足RCI14 位置×向き：中立・横ばい",
+  "condition_type": "single",
+  "count": 763,
+  "datasetId": "materials",
+  "id": "P2C-1C87D11365DD",
+  "population_rows": 39007,
+  "retention_pct": 1.9560591688671265,
+  "return_10d_pct": 0.7311501322402805,
+  "return_20d_pct": 1.524722508536055,
+  "return_5d_pct": 0.1642993776784634,
+  "slug": "s-1c87d11365ddcc9f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 763,
+  "win_10d_pct": 54.6526867627785,
+  "win_20d_pct": 55.38057742782152,
+  "win_5d_pct": 52.6867627785059
+}

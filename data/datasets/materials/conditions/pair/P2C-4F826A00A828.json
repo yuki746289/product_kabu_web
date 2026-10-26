@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-4F826A00A828",
+  "condition_key": "P:daily_rci9_direction=RISING&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI9 向き：上昇 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 1959,
+  "datasetId": "materials",
+  "id": "P2C-4F826A00A828",
+  "population_rows": 39007,
+  "retention_pct": 5.02217550696029,
+  "return_10d_pct": 0.4205392596871936,
+  "return_20d_pct": 1.208790355442548,
+  "return_5d_pct": 0.2026765871397977,
+  "slug": "p-4f826a00a82881b4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1959,
+  "win_10d_pct": 51.76110260336907,
+  "win_20d_pct": 55.31697341513292,
+  "win_5d_pct": 52.526799387442566
+}

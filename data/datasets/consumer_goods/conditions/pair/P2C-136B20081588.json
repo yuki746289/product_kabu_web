@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-136B20081588",
+  "condition_key": "P:daily_rci9_position=LOW&daily_rci14_state=LOW|FALLING",
+  "condition_label": "日足RCI9 位置：低い × 日足RCI14 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 2262,
+  "datasetId": "consumer_goods",
+  "id": "P2C-136B20081588",
+  "population_rows": 33330,
+  "retention_pct": 6.786678667866787,
+  "return_10d_pct": 0.6639536814632189,
+  "return_20d_pct": 1.0308405269087773,
+  "return_5d_pct": 0.300044799202485,
+  "slug": "p-136b200815885bf1",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 2262,
+  "win_10d_pct": 52.60831122900088,
+  "win_20d_pct": 52.74093722369585,
+  "win_5d_pct": 52.03359858532273
+}

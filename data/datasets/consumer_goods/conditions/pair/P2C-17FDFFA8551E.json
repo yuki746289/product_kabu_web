@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-17FDFFA8551E",
+  "condition_key": "P:weekly_rci14=VERY_HIGH|FLAT&daily_rci14_direction=FALLING",
+  "condition_label": "週足RCI14：非常に高い・横ばい × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 9403,
+  "datasetId": "consumer_goods",
+  "id": "P2C-17FDFFA8551E",
+  "population_rows": 33330,
+  "retention_pct": 28.21182118211821,
+  "return_10d_pct": 0.5613809593779465,
+  "return_20d_pct": 1.1275228255617522,
+  "return_5d_pct": 0.3655793594929712,
+  "slug": "p-17fdffa8551e94f4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.16420291396363,
+  "win_20d_pct": 52.08510638297872,
+  "win_5d_pct": 52.089758587684784
+}

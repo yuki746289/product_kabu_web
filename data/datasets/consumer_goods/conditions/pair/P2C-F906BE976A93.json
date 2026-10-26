@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-F906BE976A93",
+  "condition_key": "P:daily_rci14_state=HIGH|FLAT&daily_rci26_state=EXTREME_HIGH|FLAT",
+  "condition_label": "日足RCI14 位置×向き：高い・横ばい × 日足RCI26 位置×向き：極端に高い・横ばい",
+  "condition_type": "pair",
+  "count": 1266,
+  "datasetId": "consumer_goods",
+  "id": "P2C-F906BE976A93",
+  "population_rows": 33330,
+  "retention_pct": 3.7983798379838,
+  "return_10d_pct": 0.657011336446536,
+  "return_20d_pct": 1.1632430461668224,
+  "return_5d_pct": 0.3177361103120809,
+  "slug": "p-f906be976a9324e2",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1266,
+  "win_10d_pct": 53.94944707740916,
+  "win_20d_pct": 53.63349131121643,
+  "win_5d_pct": 54.34439178515008
+}

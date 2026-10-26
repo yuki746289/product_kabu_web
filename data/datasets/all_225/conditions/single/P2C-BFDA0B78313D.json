@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-BFDA0B78313D",
+  "condition_key": "S:weekly_rci26=VERY_LOW|FLAT",
+  "condition_label": "週足RCI26：非常に低い・横ばい",
+  "condition_type": "single",
+  "count": 2696,
+  "datasetId": "all_225",
+  "id": "P2C-BFDA0B78313D",
+  "population_rows": 181318,
+  "retention_pct": 1.4868904355883037,
+  "return_10d_pct": 0.1668736102318696,
+  "return_20d_pct": 0.2673497787106289,
+  "return_5d_pct": 0.2062924080872669,
+  "slug": "s-bfda0b78313dbf9a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 48.85014836795252,
+  "win_20d_pct": 48.70178041543027,
+  "win_5d_pct": 50.11127596439169
+}

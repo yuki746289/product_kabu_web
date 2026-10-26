@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-5D39C651A006",
+  "condition_key": "P:daily_rci14_position=NEUTRAL&daily_rci26_direction=FALLING",
+  "condition_label": "日足RCI14 位置：中立 × 日足RCI26 向き：下降",
+  "condition_type": "pair",
+  "count": 12407,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-5D39C651A006",
+  "population_rows": 137426,
+  "retention_pct": 9.028131503500065,
+  "return_10d_pct": 0.4997452996333046,
+  "return_20d_pct": 0.855495540921298,
+  "return_5d_pct": 0.211829582768114,
+  "slug": "p-5d39c651a006cea4",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 12407,
+  "win_10d_pct": 52.02708148625776,
+  "win_20d_pct": 52.136407610448245,
+  "win_5d_pct": 51.26138470218425
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-DCDF241048F7",
+  "condition_key": "S:ema=DECELERATING",
+  "condition_label": "EMAモーション：減速",
+  "condition_type": "single",
+  "count": 11040,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-DCDF241048F7",
+  "population_rows": 29044,
+  "retention_pct": 38.01129321030161,
+  "return_10d_pct": 0.3698462809653847,
+  "return_20d_pct": 0.8914495268981786,
+  "return_5d_pct": -0.1004715374523297,
+  "slug": "s-dcdf241048f702d6",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 50.85144927536231,
+  "win_20d_pct": 53.24334118499728,
+  "win_5d_pct": 48.77717391304348
+}

@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-67BD0D924EBC",
+  "condition_key": "P:weekly_rci14=MID|FLAT&weekly_rci26=MID|FLAT",
+  "condition_label": "週足RCI14：中位・横ばい × 週足RCI26：中位・横ばい",
+  "condition_type": "pair",
+  "count": 296,
+  "datasetId": "financials",
+  "id": "P2C-67BD0D924EBC",
+  "population_rows": 16307,
+  "retention_pct": 1.8151713987857976,
+  "return_10d_pct": 2.306323403624662,
+  "return_20d_pct": 3.2147259067333755,
+  "return_5d_pct": 1.0144831162412622,
+  "slug": "p-67bd0d924ebc777a",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 64.86486486486487,
+  "win_20d_pct": 69.25675675675676,
+  "win_5d_pct": 57.770270270270274
+}

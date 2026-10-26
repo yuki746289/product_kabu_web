@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-ADAB7E3475E9",
+  "condition_key": "P:daily_rci9_state=LOW|RISING&daily_rci14_direction=FALLING",
+  "condition_label": "日足RCI9 位置×向き：低い・上昇 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 1869,
+  "datasetId": "technology",
+  "id": "P2C-ADAB7E3475E9",
+  "population_rows": 48782,
+  "retention_pct": 3.8313312287319095,
+  "return_10d_pct": 0.6318822494780888,
+  "return_20d_pct": 1.1214064998766606,
+  "return_5d_pct": 0.0563061086682778,
+  "slug": "p-adab7e3475e9fa33",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": 1869,
+  "win_10d_pct": 51.15034777956127,
+  "win_20d_pct": 54.25361155698234,
+  "win_5d_pct": 50.13376136971642
+}

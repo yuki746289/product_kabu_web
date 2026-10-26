@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-3D18B9742D85",
+  "condition_key": "S:price=IN_CORRECTION",
+  "condition_label": "価格フェーズ：調整中",
+  "condition_type": "single",
+  "count": 1882,
+  "datasetId": "technology",
+  "id": "P2C-3D18B9742D85",
+  "population_rows": 48782,
+  "retention_pct": 3.8579804026075193,
+  "return_10d_pct": 0.4390094979460205,
+  "return_20d_pct": 1.5452002549313275,
+  "return_5d_pct": -0.0130503432458654,
+  "slug": "s-3d18b9742d8571ad",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 54.19766206163656,
+  "win_20d_pct": 54.56960680127524,
+  "win_5d_pct": 50.371944739638685
+}

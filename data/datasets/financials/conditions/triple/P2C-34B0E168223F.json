@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-34B0E168223F",
+  "condition_key": "T:ema=DECELERATING&daily_rci14_state=HIGH|FALLING&causal_regime=UP_TRANSITION",
+  "condition_label": "EMAモーション：減速 × 日足RCI14 位置×向き：高い・下降 × 相場状態：上昇移行",
+  "condition_type": "triple",
+  "count": 0,
+  "datasetId": "financials",
+  "id": "P2C-34B0E168223F",
+  "population_rows": 16307,
+  "retention_pct": null,
+  "return_10d_pct": null,
+  "return_20d_pct": null,
+  "return_5d_pct": null,
+  "slug": "t-34b0e168223fdcdc",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": null,
+  "win_20d_pct": null,
+  "win_5d_pct": null
+}

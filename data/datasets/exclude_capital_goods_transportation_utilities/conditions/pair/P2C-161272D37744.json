@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-161272D37744",
+  "condition_key": "P:ema=DECELERATING&price=UNKNOWN",
+  "condition_label": "EMAモーション：減速 × 価格フェーズ：未分類",
+  "condition_type": "pair",
+  "count": 12498,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-161272D37744",
+  "population_rows": 137426,
+  "retention_pct": 9.094348958712326,
+  "return_10d_pct": 0.7174402832987328,
+  "return_20d_pct": 1.1856393711392417,
+  "return_5d_pct": 0.315397582952349,
+  "slug": "p-161272d3774456bb",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.168506961113785,
+  "win_20d_pct": 53.46732863549008,
+  "win_5d_pct": 51.440230436869896
+}

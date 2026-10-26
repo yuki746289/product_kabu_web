@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-1E744EFA9D80",
+  "condition_key": "P:fan=WIDE_STABLE&daily_rci9_position=HIGH",
+  "condition_label": "EMAファン / スプレッド：広い安定 × 日足RCI9 位置：高い",
+  "condition_type": "pair",
+  "count": 2431,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-1E744EFA9D80",
+  "population_rows": 29044,
+  "retention_pct": 8.370059220493046,
+  "return_10d_pct": 0.522193558436943,
+  "return_20d_pct": 1.64432768208193,
+  "return_5d_pct": 0.4959494669127062,
+  "slug": "p-1e744efa9d800b06",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.6248457424928,
+  "win_20d_pct": 55.390946502057616,
+  "win_5d_pct": 52.44755244755245
+}

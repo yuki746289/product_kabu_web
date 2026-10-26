@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-9A254C462EF8",
+  "condition_key": "P:ema=STRONG_CONTINUING&daily_rci14_position=NEUTRAL",
+  "condition_label": "EMAモーション：強い継続 × 日足RCI14 位置：中立",
+  "condition_type": "pair",
+  "count": 7500,
+  "datasetId": "all_225",
+  "id": "P2C-9A254C462EF8",
+  "population_rows": 181318,
+  "retention_pct": 4.1363791791217634,
+  "return_10d_pct": 0.5920673437888232,
+  "return_20d_pct": 0.8904942021436119,
+  "return_5d_pct": 0.4060332480708514,
+  "slug": "p-9a254c462ef8e5e9",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 53.02666666666666,
+  "win_20d_pct": 52.6343870881686,
+  "win_5d_pct": 52.78666666666667
+}

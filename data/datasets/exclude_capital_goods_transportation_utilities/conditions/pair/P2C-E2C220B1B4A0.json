@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-E2C220B1B4A0",
+  "condition_key": "P:fan=CONVERGED&daily_rci26_position=HIGH",
+  "condition_label": "EMAファン / スプレッド：収束 × 日足RCI26 位置：高い",
+  "condition_type": "pair",
+  "count": 29747,
+  "datasetId": "exclude_capital_goods_transportation_utilities",
+  "id": "P2C-E2C220B1B4A0",
+  "population_rows": 137426,
+  "retention_pct": 21.645831210979,
+  "return_10d_pct": 0.5577724932576802,
+  "return_20d_pct": 0.8876550422750327,
+  "return_5d_pct": 0.2867249111960812,
+  "slug": "p-e2c220b1b4a070bf",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.19349850405083,
+  "win_20d_pct": 52.67670993341852,
+  "win_5d_pct": 51.47073654486166
+}

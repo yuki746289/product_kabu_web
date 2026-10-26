@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-114D1713D54F",
+  "condition_key": "P:fan=SPREADING&daily_rci9_state=LOW|FALLING",
+  "condition_label": "EMAファン / スプレッド：拡大 × 日足RCI9 位置×向き：低い・下降",
+  "condition_type": "pair",
+  "count": 1409,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-114D1713D54F",
+  "population_rows": 29044,
+  "retention_pct": 4.851260157003168,
+  "return_10d_pct": 0.6246655527215518,
+  "return_20d_pct": 0.3404439180257272,
+  "return_5d_pct": -0.0177236065366251,
+  "slug": "p-114d1713d54ff89e",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 51.525904897090136,
+  "win_20d_pct": 51.38396025550035,
+  "win_5d_pct": 50.53229240596168
+}

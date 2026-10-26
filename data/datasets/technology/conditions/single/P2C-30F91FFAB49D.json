@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-30F91FFAB49D",
+  "condition_key": "S:weekly_rci14=LOW|UP",
+  "condition_label": "週足RCI14：低い・上向き",
+  "condition_type": "single",
+  "count": 159,
+  "datasetId": "technology",
+  "id": "P2C-30F91FFAB49D",
+  "population_rows": 48782,
+  "retention_pct": 0.3259398958632282,
+  "return_10d_pct": -0.9146284450382782,
+  "return_20d_pct": -2.105652045215016,
+  "return_5d_pct": -0.9279082978108834,
+  "slug": "s-30f91ffab49db293",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 37.735849056603776,
+  "win_20d_pct": 37.735849056603776,
+  "win_5d_pct": 38.36477987421384
+}

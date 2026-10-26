@@ -1,0 +1,20 @@
+{
+  "condition_id": "P2C-C71E06263145",
+  "condition_key": "P:price=UNKNOWN&daily_rci14_direction=FALLING",
+  "condition_label": "価格フェーズ：未分類 × 日足RCI14 向き：下降",
+  "condition_type": "pair",
+  "count": 4670,
+  "datasetId": "capital_goods_others",
+  "id": "P2C-C71E06263145",
+  "population_rows": 29044,
+  "retention_pct": 16.07905247211128,
+  "return_10d_pct": 0.6309494820754309,
+  "return_20d_pct": 1.0143499044098416,
+  "return_5d_pct": 0.209084004815367,
+  "slug": "p-c71e062631452f7f",
+  "stability_label": "CANONICAL_CONDITION",
+  "verified_count": null,
+  "win_10d_pct": 52.86937901498929,
+  "win_20d_pct": 54.08010280573998,
+  "win_5d_pct": 51.3490364025696
+}
