@@ -1,5 +1,624 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P2 日経平均 基準分析結果 2008 - 2026</title><style>
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>P2 主要225株 基準分析結果 2008 - 2026</title><style>
 :root{--bg:#f4f6f8;--card:#fff;--text:#1f2937;--muted:#667085;--line:#d9dee7;--accent:#2457a6;--good:#166534;--warn:#92400e;--bad:#991b1b}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.6}
 a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1460px;margin:0 auto;padding:28px}.hero{background:linear-gradient(135deg,#16243d,#274c7f);color:#fff;border-radius:18px;padding:28px 32px;margin-bottom:22px}.hero h1{margin:0 0 8px;font-size:30px}.hero p{margin:4px 0;color:#dbe7f6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px;box-shadow:0 1px 2px rgba(16,24,40,.04)}.metric{font-size:28px;font-weight:700}.label{font-size:13px;color:var(--muted)}.good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}h2{margin:34px 0 12px;font-size:22px}h3{margin:22px 0 10px;font-size:17px}.note{background:#eef4ff;border-left:4px solid var(--accent);padding:13px 16px;border-radius:8px}.conclusion{background:#f8fafc;border:1px solid #cbd5e1;border-radius:12px;padding:18px}.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.btn{display:inline-block;padding:8px 12px;border:1px solid #b7c3d4;background:#fff;border-radius:8px;font-weight:600}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fff}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid #e5e7eb;padding:6px 7px;text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#eef2f7;color:#344054;z-index:1;cursor:pointer}.table-group-row th{background:#dbe4f0;text-align:center;font-size:12px;font-weight:800}.table-detail-row th{background:#eef2f7;text-align:center;font-size:12px}.table-single-row th{background:#eef2f7;font-size:12px;font-weight:700}.group-start{border-left:3px solid #64748b!important}td:first-child,th:first-child{text-align:left}tr:nth-child(even) td{background:#fafbfc}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:14px 0}.toolbar input,.toolbar select{padding:8px 10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff}.pager{display:flex;gap:8px;align-items:center;margin-top:12px}.muted{color:var(--muted);font-size:13px}.tag{display:inline-block;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;background:#e8eef8;color:#234}.tag-pass{background:#dcfce7;color:#166534}.tag-medium{background:#fef3c7;color:#92400e}.tag-low{background:#fee2e2;color:#991b1b}.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.small-table table{font-size:12px}.footer{margin:36px 0;color:var(--muted);font-size:12px}
-</style></head><body><div class="wrap"><div class="hero"><h1>P2 日経平均 基準分析結果 2008 - 2026</h1><p>対象: 日経平均 P2 Long / 固定母集団 890件 / 2008 - 2026 / 132か月</p><p>相場状態で母集団を分割せず、分析対象期間のP2 Long 890件を1つの母集団として集計。</p><p>Production変更: なし / 完全性: PASS</p></div><div class="card" style="margin:16px 0"><strong>分析結果を切り替える</strong><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px"><select id="reportSwitch" style="min-width:300px;padding:9px 10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff"><option value="analysis/225_indicator_stageb/report_all_period.html">主要225株（全期間）</option><option value="analysis/225_exclusion_all_period/exclude_transportation_utilities/report_all_period.html">主要225株（全期間） -> 運輸・公益除外</option><option value="analysis/225_exclusion_all_period/exclude_capital_goods_transportation_utilities/report_all_period.html">主要225株（全期間） -> 資本財・その他＋運輸・公益除外</option><option value="analysis/225_group_all_period/technology/report_all_period.html">主要225株（全期間） -> 技術</option><option value="analysis/225_group_all_period/financials/report_all_period.html">主要225株（全期間） -> 金融</option><option value="analysis/225_group_all_period/consumer_goods/report_all_period.html">主要225株（全期間） -> 消費</option><option value="analysis/225_group_all_period/materials/report_all_period.html">主要225株（全期間） -> 素材</option><option value="analysis/225_group_all_period/capital_goods_others/report_all_period.html">主要225株（全期間） -> 資本財・その他</option><option value="analysis/225_group_all_period/transportation_utilities/report_all_period.html">主要225株（全期間） -> 運輸・公益</option><option value="analysis/225_indicator_stageb/report.html">主要225株（指標別 Stage B）</option><option value="report_all_period.html" selected>日経平均（全期間）</option><option value="report.html">日経平均（Stage B）</option><option value="analysis/225_group_all_period/comparison.html">考察：6分類比較</option><option value="analysis/225_exclusion_all_period/comparison.html">考察：225株 除外条件比較</option></select><button class="btn" type="button" onclick="location.href=document.getElementById('reportSwitch').value">表示</button><a class="btn" href="index.html">トップへ</a></div></div><h2>概要</h2><div class="grid"><div class="card"><div class="label">基準シグナル</div><div class="metric">890</div></div><div class="card"><div class="label">5日正解率</div><div class="metric">56.74%</div><div class="muted">平均リターン +0.255%</div></div><div class="card"><div class="label">10日正解率</div><div class="metric">57.64%</div><div class="muted">平均リターン +0.512%</div></div><div class="card"><div class="label">20日正解率</div><div class="metric">57.82%</div><div class="muted">平均リターン +0.735%</div></div></div><h2>結論</h2><div class="conclusion"><p>全期間版では相場状態による母集団分割を行わず、件数だけでなく、全890件に対する割合、月稼働率、0件月を含む全月平均・中央値を併記します。稼働月平均は集中度を見る補助指標として扱います。条件名をクリックすると月別エントリ本数・勝率グラフを別タブで開き、[詳細] から条件詳細へ進めます。</p></div><h2>主要な単独優位性候補</h2><div class="note">「稼働月平均」だけを見ると、少数月に集中した条件が多く見えるため、全体比率・月稼働率・全月平均/中央値とセットで確認してください。</div><div class="table-wrap"><table><thead><tr class="table-group-row"><th rowspan="2">条件</th><th colspan="6" class="group-start">件数・頻度</th><th rowspan="2" class="group-start">稼働月 / 全月</th><th colspan="3" class="group-start">正解率</th></tr><tr class="table-detail-row"><th class="group-start">件数</th><th>全体比</th><th>稼働率</th><th>月平均</th><th>月中央値</th><th>稼働月平均</th><th class="group-start">5D</th><th>10D</th><th>20D</th></tr></thead><tbody><tr><td><a href="graph.html?dataset=common&condition=s-31dc789882a769e9" target="_blank" rel="noopener">日足RCI26 向き：上昇</a> <a class="muted" href="index.html">[詳細]</a></td><td class="group-start">100</td><td>11.24</td><td>20</td><td>0.45</td><td>0</td><td>2.27</td><td class="group-start">44 / 220</td><td class="group-start">62</td><td>71</td><td>70.71</td></tr><tr><td><a href="graph.html?dataset=common&condition=s-572b2229c5d1dd8a" target="_blank" rel="noopener">日足RCI14 位置：低い</a> <a class="muted" href="index.html">[詳細]</a></td><td class="group-start">157</td><td>17.64</td><td>30.91</td><td>0.71</td><td>0</td><td>2.31</td><td class="group-start">68 / 220</td><td class="group-start">65.61</td><td>59.24</td><td>63.06</td></tr><tr><td><a href="graph.html?dataset=common&condition=s-78e253daadb493e2" target="_blank" rel="noopener">週足RCI26：高い・上向き</a> <a class="muted" href="index.html">[詳細]</a></td><td class="group-start">36</td><td>4.04</td><td>4.55</td><td>0.16</td><td>0</td><td>3.60</td><td class="group-start">10 / 220</td><td class="group-start">55.56</td><td>77.78</td><td>77.78</td></tr><tr><td><a href="graph.html?dataset=common&condition=s-dca56ff23f4d3993" target="_blank" rel="noopener">日足RCI9 位置×向き：低い・上昇</a> <a class="muted" href="index.html">[詳細]</a></td><td class="group-start">41</td><td>4.61</td><td>13.18</td><td>0.19</td><td>0</td><td>1.41</td><td class="group-start">29 / 220</td><td class="group-start">73.17</td><td>68.29</td><td>65.85</td></tr><tr><td><a href="graph.html?dataset=common&condition=s-9326824141baee1e" target="_blank" rel="noopener">日足RCI9 位置：極端に低い</a> <a class="muted" href="index.html">[詳細]</a></td><td class="group-start">62</td><td>6.97</td><td>16.82</td><td>0.28</td><td>0</td><td>1.68</td><td class="group-start">37 / 220</td><td class="group-start">72.58</td><td>72.58</td><td>51.61</td></tr></tbody></table></div><h2>注目条件分析</h2><div class="grid"><div class="card"><h3>エントリー数・正解率 注目条件</h3><p>件数・全体比率・月稼働率・5/10/20日正解率を横断して候補を比較します。</p><a class="btn" href="ranking.html">注目条件を確認 →</a></div></div><h2>OR条件分析</h2><div class="grid"><div class="card"><h3>OR組み合わせ検証</h3><p>代表単独候補をORで組み合わせ、件数拡大と正解率の希薄化/維持を比較します。</p><a class="btn" href="or-condition.html?type=or_combinations">OR条件を確認 →</a></div></div><h2>分析ナビゲーション</h2><div class="grid"><div class="card"><h3>単独指標</h3><a class="btn" href="index.html">単独指標一覧 →</a></div><div class="card"><h3>2因子組み合わせ</h3><p>2,902行を直接開かず、指標組み合わせ単位から絞り込みます。</p><a class="btn" href="index.html">2因子一覧 →</a></div><div class="card"><h3>3因子組み合わせ</h3><a class="btn" href="index.html">3因子一覧 →</a></div><div class="card"><h3>条件別結果</h3><a class="btn" href="conditions.html">条件別結果一覧 →</a></div></div><h2>月次・安定性</h2><div class="grid"><div class="card"><h3>月別（YYYY-MM）基準成績</h3><a class="btn" href="analysis.html">月別詳細 →</a></div><div class="card"><h3>候補の月次安定性</h3><a class="btn" href="index.html">月次安定性詳細 →</a></div><div class="card"><h3>詳細ナビゲーション</h3><a class="btn" href="index.html">詳細一覧 →</a></div></div><div class="footer">概要 → 指標/組み合わせ → 条件詳細 → 月別等の明細、の順で確認する構成です。</div></div><script>document.documentElement.dataset.p2Page="dataset";</script><script src="_runtime/p2_page_runtime.js" defer></script></body></html>
+</style><style id="p2-accuracy-highlight-style">
+.p2-acc-60{font-weight:700!important;color:#8a4b00!important;background:#fff2cc!important}
+.p2-acc-70{font-weight:800!important;color:#0b5d1e!important;background:#dff4e4!important}
+.p2-accuracy-legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 16px;padding:10px 12px;border:1px solid #d9dee7;border-radius:9px;background:#fff;font-size:13px}
+.p2-accuracy-legend strong{margin-right:2px}
+.p2-accuracy-legend .p2-acc-60,.p2-accuracy-legend .p2-acc-70{display:inline-block;padding:3px 8px;border-radius:6px}
+.p2-condition-col{width:280px!important;min-width:280px!important;max-width:280px!important}
+.p2-condition-inner{display:block;width:280px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-condition-inner a{display:block;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-scroll-20{overflow:auto!important}
+.p2-sticky-fav,.p2-sticky-id,.p2-sticky-condition{position:sticky!important;background:#fff!important}
+thead .p2-sticky-fav,thead .p2-sticky-id,thead .p2-sticky-condition{background:#eef2f7!important;z-index:40!important}
+.p2-sticky-fav{left:0!important;width:44px!important;min-width:44px!important;max-width:44px!important;text-align:center!important;z-index:22!important}
+.p2-sticky-id{left:44px!important;width:155px!important;min-width:155px!important;max-width:155px!important;z-index:21!important}
+.p2-sticky-condition{left:199px!important;z-index:20!important;box-shadow:2px 0 0 #cbd5e1}
+.p2-favorite-btn{border:0;background:transparent;padding:2px 5px;font-size:20px;line-height:1;cursor:pointer;color:#98a2b3}
+.p2-favorite-btn.is-favorite{color:#b7791f}
+.p2-favorite-btn:disabled{cursor:not-allowed;color:#d0d5dd}
+.p2-favorites-panel{margin:14px 0 18px}
+.p2-favorites-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.p2-favorites-list{min-width:0}
+.p2-favorites-table-wrap{margin-top:8px}
+.p2-favorites-table{margin:0}
+.p2-favorites-table tbody tr:last-child td{border-bottom:0}
+.p2-favorite-empty{color:#667085;font-size:13px;padding:6px 0}
+.p2-fav-io-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.p2-fav-io-status{font-size:13px;color:#667085}
+.p2-asset-group{background:#dbe4f0!important;text-align:center!important;font-weight:800!important}
+.focus-table tbody tr:nth-child(5n) td{border-bottom:3px solid #94a3b8!important}
+.p2-growth-500{font-weight:700!important;color:#174a7c!important;background:#e7f1ff!important}
+.p2-growth-1000{font-weight:800!important;color:#5b2a86!important;background:#efe4ff!important}
+@media(max-width:760px){
+  .p2-sticky-id{width:135px!important;min-width:135px!important;max-width:135px!important}
+  .p2-sticky-condition{left:179px!important}
+  .p2-condition-col,.p2-condition-inner{width:240px!important;min-width:240px!important;max-width:240px!important}
+  .p2-condition-inner a{max-width:240px}
+}
+</style>
+</head><body><div class="wrap"><div class="hero"><h1>P2 主要225株 基準分析結果 2008 - 2026</h1><p>対象: 主要225株 P2 Long / 固定母集団 181,318件 / 2008 - 2026 / 224か月</p><p>相場状態で母集団を分割せず、分析対象期間のP2 Long 181,318件を1つの母集団として集計。</p><p>Production変更: なし / 完全性: PASS</p></div><div class="card" style="margin:16px 0"><strong>分析結果を切り替える</strong><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px"><select id="reportSwitch" style="min-width:280px;padding:9px 10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff"><option value="../../report_all_period.html">日経平均（全期間）</option><option value="../../report.html">日経平均（Stage B）</option><option value="report_all_period.html" selected>主要225株（全期間）</option><option value="report.html">主要225株（指標別 Stage B）</option></select><button class="btn" type="button" onclick="location.href=document.getElementById('reportSwitch').value">表示</button><a class="btn" href="index.html">トップへ</a></div></div><h2>概要</h2><div class="grid"><div class="card"><div class="label">基準シグナル</div><div class="metric">181,318</div></div><div class="card"><div class="label">5日正解率</div><div class="metric">51.43%</div><div class="muted">平均リターン +0.230%</div></div><div class="card"><div class="label">10日正解率</div><div class="metric">52.23%</div><div class="muted">平均リターン +0.500%</div></div><div class="card"><div class="label">20日正解率</div><div class="metric">52.93%</div><div class="muted">平均リターン +0.949%</div></div></div><h2>結論</h2><div class="conclusion"><p>全期間版では相場状態による母集団分割を行わず、件数だけでなく、全181,318件に対する割合、月稼働率、0件月を含む全月平均・中央値を併記します。稼働月平均は集中度を見る補助指標として扱います。条件名をクリックすると月別エントリ本数・勝率グラフを別タブで開き、[詳細] から条件詳細へ進めます。</p></div><h2>主要な単独優位性候補</h2><div class="note">「稼働月平均」だけを見ると、少数月に集中した条件が多く見えるため、全体比率・月稼働率・全月平均/中央値とセットで確認してください。</div><div class="table-wrap"><table><thead><tr class="table-group-row"><th rowspan="2">条件</th><th colspan="6" class="group-start">件数・頻度</th><th rowspan="2" class="group-start">稼働月 / 全月</th><th colspan="3" class="group-start">正解率</th></tr><tr class="table-detail-row"><th class="group-start">件数</th><th>全体比</th><th>稼働率</th><th>月平均</th><th>月中央値</th><th>稼働月平均</th><th class="group-start">5D</th><th>10D</th><th>20D</th></tr></thead><tbody data-p2-slot="tbody-001" data-p2-slot-type="nodes"><tr><td><a href="graph.html?dataset=02_nikkei_225_all&subject_type=condition&subject=s-31dc789882a769e9" target="_blank" rel="noopener">日足RCI26 向き：上昇</a> <a class="muted" href="condition.html?dataset=02_nikkei_225_all&condition_type=single&condition=s-31dc789882a769e9">[詳細]</a></td><td class="group-start">23,895</td><td>13.18</td><td>100</td><td>106.67</td><td>100.50</td><td>106.67</td><td class="group-start">224 / 224</td><td class="group-start">52.13</td><td>52.97</td><td>54.12</td></tr><tr><td><a href="graph.html?dataset=02_nikkei_225_all&subject_type=condition&subject=s-572b2229c5d1dd8a" target="_blank" rel="noopener">日足RCI14 位置：低い</a> <a class="muted" href="condition.html?dataset=02_nikkei_225_all&condition_type=single&condition=s-572b2229c5d1dd8a">[詳細]</a></td><td class="group-start">32,137</td><td>17.72</td><td>99.55</td><td>143.47</td><td>132</td><td>144.11</td><td class="group-start">223 / 224</td><td class="group-start">50.87</td><td>51.34</td><td>52.12</td></tr><tr><td><a href="graph.html?dataset=02_nikkei_225_all&subject_type=condition&subject=s-78e253daadb493e2" target="_blank" rel="noopener">週足RCI26：高い・上向き</a> <a class="muted" href="condition.html?dataset=02_nikkei_225_all&condition_type=single&condition=s-78e253daadb493e2">[詳細]</a></td><td class="group-start">7,439</td><td>4.10</td><td>89.29</td><td>33.21</td><td>18.50</td><td>37.20</td><td class="group-start">200 / 224</td><td class="group-start">53.02</td><td>52.04</td><td>53.05</td></tr><tr><td><a href="graph.html?dataset=02_nikkei_225_all&subject_type=condition&subject=s-dca56ff23f4d3993" target="_blank" rel="noopener">日足RCI9 位置×向き：低い・上昇</a> <a class="muted" href="condition.html?dataset=02_nikkei_225_all&condition_type=single&condition=s-dca56ff23f4d3993">[詳細]</a></td><td class="group-start">9,153</td><td>5.05</td><td>99.11</td><td>40.86</td><td>36</td><td>41.23</td><td class="group-start">222 / 224</td><td class="group-start">49.84</td><td>51.64</td><td>52.16</td></tr><tr><td><a href="graph.html?dataset=02_nikkei_225_all&subject_type=condition&subject=s-9326824141baee1e" target="_blank" rel="noopener">日足RCI9 位置：極端に低い</a> <a class="muted" href="condition.html?dataset=02_nikkei_225_all&condition_type=single&condition=s-9326824141baee1e">[詳細]</a></td><td class="group-start">15,299</td><td>8.44</td><td>99.55</td><td>68.30</td><td>60</td><td>68.61</td><td class="group-start">223 / 224</td><td class="group-start">52.22</td><td>52.22</td><td>52.26</td></tr></tbody></table></div><h2>注目条件分析</h2><div class="grid"><div class="card"><h3>エントリー数・正解率 注目条件</h3><p>件数・全体比率・月稼働率・5/10/20日正解率を横断して候補を比較します。</p><a class="btn" href="ranking.html?dataset=02_nikkei_225_all">注目条件を確認 →</a></div></div><h2>OR条件分析</h2><div class="grid"><div class="card"><h3>OR組み合わせ検証</h3><p>代表単独候補をORで組み合わせ、件数拡大と正解率の希薄化/維持を比較します。</p><a class="btn" href="conditions.html?dataset=02_nikkei_225_all">OR条件を確認 →</a></div></div><h2>分析ナビゲーション</h2><div class="grid"><div class="card"><h3>単独指標</h3><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">単独指標一覧 →</a></div><div class="card"><h3>2因子組み合わせ</h3><p>正本条件を直接開かず、指標組み合わせ単位から絞り込みます。</p><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">2因子一覧 →</a></div><div class="card"><h3>3因子組み合わせ</h3><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">3因子一覧 →</a></div><div class="card"><h3>条件別結果</h3><a class="btn" href="conditions.html?dataset=02_nikkei_225_all">条件別結果一覧 →</a></div></div><h2>月次・安定性</h2><div class="grid"><div class="card"><h3>月別（YYYY-MM）基準成績</h3><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">月別詳細 →</a></div><div class="card"><h3>候補の月次安定性</h3><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">月次安定性詳細 →</a></div><div class="card"><h3>詳細ナビゲーション</h3><a class="btn" href="analysis.html?dataset=02_nikkei_225_all">詳細一覧 →</a></div></div><div class="footer">概要 → 指標/組み合わせ → 条件詳細 → 月別等の明細、の順で確認する構成です。</div></div><script id="p2-accuracy-highlight-script">
+(function(){
+  "use strict";
+  const FAVORITES_KEY="product_kabu_favorites_v1";
+  const HORIZONS=[5,10,20];
+
+  function norm(v){
+    return String(v == null ? "" : v).replace(/\s+/g,"").replace(/％/g,"%").trim();
+  }
+
+  function buildHeaderGrid(table){
+    const rows=table.tHead?Array.from(table.tHead.rows):[];
+    if(!rows.length)return [];
+    const grid=[];
+    rows.forEach((row,y)=>{
+      grid[y]=grid[y]||[];
+      let x=0;
+      Array.from(row.cells).forEach(cell=>{
+        while(grid[y][x]!==undefined)x++;
+        const rs=Math.max(1,Number(cell.rowSpan||1));
+        const cs=Math.max(1,Number(cell.colSpan||1));
+        const text=norm(cell.textContent);
+        for(let dy=0;dy<rs;dy++){
+          grid[y+dy]=grid[y+dy]||[];
+          for(let dx=0;dx<cs;dx++)grid[y+dy][x+dx]=text;
+        }
+        x+=cs;
+      });
+    });
+    const width=Math.max(...grid.map(r=>r.length),0),cols=[];
+    for(let x=0;x<width;x++){
+      const seen=[];
+      for(let y=0;y<grid.length;y++){
+        const t=grid[y][x];
+        if(t&&!seen.includes(t))seen.push(t);
+      }
+      cols.push(seen.join(" / "));
+    }
+    return cols;
+  }
+
+  function isConditionHeader(text){
+    const t=norm(text);
+    return t==="条件"||t==="OR条件"||t==="条件名";
+  }
+
+  function compactConditionCell(cell){
+    if(!cell)return;
+    cell.classList.add("p2-condition-col");
+    const full=String(cell.textContent||"").trim();
+    if(full&&!cell.getAttribute("title"))cell.setAttribute("title",full);
+    if(cell.tagName==="TH")return;
+    const first=cell.firstElementChild;
+    if(first&&first.classList&&first.classList.contains("p2-condition-inner"))return;
+    const inner=document.createElement("div");
+    inner.className="p2-condition-inner";
+    while(cell.firstChild)inner.appendChild(cell.firstChild);
+    cell.appendChild(inner);
+  }
+
+  function compactConditionColumns(table){
+    const headers=buildHeaderGrid(table);
+    if(!headers.length)return false;
+    const cols=headers.map((h,i)=>isConditionHeader(h)?i:-1).filter(i=>i>=0);
+    if(!cols.length)return false;
+    Array.from(table.querySelectorAll("thead th")).forEach(th=>{
+      if(isConditionHeader(th.textContent))compactConditionCell(th);
+    });
+    Array.from(table.tBodies||[]).forEach(body=>{
+      Array.from(body.rows).forEach(row=>cols.forEach(i=>compactConditionCell(row.cells[i])));
+    });
+    return true;
+  }
+
+  const assetMetricCache=new Map();
+
+  function assetMetricsFromData(data,horizon){
+    if(!Array.isArray(data)||!data.length)return null;
+    const half=Math.floor(data.length/2);
+    function curve(baseIndex,endIndex){
+      let asset=100,peak=100,maxDd=0;
+      const end=endIndex==null?data.length:endIndex;
+      for(let i=baseIndex+1;i<end;i++){
+        const raw=data[i]?data[i]["r"+horizon]:null;
+        const ret=(raw===null||raw===undefined||raw==="")?null:Number(raw);
+        if(ret===null||!Number.isFinite(ret))continue;
+        asset*=1+ret/100;
+        peak=Math.max(peak,asset);
+        if(peak>0)maxDd=Math.min(maxDd,(asset/peak-1)*100);
+      }
+      return {growth:asset-100,maxDd};
+    }
+    const full=curve(0,null),front=curve(0,half),back=curve(half,null);
+    return {growth:full.growth,front:front.growth,back:back.growth,maxDd:full.maxDd};
+  }
+
+  function metricText(v){
+    if(v===null||v===undefined||!Number.isFinite(v))return "-";
+    return (v>=0?"+":"")+v.toFixed(1)+"%";
+  }
+
+  function loadAssetMetrics(href){
+    const url=new URL(href,window.location.href).href;
+    if(assetMetricCache.has(url))return assetMetricCache.get(url);
+    const p=fetch(url)
+      .then(r=>{if(!r.ok)throw new Error("chart fetch failed "+r.status);return r.text()})
+      .then(t=>{
+        const m=t.match(/const\s+DATA\s*=\s*(\[[\s\S]*?\]);\s*const\s+entryStyle/);
+        if(!m)throw new Error("chart DATA not found");
+        const data=JSON.parse(m[1]),out={};
+        HORIZONS.forEach(h=>out[h]=assetMetricsFromData(data,h));
+        return out;
+      })
+      .catch(()=>null);
+    assetMetricCache.set(url,p);
+    return p;
+  }
+
+  function hasTwelveAssetMetrics(headers){
+    return HORIZONS.every(h=>
+      ["増加率","前半","後半","最大DD"].every(m=>
+        headers.some(x=>norm(x)===norm(h+"D / "+m))
+      )
+    );
+  }
+
+  function enhanceAssetMetricTable(table){
+    if(table.dataset.p2AssetMetrics==="1")return false;
+    if(!table.classList.contains("focus-table"))return false;
+    const headers=buildHeaderGrid(table);
+    const conditionIndex=headers.findIndex(isConditionHeader);
+    const growthIndex=headers.findIndex(h=>norm(h)==="増加率");
+    if(conditionIndex<0)return false;
+    if(hasTwelveAssetMetrics(headers)){
+      table.dataset.p2AssetMetrics="1";
+      return false;
+    }
+    if(growthIndex<0)return false;
+
+    const headRows=table.tHead?Array.from(table.tHead.rows):[];
+    if(headRows.length<2)return false;
+    const first=headRows[0],second=headRows[1];
+    const metricNames=new Set(["増加率","1/2増加率","前半","後半","最大DD"]);
+    Array.from(first.cells).forEach(th=>{
+      if(metricNames.has(norm(th.textContent)))th.remove();
+    });
+    HORIZONS.forEach(h=>{
+      const th=document.createElement("th");
+      th.colSpan=4;
+      th.className="group-start p2-asset-group";
+      th.textContent=h+"D";
+      first.appendChild(th);
+      ["増加率","前半","後半","最大DD"].forEach((label,j)=>{
+        const d=document.createElement("th");
+        d.textContent=label;
+        if(j===0)d.classList.add("group-start");
+        second.appendChild(d);
+      });
+    });
+
+    Array.from(table.tBodies||[]).forEach(body=>{
+      Array.from(body.rows).forEach(row=>{
+        const conditionCell=row.cells[conditionIndex];
+        const link=conditionCell?conditionCell.querySelector('a[href*="high_entry_charts/"],a[href*="conditions/charts/"]'):null;
+        while(row.cells.length>growthIndex)row.deleteCell(growthIndex);
+        const cells=[];
+        HORIZONS.forEach(h=>{
+          for(let j=0;j<4;j++){
+            const td=document.createElement("td");
+            if(j===0)td.classList.add("group-start");
+            td.textContent="-";
+            row.appendChild(td);
+            cells.push(td);
+          }
+        });
+        if(!link)return;
+        loadAssetMetrics(link.getAttribute("href")).then(all=>{
+          if(!all)return;
+          HORIZONS.forEach((h,hi)=>{
+            const m=all[h];
+            if(!m)return;
+            const base=hi*4;
+            cells[base].textContent=metricText(m.growth);
+            cells[base+1].textContent=metricText(m.front);
+            cells[base+2].textContent=metricText(m.back);
+            cells[base+3].textContent=metricText(m.maxDd);
+          });
+        });
+      });
+    });
+    table.dataset.p2AssetMetrics="1";
+    return true;
+  }
+
+  function datasetInfo(){
+    const p=decodeURIComponent(location.pathname);
+    const defs=[
+      ["exclude_capital_goods_transportation_utilities","225_excl_capital_transport","主要225株（資本財・その他＋運輸・公益除外）"],
+      ["exclude_transportation_utilities","225_excl_transport","主要225株（運輸・公益除外）"],
+      ["/225_group_all_period/technology/","225_group_technology","技術（全期間）"],
+      ["/225_group_all_period/financials/","225_group_financials","金融（全期間）"],
+      ["/225_group_all_period/consumer_goods/","225_group_consumer","消費（全期間）"],
+      ["/225_group_all_period/materials/","225_group_materials","素材（全期間）"],
+      ["/225_group_all_period/capital_goods_others/","225_group_capital","資本財・その他（全期間）"],
+      ["/225_group_all_period/transportation_utilities/","225_group_transport","運輸・公益（全期間）"],
+      ["/225_indicator_stageb/","225_all_period","主要225株（全期間）"]
+    ];
+    for(const [needle,key,name] of defs)if(p.includes(needle))return {key,name};
+    if(p.includes("/kabu/analysis/"))return {key:"nikkei_all_period",name:"日経平均（全期間）"};
+    return {key:"unknown",name:"分析データ"};
+  }
+
+  function loadFavorites(){
+    try{
+      const raw=JSON.parse(localStorage.getItem(FAVORITES_KEY)||"[]");
+      if(!Array.isArray(raw))return [];
+      const out=[],seen=new Set();
+      raw.forEach(x=>{
+        if(!x||typeof x!=="object")return;
+        const item={
+          datasetKey:String(x.datasetKey||"").trim(),
+          datasetName:String(x.datasetName||"").trim(),
+          conditionId:String(x.conditionId||"").trim(),
+          conditionLabel:String(x.conditionLabel||"").trim(),
+          chartPath:String(x.chartPath||x.chartUrl||"").trim(),
+          savedAt:String(x.savedAt||"").trim()
+        };
+        if(!item.datasetKey||!item.datasetName||!item.conditionId||!item.conditionLabel||!item.chartPath.startsWith("/"))return;
+        const key=item.datasetKey+"::"+item.conditionId;
+        if(seen.has(key))return;
+        seen.add(key);out.push(item);
+      });
+      return out;
+    }catch(_e){return []}
+  }
+
+  function saveFavorites(items){
+    localStorage.setItem(FAVORITES_KEY,JSON.stringify(items));
+  }
+
+  function favoriteKey(item){return item.datasetKey+"::"+item.conditionId}
+
+  function isFavorite(item){
+    const key=favoriteKey(item);
+    return loadFavorites().some(x=>favoriteKey(x)===key);
+  }
+
+  function toggleFavorite(item){
+    const list=loadFavorites(),key=favoriteKey(item);
+    const pos=list.findIndex(x=>favoriteKey(x)===key);
+    if(pos>=0)list.splice(pos,1);
+    else{
+      item.savedAt=new Date().toISOString();
+      list.push(item);
+    }
+    saveFavorites(list);
+    syncFavoriteButtons();
+    renderFavoritesPanel();
+  }
+
+  function syncFavoriteButtons(){
+    const keys=new Set(loadFavorites().map(favoriteKey));
+    document.querySelectorAll(".p2-favorite-btn[data-favorite-key]").forEach(btn=>{
+      const on=keys.has(btn.dataset.favoriteKey);
+      btn.textContent=on?"★":"☆";
+      btn.classList.toggle("is-favorite",on);
+      btn.title=on?"お気に入りから解除":"お気に入りに追加";
+      btn.setAttribute("aria-label",btn.title);
+    });
+  }
+
+  function addFavoriteColumn(table){
+    if(table.dataset.p2FavoritesReady==="1")return false;
+    if(!table.classList.contains("focus-table"))return false;
+    const headers=buildHeaderGrid(table);
+    const idIndex=headers.findIndex(h=>norm(h)==="ID");
+    const conditionIndex=headers.findIndex(isConditionHeader);
+    if(idIndex<0||conditionIndex<0||!table.tHead)return false;
+    const info=datasetInfo(),headRows=Array.from(table.tHead.rows);
+    const favTh=document.createElement("th");
+    favTh.textContent="★";
+    favTh.rowSpan=headRows.length;
+    favTh.className="p2-sticky-fav";
+    headRows[0].insertBefore(favTh,headRows[0].firstChild);
+
+    Array.from(table.tBodies||[]).forEach(body=>{
+      Array.from(body.rows).forEach(row=>{
+        const idCell=row.cells[idIndex],conditionCell=row.cells[conditionIndex];
+        const conditionId=idCell?String(idCell.textContent||"").trim():"";
+        const link=conditionCell?conditionCell.querySelector('a[href*="high_entry_charts/"],a[href*="conditions/charts/"]'):null;
+        const conditionLabel=link?String(link.textContent||"").trim():(conditionCell?String(conditionCell.textContent||"").trim():"");
+        const td=document.createElement("td");
+        td.className="p2-sticky-fav";
+        const btn=document.createElement("button");
+        btn.type="button";btn.className="p2-favorite-btn";
+        if(conditionId&&conditionLabel&&link){
+          const u=new URL(link.getAttribute("href"),location.href);
+          const item={
+            datasetKey:info.key,datasetName:info.name,conditionId,conditionLabel,
+            chartPath:u.pathname+u.search+u.hash,savedAt:""
+          };
+          btn.dataset.favoriteKey=favoriteKey(item);
+          btn.addEventListener("click",()=>toggleFavorite(item));
+        }else{
+          btn.textContent="—";btn.disabled=true;btn.title="グラフなし";
+        }
+        td.appendChild(btn);
+        row.insertBefore(td,row.firstChild);
+      });
+    });
+    table.dataset.p2FavoritesReady="1";
+    syncFavoriteButtons();
+    return true;
+  }
+
+  function applyStickyColumns(table){
+    if(!table.classList.contains("focus-table"))return;
+    if(!table.tHead)return;
+    const top=table.tHead.rows[0];
+    if(top&&top.cells.length>=3){
+      top.cells[0].classList.add("p2-sticky-fav");
+      top.cells[1].classList.add("p2-sticky-id");
+      top.cells[2].classList.add("p2-sticky-condition","p2-condition-col");
+    }
+    Array.from(table.tBodies||[]).forEach(body=>Array.from(body.rows).forEach(row=>{
+      if(row.cells[0])row.cells[0].classList.add("p2-sticky-fav");
+      if(row.cells[1])row.cells[1].classList.add("p2-sticky-id");
+      if(row.cells[2])row.cells[2].classList.add("p2-sticky-condition","p2-condition-col");
+    }));
+  }
+
+  function fixHeaderTops(table){
+    if(!table.tHead)return;
+    let top=0;
+    Array.from(table.tHead.rows).forEach(row=>{
+      Array.from(row.cells).forEach(th=>{th.style.top=top+"px";th.style.zIndex=th.classList.contains("p2-sticky-fav")||th.classList.contains("p2-sticky-id")||th.classList.contains("p2-sticky-condition")?"40":"12"});
+      top+=row.getBoundingClientRect().height;
+    });
+  }
+
+  function limitTo20Rows(table){
+    if(!table.classList.contains("focus-table"))return;
+    const body=table.tBodies&&table.tBodies[0],wrap=table.closest(".table-wrap");
+    if(!body||!wrap)return;
+    const rows=Array.from(body.rows);
+    if(rows.length<=20){wrap.style.maxHeight="";return}
+    let h=table.tHead?table.tHead.getBoundingClientRect().height:0;
+    rows.slice(0,20).forEach(r=>h+=r.getBoundingClientRect().height);
+    wrap.classList.add("p2-scroll-20");
+    wrap.style.maxHeight=Math.ceil(h+3)+"px";
+  }
+
+  function validFavoriteItem(x){
+    if(!x||typeof x!=="object")return null;
+    const item={
+      datasetKey:String(x.datasetKey||"").trim(),
+      datasetName:String(x.datasetName||"").trim(),
+      conditionId:String(x.conditionId||"").trim(),
+      conditionLabel:String(x.conditionLabel||"").trim(),
+      chartPath:String(x.chartPath||x.chartUrl||"").trim(),
+      savedAt:String(x.savedAt||new Date().toISOString()).trim()
+    };
+    if(!item.datasetKey||!item.datasetName||!item.conditionId||!item.conditionLabel||!item.chartPath.startsWith("/"))return null;
+    return item;
+  }
+
+  function currentDatasetFavorites(){
+    const key=datasetInfo().key;
+    return loadFavorites().filter(item=>item.datasetKey===key);
+  }
+
+  function sourceFavoriteRows(){
+    const rows=new Map();
+    document.querySelectorAll("table.focus-table:not(.p2-favorites-table) tbody tr").forEach(row=>{
+      const idCell=row.querySelector(".p2-sticky-id")||row.cells[1]||row.cells[0];
+      const id=idCell?String(idCell.textContent||"").trim():"";
+      if(id&&!rows.has(id))rows.set(id,row);
+    });
+    return rows;
+  }
+
+  function wireFavoriteClone(row,item){
+    const btn=row.querySelector(".p2-favorite-btn");
+    if(!btn)return;
+    btn.textContent="★";btn.disabled=false;btn.classList.add("is-favorite");
+    btn.dataset.favoriteKey=favoriteKey(item);btn.title="お気に入りから解除";btn.setAttribute("aria-label",btn.title);
+    btn.addEventListener("click",()=>toggleFavorite(item));
+  }
+
+  function fallbackFavoriteRow(item,source){
+    const width=buildHeaderGrid(source).length;
+    const row=document.createElement("tr");
+    for(let i=0;i<width;i++)row.appendChild(document.createElement("td"));
+    const cells=Array.from(row.cells);
+    if(cells[0]){
+      cells[0].className="p2-sticky-fav";
+      const btn=document.createElement("button");
+      btn.type="button";btn.className="p2-favorite-btn is-favorite";btn.textContent="★";
+      btn.dataset.favoriteKey=favoriteKey(item);btn.title="お気に入りから解除";btn.setAttribute("aria-label",btn.title);
+      btn.addEventListener("click",()=>toggleFavorite(item));cells[0].appendChild(btn);
+    }
+    if(cells[1]){cells[1].className="p2-sticky-id";cells[1].textContent=item.conditionId}
+    if(cells[2]){
+      cells[2].className="p2-sticky-condition p2-condition-col group-start";
+      const a=document.createElement("a");a.href=item.chartPath;a.target="_blank";a.rel="noopener";a.textContent=item.conditionLabel;a.title=item.conditionLabel;
+      cells[2].appendChild(a);
+    }
+    for(let i=3;i<cells.length;i++)cells[i].textContent="-";
+    return row;
+  }
+
+  function renderFavoritesPanel(){
+    const panel=document.querySelector(".p2-favorites-panel");
+    if(!panel)return;
+    const list=currentDatasetFavorites(),box=panel.querySelector(".p2-favorites-list"),count=panel.querySelector(".p2-favorites-count");
+    count.textContent=list.length+"件";box.innerHTML="";
+    if(!list.length){
+      const empty=document.createElement("div");empty.className="p2-favorite-empty";empty.textContent="このデータセットのお気に入りはまだありません。";box.appendChild(empty);return;
+    }
+    const source=document.querySelector("table.focus-table:not(.p2-favorites-table)");
+    if(!source||!source.tHead)return;
+    const table=document.createElement("table");
+    table.className="focus-table p2-favorites-table";
+    table.dataset.p2FavoritesReady="1";table.dataset.p2AssetMetrics="1";
+    table.appendChild(source.tHead.cloneNode(true));
+    const body=document.createElement("tbody"),rowMap=sourceFavoriteRows();
+    list.forEach(item=>{
+      const src=rowMap.get(item.conditionId);
+      const row=src?src.cloneNode(true):fallbackFavoriteRow(item,source);
+      wireFavoriteClone(row,item);body.appendChild(row);
+    });
+    table.appendChild(body);
+    const wrap=document.createElement("div");wrap.className="table-wrap p2-favorites-table-wrap";wrap.appendChild(table);box.appendChild(wrap);
+    compactConditionColumns(table);applyStickyColumns(table);highlightTable(table);highlightGrowthColumns(table);fixHeaderTops(table);limitTo20Rows(table);
+  }
+
+  function ensureFavoritesPanel(){
+    if(!document.querySelector("table.focus-table:not(.p2-favorites-table)")||document.querySelector(".p2-favorites-panel"))return;
+    const panel=document.createElement("div");
+    panel.className="card p2-favorites-panel";
+    panel.innerHTML='<div class="p2-favorites-head"><strong>お気に入り条件</strong><span class="p2-favorites-count"></span></div><div class="p2-favorites-list"></div>';
+    const hero=document.querySelector(".hero");
+    if(hero)hero.insertAdjacentElement("afterend",panel);
+    else(document.querySelector(".wrap")||document.body).prepend(panel);
+    renderFavoritesPanel();
+  }
+
+  function isHome(){
+    return /\/kabu\/?(?:index\.html)?$/.test(location.pathname);
+  }
+
+  function exportFavorites(){
+    const payload={schema:"product_kabu_favorites",version:1,exportedAt:new Date().toISOString(),favorites:loadFavorites()};
+    const blob=new Blob([JSON.stringify(payload,null,2)],{type:"application/json;charset=utf-8"});
+    const a=document.createElement("a"),url=URL.createObjectURL(blob),d=new Date();
+    const pad=n=>String(n).padStart(2,"0");
+    a.href=url;a.download="product_kabu_favorites_"+d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate())+"_"+pad(d.getHours())+pad(d.getMinutes())+pad(d.getSeconds())+".json";
+    document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),0);
+  }
+
+  function ensureHomeImportExport(){
+    if(!isHome()||document.querySelector(".p2-fav-io"))return;
+    const card=document.createElement("div");card.className="card p2-fav-io";
+    card.innerHTML='<strong>お気に入りデータ</strong><p class="muted">お気に入り一覧は各条件ページに表示します。ここではJSON形式でバックアップ・復元できます。</p><div class="p2-fav-io-actions"><button type="button" class="btn p2-fav-export">お気に入りをエクスポート</button><label class="btn" style="cursor:pointer">お気に入りをインポート<input class="p2-fav-import" type="file" accept="application/json,.json" hidden></label><span class="p2-fav-io-status"></span></div>';
+    const selector=document.getElementById("reportSwitch");
+    const anchor=selector?selector.closest(".card"):document.querySelector(".hero");
+    if(anchor)anchor.insertAdjacentElement("afterend",card);else(document.querySelector(".wrap")||document.body).prepend(card);
+    card.querySelector(".p2-fav-export").addEventListener("click",exportFavorites);
+    const input=card.querySelector(".p2-fav-import"),status=card.querySelector(".p2-fav-io-status");
+    input.addEventListener("change",()=>{
+      const file=input.files&&input.files[0];if(!file)return;
+      file.text().then(text=>{
+        const parsed=JSON.parse(text),raw=Array.isArray(parsed)?parsed:parsed&&Array.isArray(parsed.favorites)?parsed.favorites:null;
+        if(!raw)throw new Error("favorites array missing");
+        const imported=raw.map(validFavoriteItem).filter(Boolean);
+        if(!imported.length&&raw.length)throw new Error("valid favorite not found");
+        const merged=new Map(loadFavorites().map(x=>[favoriteKey(x),x]));
+        imported.forEach(x=>merged.set(favoriteKey(x),x));
+        saveFavorites(Array.from(merged.values()));
+        status.textContent=imported.length+"件をインポートしました。";
+      }).catch(()=>{status.textContent="インポートできませんでした。JSON形式を確認してください。"}).finally(()=>{input.value=""});
+    });
+  }
+
+  function isAccuracyHeader(text){
+    const t=norm(text);
+    if(!t)return false;
+    // 5D/10D/20D asset groups are not accuracy columns.
+    if(t.includes("増加率")||t.includes("前半")||t.includes("後半")||t.includes("最大DD"))return false;
+    if(t.includes("正解率")||t.includes("勝率"))return true;
+    if(/(^|\/)(5D|10D|20D)($|\/)/i.test(t))return true;
+    if(/(^|\/)(5日|10日|20日)($|\/)/.test(t))return true;
+    if(/win_(5|10|20)d_pct/i.test(t))return true;
+    return false;
+  }
+
+  function numericValue(text){
+    const s=String(text==null?"":text).replace(/,/g,"").replace(/%/g,"").trim();
+    if(!/^[+-]?\d+(?:\.\d+)?$/.test(s))return null;
+    const n=Number(s);return Number.isFinite(n)?n:null;
+  }
+
+  function highlightTable(table){
+    const headers=buildHeaderGrid(table);
+    if(!headers.length)return false;
+    const accuracyCols=headers.map((h,i)=>isAccuracyHeader(h)?i:-1).filter(i=>i>=0);
+    if(!accuracyCols.length)return false;
+    Array.from(table.tBodies||[]).forEach(body=>Array.from(body.rows).forEach(row=>{
+      accuracyCols.forEach(i=>{
+        const cell=row.cells[i];if(!cell)return;
+        const n=numericValue(cell.textContent);
+        cell.classList.remove("p2-acc-60","p2-acc-70");
+        if(n===null||n<0||n>100)return;
+        if(n>=70)cell.classList.add("p2-acc-70");
+        else if(n>=60)cell.classList.add("p2-acc-60");
+      });
+    }));
+    return true;
+  }
+
+  function highlightGrowthColumns(table){
+    const headers=buildHeaderGrid(table);
+    if(!headers.length)return false;
+    const growthCols=headers
+      .map((h,i)=>/^(5D|10D|20D)\s*\/\s*増加率$/i.test(norm(h))?i:-1)
+      .filter(i=>i>=0);
+    if(!growthCols.length)return false;
+    Array.from(table.tBodies||[]).forEach(body=>Array.from(body.rows).forEach(row=>{
+      growthCols.forEach(i=>{
+        const cell=row.cells[i];if(!cell)return;
+        const n=numericValue(cell.textContent);
+        cell.classList.remove("p2-growth-500","p2-growth-1000");
+        if(n===null)return;
+        if(n>=1000)cell.classList.add("p2-growth-1000");
+        else if(n>=500)cell.classList.add("p2-growth-500");
+      });
+    }));
+    return true;
+  }
+
+  function ensureLegend(){
+    if(document.querySelector(".p2-accuracy-legend"))return;
+    const legend=document.createElement("div");legend.className="p2-accuracy-legend";
+    legend.innerHTML='<strong>正解率の強調</strong><span class="p2-acc-60">60%以上</span><span class="p2-acc-70">70%以上</span><span>（70%以上は緑を優先）</span>';
+    const hero=document.querySelector(".hero");
+    if(hero&&hero.parentNode)hero.insertAdjacentElement("afterend",legend);
+    else{const wrap=document.querySelector(".wrap")||document.body;wrap.insertBefore(legend,wrap.firstChild)}
+  }
+
+  let scheduled=false;
+  function applyAll(){
+    scheduled=false;
+    let found=false;
+    document.querySelectorAll("table").forEach(t=>{
+      enhanceAssetMetricTable(t);
+      addFavoriteColumn(t);
+      compactConditionColumns(t);
+      applyStickyColumns(t);
+      if(highlightTable(t))found=true;
+      highlightGrowthColumns(t);
+    });
+    ensureFavoritesPanel();
+    ensureHomeImportExport();
+    requestAnimationFrame(()=>{
+      document.querySelectorAll("table.focus-table").forEach(t=>{fixHeaderTops(t);limitTo20Rows(t)});
+    });
+    if(found)ensureLegend();
+  }
+
+  function schedule(){
+    if(scheduled)return;
+    scheduled=true;requestAnimationFrame(applyAll);
+  }
+
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",schedule,{once:true});
+  else schedule();
+  const observer=new MutationObserver(schedule);
+  observer.observe(document.documentElement,{childList:true,subtree:true});
+  window.addEventListener("resize",schedule);
+})();
+</script>
+<script>document.documentElement.dataset.p2Page="dataset";</script><script src="_runtime/p2_page_runtime.js" defer></script></body></html>
