@@ -1,0 +1,135 @@
+:root {
+  --bg     : #f4f6f8;
+  --card   : #ffffff;
+  --text   : #1f2937;
+  --muted  : #667085;
+  --line   : #d9dee7;
+  --accent : #2457a6;
+}
+
+* {
+  box-sizing : border-box;
+}
+
+body {
+  margin           : 0px;
+  color            : var(--text);
+  background-color : var(--bg);
+  font-family      : -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans JP", sans-serif;
+  line-height      : 1.6;
+}
+
+a {
+  color           : var(--accent);
+  text-decoration : none;
+}
+
+a:hover,
+a:focus-visible {
+  text-decoration : underline;
+}
+
+.wrap {
+  max-width : 1460px;
+  margin    : 0px auto;
+  padding   : 28px;
+}
+
+.hero {
+  margin-bottom : 22px;
+  padding       : 28px 32px;
+  border-radius : 18px;
+  color         : #ffffff;
+  background    : linear-gradient(135deg, #16243d, #274c7f);
+}
+
+.hero h1 {
+  margin    : 0px 0px 8px;
+  font-size : 30px;
+}
+
+.hero p {
+  margin : 4px 0px;
+  color  : #dbe7f6;
+}
+
+.card {
+  margin-bottom    : 16px;
+  padding          : 18px;
+  border           : 1px solid var(--line);
+  border-radius    : 14px;
+  background-color : var(--card);
+  box-shadow       : 0px 1px 2px rgb(16 24 40 / 4%);
+}
+
+.report-category h2 {
+  margin    : 0px 0px 12px;
+  font-size : 20px;
+}
+
+.report-subcategory {
+  padding : 14px 0px;
+}
+
+.report-subcategory + .report-subcategory {
+  border-top : 1px solid #dbe3ee;
+}
+
+.report-subcategory h3 {
+  margin    : 0px 0px 8px;
+  color     : #334155;
+  font-size : 16px;
+}
+
+.report-subcategory-note {
+  margin      : 0px 0px 10px;
+  color       : #475569;
+  font-size   : 14px;
+  line-height : 1.7;
+}
+
+.report-links {
+  display               : grid;
+  grid-template-columns : repeat(auto-fit, minmax(260px, 1fr));
+  gap                   : 10px;
+  margin                : 0px;
+  padding               : 0px;
+  list-style            : none;
+}
+
+.report-links li a {
+  display          : block;
+  padding          : 11px 13px;
+  border           : 1px solid #cbd5e1;
+  border-radius    : 9px;
+  background-color : #f8fafc;
+  font-weight      : 600;
+}
+
+.report-links li a:hover,
+.report-links li a:focus-visible {
+  background-color : #eef4ff;
+}
+
+.note {
+  padding          : 13px 16px;
+  border-left      : 4px solid var(--accent);
+  border-radius    : 8px;
+  color            : var(--muted);
+  background-color : #eef4ff;
+  font-size        : 13px;
+}
+
+@media screen and (max-width : 800px) {
+  .wrap {
+    padding : 18px;
+  }
+
+  .hero {
+    padding : 22px;
+  }
+
+  .hero h1 {
+    font-size : 25px;
+  }
+}

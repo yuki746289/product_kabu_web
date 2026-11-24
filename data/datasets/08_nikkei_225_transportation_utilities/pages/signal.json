@@ -1,0 +1,14 @@
+{
+  "calculatedDataPath": "calculated/datasets/08_nikkei_225_transportation_utilities/calculated.json",
+  "dataset": "08_nikkei_225_transportation_utilities",
+  "pageType": "signal",
+  "renderMode": "template",
+  "rowCounts": [],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/08_nikkei_225_transportation_utilities/signal_details.json",
+  "slotDataPath": "datasets/02_nikkei_225_all/pages/signal-slots.json",
+  "slots": {},
+  "sourceRelativePath": "analysis/225_indicator_stageb/details/signal_level_features.html",
+  "templateVersion": "release.3.0.0"
+}

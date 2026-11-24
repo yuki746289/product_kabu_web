@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "status": "success",
+  "datasetCount": 9,
+  "calculatedPaths": {
+    "02_nikkei_225_all": "calculated/datasets/02_nikkei_225_all/calculated.json",
+    "03_nikkei_225_technology": "calculated/datasets/03_nikkei_225_technology/calculated.json",
+    "04_nikkei_225_financials": "calculated/datasets/04_nikkei_225_financials/calculated.json",
+    "05_nikkei_225_consumer_goods": "calculated/datasets/05_nikkei_225_consumer_goods/calculated.json",
+    "06_nikkei_225_materials": "calculated/datasets/06_nikkei_225_materials/calculated.json",
+    "07_nikkei_225_capital_goods_others": "calculated/datasets/07_nikkei_225_capital_goods_others/calculated.json",
+    "08_nikkei_225_transportation_utilities": "calculated/datasets/08_nikkei_225_transportation_utilities/calculated.json",
+    "09_nikkei_225_all_without_transportation_utilities": "calculated/datasets/09_nikkei_225_all_without_transportation_utilities/calculated.json",
+    "10_nikkei_225_all_without_capital_goods_transportation_utilities": "calculated/datasets/10_nikkei_225_all_without_capital_goods_transportation_utilities/calculated.json"
+  },
+  "signalDetailPaths": {
+    "02_nikkei_225_all": "calculated/datasets/02_nikkei_225_all/signal_details.json",
+    "03_nikkei_225_technology": "calculated/datasets/03_nikkei_225_technology/signal_details.json",
+    "04_nikkei_225_financials": "calculated/datasets/04_nikkei_225_financials/signal_details.json",
+    "05_nikkei_225_consumer_goods": "calculated/datasets/05_nikkei_225_consumer_goods/signal_details.json",
+    "06_nikkei_225_materials": "calculated/datasets/06_nikkei_225_materials/signal_details.json",
+    "07_nikkei_225_capital_goods_others": "calculated/datasets/07_nikkei_225_capital_goods_others/signal_details.json",
+    "08_nikkei_225_transportation_utilities": "calculated/datasets/08_nikkei_225_transportation_utilities/signal_details.json",
+    "09_nikkei_225_all_without_transportation_utilities": "calculated/datasets/09_nikkei_225_all_without_transportation_utilities/signal_details.json",
+    "10_nikkei_225_all_without_capital_goods_transportation_utilities": "calculated/datasets/10_nikkei_225_all_without_capital_goods_transportation_utilities/signal_details.json"
+  }
+}

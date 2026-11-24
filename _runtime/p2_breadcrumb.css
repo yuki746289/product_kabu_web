@@ -1,0 +1,12 @@
+/**
+ * 作成日時: 2026/11/14
+ * 処理概要: [S036] 11物理page共通のパンくずリストを表示する。
+ */
+.p2-breadcrumb{margin:0 0 12px;overflow-x:auto;overscroll-behavior-inline:contain;color:#526579;font-size:13px;scrollbar-width:thin}
+.p2-breadcrumb-list{display:flex;align-items:center;min-width:max-content;margin:0;padding:8px 12px;border:1px solid #d7e1eb;border-radius:9px;background:#fff;list-style:none;box-shadow:0 1px 4px rgba(20,42,63,.05)}
+.p2-breadcrumb-item{display:flex;align-items:center;white-space:nowrap}
+.p2-breadcrumb-item:not(:last-child)::after{margin:0 9px;color:#8da0b3;content:"›";font-weight:700}
+.p2-breadcrumb-item a{color:#1769aa;font-weight:700;text-decoration:none}
+.p2-breadcrumb-item a:hover,.p2-breadcrumb-item a:focus-visible{text-decoration:underline}
+.p2-breadcrumb-item span[aria-current="page"]{color:#263746;font-weight:800}
+@media(max-width:520px){.p2-breadcrumb{margin-bottom:10px}.p2-breadcrumb-list{padding:7px 10px}.p2-breadcrumb-item:not(:last-child)::after{margin:0 7px}}

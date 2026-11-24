@@ -1,0 +1,12 @@
+{
+  "dataset": "common",
+  "pageType": "index",
+  "renderMode": "template",
+  "rowCounts": [],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "slotDataPath": "pages/index-slots.json",
+  "slots": {},
+  "sourceRelativePath": "index.html",
+  "templateVersion": "release.3.0.0"
+}

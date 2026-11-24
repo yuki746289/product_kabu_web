@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/02_nikkei_225_all/calculated.json",
+  "dataset": "02_nikkei_225_all",
+  "pageType": "conditions",
+  "renderMode": "nodes",
+  "rowCounts": [
+    447
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/02_nikkei_225_all/signal_details.json",
+  "slotDataPath": "datasets/02_nikkei_225_all/pages/conditions-slots.json",
+  "slots": {
+    "tbody-001": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/conditions/index.html",
+  "templateVersion": "release.3.0.0"
+}

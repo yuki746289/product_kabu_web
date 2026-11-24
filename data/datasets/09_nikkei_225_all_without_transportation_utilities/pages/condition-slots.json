@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/09_nikkei_225_all_without_transportation_utilities/calculated.json",
+  "dataset": "09_nikkei_225_all_without_transportation_utilities",
+  "pageType": "condition",
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "slots": {
+    "tbody-001": [],
+    "tbody-002": [],
+    "tbody-003": [],
+    "tbody-004": [],
+    "tbody-005": [],
+    "tbody-006": [],
+    "tbody-007": [],
+    "tbody-008": []
+  },
+  "templateVersion": "release.3.0.0"
+}

@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/03_nikkei_225_technology/calculated.json",
+  "dataset": "03_nikkei_225_technology",
+  "pageType": "validation",
+  "renderMode": "nodes",
+  "rowCounts": [
+    0
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/03_nikkei_225_technology/signal_details.json",
+  "slotDataPath": "datasets/03_nikkei_225_technology/pages/validation-slots.json",
+  "slots": {
+    "tbody-001": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/details/failures.html",
+  "templateVersion": "release.3.0.0"
+}

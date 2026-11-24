@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/10_nikkei_225_all_without_capital_goods_transportation_utilities/calculated.json",
+  "dataset": "10_nikkei_225_all_without_capital_goods_transportation_utilities",
+  "pageType": "analysis",
+  "renderMode": "nodes",
+  "rowCounts": [
+    227
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/10_nikkei_225_all_without_capital_goods_transportation_utilities/signal_details.json",
+  "slotDataPath": "datasets/10_nikkei_225_all_without_capital_goods_transportation_utilities/pages/analysis-slots.json",
+  "slots": {
+    "tbody-001": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/details/monthly_baseline_performance.html",
+  "templateVersion": "release.3.0.0"
+}

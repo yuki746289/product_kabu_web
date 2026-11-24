@@ -1,0 +1,11 @@
+{
+  "calculatedDataPath": "calculated/datasets/03_nikkei_225_technology/calculated.json",
+  "dataset": "03_nikkei_225_technology",
+  "pageType": "validation",
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "slots": {
+    "tbody-001": []
+  },
+  "templateVersion": "release.3.0.0"
+}

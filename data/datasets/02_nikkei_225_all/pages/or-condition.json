@@ -1,0 +1,26 @@
+{
+  "calculatedDataPath": "calculated/datasets/02_nikkei_225_all/calculated.json",
+  "dataset": "02_nikkei_225_all",
+  "pageType": "or-condition",
+  "renderMode": "nodes",
+  "rowCounts": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/02_nikkei_225_all/signal_details.json",
+  "slotDataPath": "datasets/02_nikkei_225_all/pages/or-condition-slots.json",
+  "slots": {
+    "tbody-001": [],
+    "tbody-002": [],
+    "tbody-003": [],
+    "tbody-004": [],
+    "tbody-005": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/analysis/or_details/or-03cae38f783506d9.html",
+  "templateVersion": "release.3.0.0"
+}

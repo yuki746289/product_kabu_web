@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/06_nikkei_225_materials/calculated.json",
+  "dataset": "06_nikkei_225_materials",
+  "pageType": "conditions",
+  "renderMode": "nodes",
+  "rowCounts": [
+    447
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/06_nikkei_225_materials/signal_details.json",
+  "slotDataPath": "datasets/06_nikkei_225_materials/pages/conditions-slots.json",
+  "slots": {
+    "tbody-001": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/conditions/index.html",
+  "templateVersion": "release.3.0.0"
+}

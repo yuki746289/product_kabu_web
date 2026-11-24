@@ -1,0 +1,18 @@
+{
+  "calculatedDataPath": "calculated/datasets/04_nikkei_225_financials/calculated.json",
+  "dataset": "04_nikkei_225_financials",
+  "pageType": "analysis",
+  "renderMode": "nodes",
+  "rowCounts": [
+    224
+  ],
+  "runId": "case38-standard-20261116",
+  "schemaVersion": 1,
+  "signalDetailPath": "calculated/datasets/04_nikkei_225_financials/signal_details.json",
+  "slotDataPath": "datasets/04_nikkei_225_financials/pages/analysis-slots.json",
+  "slots": {
+    "tbody-001": []
+  },
+  "sourceRelativePath": "analysis/225_indicator_stageb/details/monthly_baseline_performance.html",
+  "templateVersion": "release.3.0.0"
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>失敗ログ</title><style>
+:root{--bg:#f4f6f8;--card:#fff;--text:#1f2937;--muted:#667085;--line:#d9dee7;--accent:#2457a6;--good:#166534;--warn:#92400e;--bad:#991b1b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;line-height:1.6}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1460px;margin:0 auto;padding:28px}.hero{background:linear-gradient(135deg,#16243d,#274c7f);color:#fff;border-radius:18px;padding:28px 32px;margin-bottom:22px}.hero h1{margin:0 0 8px;font-size:30px}.hero p{margin:4px 0;color:#dbe7f6}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px;box-shadow:0 1px 2px rgba(16,24,40,.04)}.metric{font-size:28px;font-weight:700}.label{font-size:13px;color:var(--muted)}.good{color:var(--good)}.warn{color:var(--warn)}.bad{color:var(--bad)}h2{margin:34px 0 12px;font-size:22px}h3{margin:22px 0 10px;font-size:17px}.note{background:#eef4ff;border-left:4px solid var(--accent);padding:13px 16px;border-radius:8px}.conclusion{background:#f8fafc;border:1px solid #cbd5e1;border-radius:12px;padding:18px}.links{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.btn{display:inline-block;padding:8px 12px;border:1px solid #b7c3d4;background:#fff;border-radius:8px;font-weight:600}.table-wrap{overflow:auto;border:1px solid var(--line);border-radius:10px;background:#fff}table{border-collapse:collapse;width:100%;font-size:13px}th,td{border-bottom:1px solid #e5e7eb;padding:6px 7px;text-align:right;white-space:nowrap}th{position:sticky;top:0;background:#eef2f7;color:#344054;z-index:1;cursor:pointer}.table-group-row th{background:#dbe4f0;text-align:center;font-size:12px;font-weight:800}.table-detail-row th{background:#eef2f7;text-align:center;font-size:12px}.table-single-row th{background:#eef2f7;font-size:12px;font-weight:700}.group-start{border-left:3px solid #64748b!important}td:first-child,th:first-child{text-align:left}tr:nth-child(even) td{background:#fafbfc}.toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:14px 0}.toolbar input,.toolbar select{padding:8px 10px;border:1px solid #cbd5e1;border-radius:8px;background:#fff}.pager{display:flex;gap:8px;align-items:center;margin-top:12px}.muted{color:var(--muted);font-size:13px}.tag{display:inline-block;border-radius:999px;padding:3px 9px;font-size:12px;font-weight:700;background:#e8eef8;color:#234}.tag-pass{background:#dcfce7;color:#166534}.tag-medium{background:#fef3c7;color:#92400e}.tag-low{background:#fee2e2;color:#991b1b}.section-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.small-table table{font-size:12px}.footer{margin:36px 0;color:var(--muted);font-size:12px}
+</style><style id="p2-accuracy-highlight-style">
+.p2-acc-60{font-weight:700!important;color:#8a4b00!important;background:#fff2cc!important}
+.p2-acc-70{font-weight:800!important;color:#0b5d1e!important;background:#dff4e4!important}
+.p2-accuracy-legend{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0 16px;padding:10px 12px;border:1px solid #d9dee7;border-radius:9px;background:#fff;font-size:13px}
+.p2-accuracy-legend strong{margin-right:2px}
+.p2-accuracy-legend .p2-acc-60,.p2-accuracy-legend .p2-acc-70{display:inline-block;padding:3px 8px;border-radius:6px}
+.p2-condition-col{width:280px!important;min-width:280px!important;max-width:280px!important}
+.p2-condition-inner{display:block;width:280px;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-condition-inner a{display:block;max-width:280px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap!important}
+.p2-scroll-20{overflow:auto!important}
+.p2-sticky-fav,.p2-sticky-id,.p2-sticky-condition{position:sticky!important;background:#fff!important}
+thead .p2-sticky-fav,thead .p2-sticky-id,thead .p2-sticky-condition{background:#eef2f7!important;z-index:40!important}
+.p2-sticky-fav{left:0!important;width:44px!important;min-width:44px!important;max-width:44px!important;text-align:center!important;z-index:22!important}
+.p2-sticky-id{left:44px!important;width:155px!important;min-width:155px!important;max-width:155px!important;z-index:21!important}
+.p2-sticky-condition{left:199px!important;z-index:20!important;box-shadow:2px 0 0 #cbd5e1}
+.p2-favorite-btn{border:0;background:transparent;padding:2px 5px;font-size:20px;line-height:1;cursor:pointer;color:#98a2b3}
+.p2-favorite-btn.is-favorite{color:#b7791f}
+.p2-favorite-btn:disabled{cursor:not-allowed;color:#d0d5dd}
+.p2-favorites-panel{margin:14px 0 18px}
+.p2-favorites-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:8px}
+.p2-favorites-list{min-width:0}
+.p2-favorites-table-wrap{margin-top:8px}
+.p2-favorites-table{margin:0}
+.p2-favorites-table tbody tr:last-child td{border-bottom:0}
+.p2-favorite-empty{color:#667085;font-size:13px;padding:6px 0}
+.p2-fav-io-actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:10px}
+.p2-fav-io-status{font-size:13px;color:#667085}
+.p2-asset-group{background:#dbe4f0!important;text-align:center!important;font-weight:800!important}
+.focus-table tbody tr:nth-child(5n) td{border-bottom:3px solid #94a3b8!important}
+.p2-growth-500{font-weight:700!important;color:#174a7c!important;background:#e7f1ff!important}
+.p2-growth-1000{font-weight:800!important;color:#5b2a86!important;background:#efe4ff!important}
+@media(max-width:760px){
+  .p2-sticky-id{width:135px!important;min-width:135px!important;max-width:135px!important}
+  .p2-sticky-condition{left:179px!important}
+  .p2-condition-col,.p2-condition-inner{width:240px!important;min-width:240px!important;max-width:240px!important}
+  .p2-condition-inner a{max-width:240px}
+}
+</style>
+</head>
+<body><div class="wrap"><div class="hero"><h1>失敗ログ</h1><p>元データ: failures.csv / 0 行</p></div>
+<div class="links" data-p2-page-navigation="true"><a id="p2BackLink" class="btn" href="dataset.html" data-p2-back-link="true">← 戻る</a></div>
+<div class="toolbar"><input id="q" type="search" placeholder="全列を検索" size="34"><label>表示件数 <select id="pageSize"><option>25</option><option selected>50</option><option>100</option><option>250</option></select></label><span id="summary" class="muted"></span></div>
+<div class="table-wrap"><table id="tbl"><thead><tr id="groupHead" class="table-group-row"></tr><tr id="head" class="table-detail-row"></tr></thead><tbody id="body" data-p2-slot="tbody-001" data-p2-slot-type="nodes"></tbody></table></div><div class="pager"><button id="prev">前へ</button><span id="page"></span><button id="next">次へ</button></div>
+<div class="footer">列名は表示時のみ日本語化しています。元CSVの値・列構造は変更していません。</div></div>
+<script>
+const COLUMNS=["判定日", "error"]; const GROUPS=[["判定日", 0, 1, true], ["error", 1, 1, true]]; const STARTS=new Set([1]); const DATA=[]; let filtered=DATA.slice(); let page=0; let sortCol=-1; let sortAsc=true;
+const groupHead=document.getElementById('groupHead'),head=document.getElementById('head'), body=document.getElementById('body'), q=document.getElementById('q'), ps=document.getElementById('pageSize');
+const HAS_GROUP=GROUPS.some(g=>!g[3]);
+GROUPS.forEach(([name,start,span,singleton])=>{
+  const th=document.createElement('th');th.textContent=name;if(STARTS.has(start))th.className='group-start';
+  if(singleton){th.rowSpan=HAS_GROUP?2:1;th.onclick=()=>sortBy(start);}else th.colSpan=span;
+  groupHead.appendChild(th);
+});
+if(HAS_GROUP){
+  GROUPS.filter(g=>!g[3]).forEach(([name,start,span])=>{
+    for(let i=start;i<start+span;i++){const th=document.createElement('th');th.textContent=COLUMNS[i];if(STARTS.has(i))th.className='group-start';th.onclick=()=>sortBy(i);head.appendChild(th);}
+  });
+}else{head.style.display='none';groupHead.className='table-single-row';}
+function num(v){const n=Number(String(v).replace(/,/g,''));return Number.isFinite(n)?n:null;}
+function sortBy(i){ if(sortCol===i)sortAsc=!sortAsc;else{sortCol=i;sortAsc=true;} filtered.sort((a,b)=>{let x=a[i],y=b[i],nx=num(x),ny=num(y);let r=(nx!==null&&ny!==null)?nx-ny:String(x).localeCompare(String(y),'ja');return sortAsc?r:-r;}); page=0; render();}
+function applyFilter(){const s=q.value.trim().toLowerCase();filtered=s?DATA.filter(r=>r.some(v=>String(v).toLowerCase().includes(s))):DATA.slice();page=0;if(sortCol>=0){const i=sortCol,asc=sortAsc;filtered.sort((a,b)=>{let x=a[i],y=b[i],nx=num(x),ny=num(y);let r=(nx!==null&&ny!==null)?nx-ny:String(x).localeCompare(String(y),'ja');return asc?r:-r;});}render();}
+function render(){const size=Number(ps.value), pages=Math.max(1,Math.ceil(filtered.length/size));if(page>=pages)page=pages-1;const start=page*size,end=Math.min(filtered.length,start+size);body.innerHTML='';for(const r of filtered.slice(start,end)){const tr=document.createElement('tr');r.forEach((v,i)=>{const td=document.createElement('td');td.textContent=v;if(STARTS.has(i))td.className='group-start';tr.appendChild(td);});body.appendChild(tr);}document.getElementById('summary').textContent=`${filtered.length.toLocaleString()}行中 ${filtered.length?start+1:0}〜${end}行`;document.getElementById('page').textContent=`${page+1} / ${pages}`;document.getElementById('prev').disabled=page<=0;document.getElementById('next').disabled=page>=pages-1;}
+q.oninput=applyFilter; ps.onchange=()=>{page=0;render();};document.getElementById('prev').onclick=()=>{page--;render();};document.getElementById('next').onclick=()=>{page++;render();};render();
+</script>
+<script>document.documentElement.dataset.p2Page="validation";</script><script src="_runtime/p2_page_runtime.js" defer></script></body></html>

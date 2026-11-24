@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><title>グラフ読込中</title></head>
+<body><p id="graph-loading">グラフを読み込んでいます。</p>
+<script>
+(async function () {
+  "use strict";
+  const query = new URLSearchParams(window.location.search);
+  const dataset = query.get("dataset") || "02_nikkei_225_all";
+  const subject = query.get("subject") || "s-0c5d25b829768750";
+  if (!/^[A-Za-z0-9_.-]+$/.test(dataset) || !/^(?:[chpst]|or)-[0-9a-f]{16}$/.test(subject)) {
+    throw new Error("許可されていないグラフ指定です。");
+  }
+  const templateSubject = subject.startsWith("or-") || subject.startsWith("c-")
+    ? "s-0c5d25b829768750"
+    : subject;
+
+  async function selectJson(pathValue, message) {
+    const response = await fetch(pathValue, {cache: "no-store"});
+    if (!response.ok) {
+      throw new Error(`${message}: ${response.status}`);
+    }
+    return response.json();
+  }
+
+  function replaceGraphConstant(html, startMarker, endMarker, value) {
+    const startIndex = html.indexOf(startMarker);
+    const endIndex = html.indexOf(endMarker, startIndex + startMarker.length);
+    if (startIndex < 0 || endIndex < 0) {
+      throw new Error(`グラフ定数を更新できません: ${startMarker}`);
+    }
+    return html.slice(0, startIndex)
+      + startMarker
+      + JSON.stringify(value)
+      + ";"
+      + html.slice(endIndex);
+  }
+
+  function selectMonthly(monthly, key, index, fallbackValue) {
+    const values = monthly[key];
+    return Array.isArray(values) && index < values.length
+      ? values[index]
+      : fallbackValue;
+  }
+
+  function createGraphRows(months, monthly) {
+    return months.map((month, index) => ({
+      month,
+      entries: selectMonthly(monthly, "entries", index, 0),
+      e5: selectMonthly(monthly, "e5", index, 0),
+      w5: selectMonthly(monthly, "w5", index, 0),
+      re5: selectMonthly(monthly, "e5", index, 0),
+      r5: selectMonthly(monthly, "r5", index, null),
+      maxConcurrent5d: selectMonthly(monthly, "maxConcurrent5d", index, 0),
+      profitRate5d: selectMonthly(monthly, "profitRate5d", index, null),
+      lossRate5d: selectMonthly(monthly, "lossRate5d", index, null),
+      e10: selectMonthly(monthly, "e10", index, 0),
+      w10: selectMonthly(monthly, "w10", index, 0),
+      re10: selectMonthly(monthly, "e10", index, 0),
+      r10: selectMonthly(monthly, "r10", index, null),
+      maxConcurrent10d: selectMonthly(monthly, "maxConcurrent10d", index, 0),
+      profitRate10d: selectMonthly(monthly, "profitRate10d", index, null),
+      lossRate10d: selectMonthly(monthly, "lossRate10d", index, null),
+      e20: selectMonthly(monthly, "e20", index, 0),
+      w20: selectMonthly(monthly, "w20", index, 0),
+      re20: selectMonthly(monthly, "e20", index, 0),
+      r20: selectMonthly(monthly, "r20", index, null),
+      maxConcurrent20d: selectMonthly(monthly, "maxConcurrent20d", index, 0),
+      profitRate20d: selectMonthly(monthly, "profitRate20d", index, null),
+      lossRate20d: selectMonthly(monthly, "lossRate20d", index, null)
+    }));
+  }
+
+  const catalog = await selectJson("data/catalog.json", "表示カタログを取得できません");
+  const validDataset = Array.isArray(catalog.datasets) && catalog.datasets.includes(dataset);
+  const calculatedPath = catalog.calculatedPaths?.[dataset];
+  const validCalculatedPath = typeof calculatedPath === "string"
+    && /^calculated\/datasets\/[A-Za-z0-9_.-]+\/calculated\.json$/.test(calculatedPath);
+  if (!validDataset || (calculatedPath != null && !validCalculatedPath)) {
+    throw new Error("グラフ対象データセットが不正です。");
+  }
+
+  const templateDataset = catalog.defaultDataset;
+  if (!/^[A-Za-z0-9_.-]+$/.test(templateDataset || "")) {
+    throw new Error("グラフテンプレート指定が不正です。");
+  }
+
+  const calculated = validCalculatedPath
+    ? await selectJson(`data/${calculatedPath}`, "月次計算データを取得できません")
+    : null;
+  const calculatedConditions = [
+    ...(Array.isArray(calculated?.conditions) ? calculated.conditions : []),
+    ...(Array.isArray(calculated?.rankingConditions) ? calculated.rankingConditions : []),
+    ...(Array.isArray(calculated?.orConditions) ? calculated.orConditions : []),
+    ...(Array.isArray(calculated?.comparison?.conditions) ? calculated.comparison.conditions : [])
+  ];
+  const condition = calculatedConditions.find((item) => item.slug === subject) || null;
+
+  const payload = await selectJson(
+    `data/datasets/${templateDataset}/graphs/${templateSubject}.json`,
+    "グラフテンプレートを取得できません"
+  );
+  const valid = payload.pageType === "graph"
+    && payload.dataset === templateDataset
+    && payload.subject === templateSubject
+    && payload.templateVersion === "release.3.0.0"
+    && typeof payload.html === "string";
+  if (!valid) {
+    throw new Error("グラフデータが不正です。");
+  }
+
+  let calculatedHtml = payload.html;
+  if (condition) {
+    if (!Array.isArray(calculated.months) || typeof condition.monthly !== "object") {
+      throw new Error("月次グラフデータが不正です。");
+    }
+    calculatedHtml = replaceGraphConstant(
+      calculatedHtml,
+      "const DATA=",
+      "const PROFITABILITY=",
+      createGraphRows(calculated.months, condition.monthly)
+    );
+    calculatedHtml = replaceGraphConstant(
+      calculatedHtml,
+      "const PROFITABILITY=",
+      "const entryStyle=",
+      condition.profitability
+    );
+    const safeLabel = String(condition.label || condition.id || subject)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#39;");
+    calculatedHtml = calculatedHtml
+      .replace(new RegExp("<title>[^<]*</title>"), `<title>${safeLabel}</title>`)
+      .replace(new RegExp("<h1>[^]*?</h1>"), `<h1>${safeLabel}</h1>`);
+  } else if (validCalculatedPath) {
+    throw new Error("選択条件の月次グラフデータがありません。");
+  } else if (dataset !== templateDataset) {
+    throw new Error("選択データセットの月次グラフデータがありません。");
+  }
+
+  calculatedHtml = calculatedHtml.split(templateDataset).join(dataset);
+  const runtimeMarkup = '<script src="_runtime/p2_page_runtime.js" defer><\/script>';
+  const graphHtml = calculatedHtml.includes("p2_page_runtime.js")
+    ? calculatedHtml
+    : calculatedHtml.replace("</body>", runtimeMarkup + "</body>");
+  document.open();
+  document.write(graphHtml);
+  document.close();
+})().catch((error) => {
+  const message = document.getElementById("graph-loading");
+  message.textContent = `グラフを表示できません: ${error.message}`;
+  document.documentElement.dataset.p2RuntimeError = "true";
+});
+</script></body></html>

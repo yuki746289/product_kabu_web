@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>P2 株式分析レポート一覧</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="hero">
+      <h1>P2 株式分析レポート一覧</h1>
+      <p>主要225株の計算済み分析結果を公開しています。</p>
+      <p>各レポートの分析対象期間・件数はリンク先で確認できます。</p>
+    </header>
+
+    <section class="card report-category report-category-main">
+      <h2>主要225株（全期間）</h2>
+      <div class="report-subcategory">
+        <h3>全体</h3>
+        <ul class="report-links">
+          <li><a href="dataset.html?dataset=02_nikkei_225_all">全体分析</a></li>
+        </ul>
+      </div>
+      <div class="report-subcategory">
+        <h3>除外条件別分析</h3>
+        <p class="report-subcategory-note">※業種固有要因による値動きが多く、予測モデルが想定する「調整後のトレンド再開」が他分類ほど安定しなかったため、除外条件として比較しています。</p>
+        <ul class="report-links">
+          <li><a href="dataset.html?dataset=09_nikkei_225_all_without_transportation_utilities">運輸・公益除外</a></li>
+          <li><a href="dataset.html?dataset=10_nikkei_225_all_without_capital_goods_transportation_utilities">資本財・その他＋運輸・公益除外</a></li>
+        </ul>
+      </div>
+      <div class="report-subcategory">
+        <h3>業種別分析（6分類）</h3>
+        <ul class="report-links">
+          <li><a href="dataset.html?dataset=03_nikkei_225_technology">技術</a></li>
+          <li><a href="dataset.html?dataset=04_nikkei_225_financials">金融</a></li>
+          <li><a href="dataset.html?dataset=05_nikkei_225_consumer_goods">消費</a></li>
+          <li><a href="dataset.html?dataset=06_nikkei_225_materials">素材</a></li>
+          <li><a href="dataset.html?dataset=07_nikkei_225_capital_goods_others">資本財・その他</a></li>
+          <li><a href="dataset.html?dataset=08_nikkei_225_transportation_utilities">運輸・公益</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card report-category">
+      <h2>考察・比較</h2>
+      <ul class="report-links">
+        <li><a href="comparison.html?type=comparison">考察：業種別比較（6分類）</a></li>
+        <li><a href="comparison.html?type=comparison">考察：225株 除外条件比較</a></li>
+      </ul>
+    </section>
+
+    <aside class="note">本サイトには計算済み分析結果だけを掲載しています。運用管理、エントリー・決済、日次・月次処理は含みません。</aside>
+  </main>
+</body>
+</html>
