@@ -1712,6 +1712,175 @@
     return ["tr", {}, values];
   }
 
+  // [T5816] 複数段headerを実列単位の見出し文字列へ展開する。
+  function selectPublicTableHeaderPaths(table) {
+    const rows = table.tHead ? Array.from(table.tHead.rows) : [];
+    if (!rows.length) return [];
+
+    const grid = [];
+    rows.forEach((row, rowIndex) => {
+      grid[rowIndex] ||= [];
+      let columnIndex = 0;
+      Array.from(row.cells).forEach((cell) => {
+        while (grid[rowIndex][columnIndex] !== undefined) columnIndex += 1;
+        const rowSpan = Math.max(1, Number(cell.rowSpan || 1));
+        const columnSpan = Math.max(1, Number(cell.colSpan || 1));
+        const text = String(cell.textContent || "").replace(/\s+/g, "").trim();
+        for (let rowOffset = 0; rowOffset < rowSpan; rowOffset += 1) {
+          grid[rowIndex + rowOffset] ||= [];
+          for (let columnOffset = 0; columnOffset < columnSpan; columnOffset += 1) {
+            grid[rowIndex + rowOffset][columnIndex + columnOffset] = text;
+          }
+        }
+        columnIndex += columnSpan;
+      });
+    });
+
+    const width = Math.max(...grid.map((row) => row.length), 0);
+    return Array.from({ length: width }, (_value, columnIndex) => {
+      const labels = [];
+      grid.forEach((row) => {
+        const label = row[columnIndex];
+        if (label && !labels.includes(label)) labels.push(label);
+      });
+      return labels.join(" / ");
+    });
+  }
+
+  // [T5817] 公開表の正解率列だけを判定する。
+  function isPublicAccuracyHeader(value) {
+    const text = String(value || "").replace(/\s+/g, "").replace(/％/g, "%");
+    if (!text || ["増加率", "前半", "後半", "最大DD"].some((label) => text.includes(label))) {
+      return false;
+    }
+    return text.includes("正解率")
+      || text.includes("勝率")
+      || /(^|\/)(5D|10D|20D)($|\/)/i.test(text)
+      || /(^|\/)(5日|10日|20日)($|\/)/.test(text);
+  }
+
+  // [T5818] 公開表の正解率を60%以上・70%以上の既定装飾へ揃える。
+  function registPublicAccuracyEmphasis(table) {
+    const headers = selectPublicTableHeaderPaths(table);
+    const columnIndexes = headers
+      .map((header, columnIndex) => (isPublicAccuracyHeader(header) ? columnIndex : -1))
+      .filter((columnIndex) => columnIndex >= 0);
+    if (!columnIndexes.length) return false;
+
+    Array.from(table.tBodies || []).forEach((body) => {
+      Array.from(body.rows).forEach((row) => {
+        columnIndexes.forEach((columnIndex) => {
+          const cell = row.cells[columnIndex];
+          if (!cell) return;
+          const value = Number(String(cell.textContent || "")
+            .replace(/,/g, "")
+            .replace(/%/g, "")
+            .trim());
+          cell.classList.remove("p2-acc-60", "p2-acc-70");
+          if (!Number.isFinite(value) || value < 0 || value > 100) return;
+          if (value >= 70) cell.classList.add("p2-acc-70");
+          else if (value >= 60) cell.classList.add("p2-acc-60");
+        });
+      });
+    });
+    return true;
+  }
+
+  // [T5819] 公開表の長い条件名を現行画面と同じ省略表示へ揃える。
+  function registPublicConditionColumn(table) {
+    const headers = selectPublicTableHeaderPaths(table);
+    const columnIndexes = headers
+      .map((header, columnIndex) => (
+        ["条件", "OR条件", "条件名"].includes(header) ? columnIndex : -1
+      ))
+      .filter((columnIndex) => columnIndex >= 0);
+    if (!columnIndexes.length) return;
+
+    Array.from(table.querySelectorAll("thead th")).forEach((header) => {
+      if (["条件", "OR条件", "条件名"].includes(header.textContent.trim())) {
+        header.classList.add("p2-condition-col");
+      }
+    });
+    Array.from(table.tBodies || []).forEach((body) => {
+      Array.from(body.rows).forEach((row) => {
+        columnIndexes.forEach((columnIndex) => {
+          const cell = row.cells[columnIndex];
+          if (!cell) return;
+          cell.classList.add("p2-condition-col");
+          const fullText = cell.textContent.trim();
+          if (fullText && !cell.title) cell.title = fullText;
+          if (cell.querySelector(":scope > .p2-condition-inner")) return;
+          const inner = document.createElement("div");
+          inner.className = "p2-condition-inner";
+          while (cell.firstChild) inner.appendChild(cell.firstChild);
+          cell.appendChild(inner);
+        });
+      });
+    });
+  }
+
+  // [T5820] 公開表の複数段headerを縦scroll時に重ならない位置へ固定する。
+  function registPublicTableHeaderOffsets(table) {
+    if (!table.tHead) return;
+    let top = 0;
+    Array.from(table.tHead.rows).forEach((row) => {
+      Array.from(row.cells).forEach((header) => {
+        header.style.top = `${top}px`;
+      });
+      top += row.getBoundingClientRect().height;
+    });
+  }
+
+  // [T5821] 公開条件表の表示枠を現行画面と同じ20行分の高さへ制限する。
+  function registPublicTableHeight(table) {
+    if (!table.classList.contains("focus-table")) return;
+    const body = table.tBodies?.[0];
+    const wrap = table.closest(".table-wrap");
+    if (!body || !wrap) return;
+    const rows = Array.from(body.rows);
+    if (rows.length <= 20) {
+      wrap.classList.remove("p2-scroll-20");
+      wrap.style.maxHeight = "";
+      return;
+    }
+
+    let height = table.tHead ? table.tHead.getBoundingClientRect().height : 0;
+    rows.slice(0, 20).forEach((row) => {
+      height += row.getBoundingClientRect().height;
+    });
+    wrap.classList.add("p2-scroll-20");
+    wrap.style.maxHeight = `${Math.ceil(height + 3)}px`;
+  }
+
+  // [F5804] 公開分析表へ現行画面と同じ表示専用装飾を登録する。
+  function registPublicTableVisuals(root = document) {
+    let hasAccuracyColumn = false;
+    root.querySelectorAll("table").forEach((table) => {
+      registPublicConditionColumn(table);
+      if (registPublicAccuracyEmphasis(table)) hasAccuracyColumn = true;
+      registPublicTableHeaderOffsets(table);
+      registPublicTableHeight(table);
+    });
+
+    if (hasAccuracyColumn && !document.querySelector(".p2-accuracy-legend")) {
+      const legend = document.createElement("div");
+      legend.className = "p2-accuracy-legend";
+      const title = document.createElement("strong");
+      const medium = document.createElement("span");
+      const high = document.createElement("span");
+      const note = document.createElement("span");
+      title.textContent = "正解率の強調";
+      medium.className = "p2-acc-60";
+      medium.textContent = "60%以上";
+      high.className = "p2-acc-70";
+      high.textContent = "70%以上";
+      note.textContent = "（70%以上は緑を優先）";
+      legend.append(title, medium, high, note);
+      const hero = document.querySelector(".hero");
+      if (hero) hero.insertAdjacentElement("afterend", legend);
+    }
+  }
+
   // [T2442] OR画面上部の4指標とgraph linkを選択OR条件へ更新する。
   function registOrConditionSummary(condition, totalMonths, dataset) {
     const cards = Array.from(document.querySelectorAll(".grid .card"));
@@ -2254,6 +2423,7 @@
         element,
         filteredRows.slice(startIndex, endIndex).map((row) => row.node),
       );
+      registPublicTableVisuals(element.closest(".table-wrap") || document);
       textSummary.textContent = `${filteredRows.length.toLocaleString()}件中 ${
         filteredRows.length ? startIndex + 1 : 0
       }〜${endIndex}件`;
@@ -2934,7 +3104,10 @@
 
   window.addEventListener("DOMContentLoaded", () => {
     registCommonPage()
-      .then(() => window.dispatchEvent(new Event("p2:page-ready")))
+      .then(() => {
+        registPublicTableVisuals();
+        window.dispatchEvent(new Event("p2:page-ready"));
+      })
       .catch(registRuntimeError);
   });
 })();
